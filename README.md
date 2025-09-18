@@ -25,9 +25,9 @@
 | :---------------------------------: | :--------: |
 | Rojas Sánchez, Mauricio Abraham Rivo  | U202211572 |
 | Acuña Alarcón, Aaron Elías  | U202211552 |
-| ---  | U2022 |
-| ---  | U2022 |
-| ---  | U2022 |
+| Peña Rivera, Manuel Sebastian  | U202210138 |
+| Rodriguez Santos, David Bryan  | U202212236 |
+| Serrano Ircañaupa, Nelson Elias  | U202214733 |
 
 </div>
 
@@ -41,7 +41,7 @@
 En esta sección, regirstraremos los cambios y logros que se completaron en cada entrega del reporte.
 
 TB1
-La entrega TB1 finalizó con éxito y están documentadas en el siguiente repositorio de Github perteneciente a la organización del equipo: https://github.com/Los-Angelitos/final-project-report Durante el desarrollo del informe se tuvieron en cuenta los siguientes aspectos:
+La entrega TB1 finalizó con éxito y están documentadas en el siguiente repositorio de Github perteneciente a la organización del equipo: https://github.com/Spicy-Solutions/final-report Durante el desarrollo del informe se tuvieron en cuenta los siguientes aspectos:
 
 Se redactaron y estructuraron los contenidos asignados a cada miembro utilizando el formato Markdown. Luego, se realizaron commits para garantizar el avance en el repositorio.
 Se completaron los siguientes puntos: capitulos I-IV, conclusiones y video exposición, en colaboración del equipo. 
