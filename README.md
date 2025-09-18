@@ -5,7 +5,7 @@
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
     <strong>Ingeniería de Software</strong><br>
     <strong>1ASI0728 - Arquitecturas de Software Emergentes - 7281</strong><br>
-    <strong>Profesor: Angel Augusto Velasquez Nuñez </strong><br>
+    <strong>Profesor: Richard Leonardo Berrocal Navarro </strong><br>
     <br>INFORME
 </p>
 
@@ -23,12 +23,11 @@
 
 |               Member                |    Code    |
 | :---------------------------------: | :--------: |
-| Herrera Aguirre, Fabia Alejandra  | U202219422 |
-| Jorge Arévalo, Ramón Alejandro  | U20221D126 |
-| Morales Montalvo, Omar Andrew  | U202212383 |
-| Rodriguez Vargas, Arian Martín  | U202212096 |
 | Rojas Sánchez, Mauricio Abraham Rivo  | U202211572 |
-| Zoppi Rodriguez, Giacomo  | U202210029 |
+| Acuña Alarcón, Aaron Elías  | U202211552 |
+| Peña Rivera, Manuel Sebastian  | U202210138 |
+| Rodriguez Santos, David Bryan  | U202212236 |
+| Serrano Ircañaupa, Nelson Elias  | U202214733 |
 
 </div>
 
@@ -42,7 +41,7 @@
 En esta sección, regirstraremos los cambios y logros que se completaron en cada entrega del reporte.
 
 TB1
-La entrega TB1 finalizó con éxito y están documentadas en el siguiente repositorio de Github perteneciente a la organización del equipo: https://github.com/Los-Angelitos/final-project-report Durante el desarrollo del informe se tuvieron en cuenta los siguientes aspectos:
+La entrega TB1 finalizó con éxito y están documentadas en el siguiente repositorio de Github perteneciente a la organización del equipo: https://github.com/Spicy-Solutions/final-report Durante el desarrollo del informe se tuvieron en cuenta los siguientes aspectos:
 
 Se redactaron y estructuraron los contenidos asignados a cada miembro utilizando el formato Markdown. Luego, se realizaron commits para garantizar el avance en el repositorio.
 Se completaron los siguientes puntos: capitulos I-IV, conclusiones y video exposición, en colaboración del equipo. 
@@ -2851,16 +2850,24 @@ Optimizar el 60% de las reservas realizadas por huéspedes en un plazo de 4 mese
 | 61    | HU02          | Monitorear el cambio de temperatura                        | Como Device Maker, quiero visualizar el actual valor de temperatura impreso al Serial Monitor, de tal modo que pueda verificar que el dispositivo funciona correctamente durante el desarrollo y testing. | 2 |
 | 62   | HU14          | Visualizar el estado de los dispositivos IoT en el hotel                                             | Como Web Hotel Owner quiero visualizar el estado de los dispositivos IoT en mi hotel para identificar el correcto funcionamiento de estos | 3  |
 
+# Capítulo IV: Strategic-Level Software Design
+
+## 4.1. Strategic-Level Attribute-Driven Design
+
+### 4.1.1. Design Purpose
 
 
+### 4.1.2. Attribute-Driven Design Inputs
 
+#### 4.1.2.1. Primary functionality (Primary User Stories)
 
+#### 4.1.2.2. Quality attribute Scenarios
 
-# Capítulo IV: Solution Software Design
+#### 4.1.2.3. Constraints
 
-## 4.1. Strategic-Level Domain-Driven Design
+## 4.2. Strategic-Level Domain-Driven Design
 
-### 4.1.1. EventStorming
+### 4.2.1. EventStorming
 Imagen del Event Storming general en su fase final: 
 ![image](https://github.com/user-attachments/assets/cb8b1f07-3dec-462d-ad11-b19805010edf)
 
@@ -2884,7 +2891,7 @@ Imagen con resultado del Event Storming en relación a Commerce Bounded Context:
 
 
 
-#### 4.1.1.1. Candidate Context Discovery
+#### 4.2.2 Candidate Context Discovery
 
 **Paso 1: Unstructured Exploration:** En el primer paso del EventStorming, se inicia con una sesión de lluvia de ideas enfocada en definir eventos o "cosas interesantes que sucedieron en el negocio". Es importante destacar que los eventos siempre son escritos en pasado. Para lograrlo, nos reunimos en grupo y empezamos a hacer una lluvia de ideas en la herramienta de Miro, con ayuda de post-its, los cuales reflejan un mapeo inicial de todos los posibles eventos que el sistema debería manejar para brindar una solución integral.  
 **Imagen de la Reunión:**  
@@ -2930,7 +2937,7 @@ Imagen con resultado del Event Storming en relación a Commerce Bounded Context:
 **Imagen ejemplo:**  
 ![image](https://github.com/user-attachments/assets/b3890baa-dc95-48cf-aab0-062aeb9c01e6)
 
-#### 4.1.1.2. Domain Message Flows Modeling
+#### 4.2.3. Domain Message Flows Modeling
 
 <h2>Organizational Management Bounded Context</h2>
 <h3>Escenario: El dueño del hotel añade a un nuevo contacto de proveedor</h3>
@@ -3137,7 +3144,7 @@ Al finalizar, el sistema confirma la actualización con un mensaje y, si los cam
   <img src="./assets/img/iam-bounded-context/flow-modeling-6.jpg" alt="Update Guest's preferences" width="90%" /> 
 </div><br>
 
-#### 4.1.1.3. Bounded Context Canvases
+#### 4.2.4. Bounded Context Canvases
 En esta sección el equipo diseña sus candidate bounded contexts, detallando los
 criterios de diseño. El equipo debe ir seleccionando cada bounded context, por
 orden de importancia, para elaborar su Bounded Context Canvas. La elaboración del
@@ -3196,7 +3203,7 @@ Este *bounded context* se centra en la gestión operativa diaria del hotel, con 
 
 Este *bounded context* es responsable de la gestión de identidad y control de acceso dentro de la plataforma. Administra las sesiones de usuario, autenticación y autorización, asegurando que cada usuario tenga acceso únicamente a las funcionalidades y recursos correspondientes a su rol. Gestiona tanto el inicio y cierre de sesión como los permisos de navegación y operación para todos los *IAM Users*, incluyendo administradores, personal del hotel y otros perfiles. Este contexto es fundamental para garantizar la seguridad, integridad y personalización de la experiencia del usuario en el sistema.
 
-### 4.1.2. Context Mapping
+### 4.2.5. Context Mapping
 
 #### Proceso para Crear el Context Mapping y Análisis de Alternativas
 
@@ -3328,21 +3335,21 @@ Por el lado de la arquitectura IoT, se utiliza un dispositivo embebido que recol
   <img src="./assets/img/c4-model/deployment-diagram.png" alt="Deployment Diagram" width="100%" />
 </div><br><br>
 
-## 4.2. Tactical-Level Domain-Driven Design
+# Capitulo V: Tactical-Level Software Design
 
-### 4.2.1. Bounded Context: IAM Bounded Context
+## 5.1. Bounded Context: IAM Bounded Context
 
-#### 4.2.1.1. Domain Layer
+### 5.1.1. Domain Layer
 
-### Agregados y Entidades del Dominio `IAM` en nuestro Web/Mobile Application
+#### Agregados y Entidades del Dominio `IAM` en nuestro Web/Mobile Application
 
 En nuestras aplicaciones móvil y web, tenemos definidas una carpeta modelo en cada Bounded Context que representa en DDD, una sección destinada al dominio, en la que creamos y exportamos nuestros agregados y entidades a modo de clases. Cada uno con un respectivo constructor, cuyos parametros son los atributos de la clase. 
 
-### `Owner` *(Agregado)*
+##### `Owner` *(Agregado)*
 
 Representa un gerente/dueño de un hotel registrado dentro del sistema de SweetManager.
 
-#### Atributos principales:
+###### Atributos principales:
 | Atributo     | Tipo                  | Descripción |
 |--------------|-----------------------|-------------|
 | `Id`         | `int`                 | Identificador único del gerente |
@@ -3358,11 +3365,11 @@ Representa un gerente/dueño de un hotel registrado dentro del sistema de SweetM
 - Vacío `Owner()`
 - Por parámetros individuales: `Id`, `Name`, `Surname`, `Phone`, `Email`, `PhotoURL`,`State`, `RoleId`.
 
-### `Admin` *(Agregado)*
+##### `Admin` *(Agregado)*
 
 Representa un administrador de un hotel dentro del sistema de SweetManager.
 
-#### Atributos principales:
+##### Atributos principales:
 
 | Atributo     | Tipo                  | Descripción |
 |--------------|-----------------------|-------------|
@@ -3682,7 +3689,7 @@ Representa la contraseña y el valor de *salt* de la credencial, encriptados uti
 
 --- 
 
-##  Services
+###  Services
 
 ### Servicios del Dominio `IAM` en nuestro Web/Mobile Application
 
@@ -3762,7 +3769,7 @@ A continuación, servicio enfocado en consumo de endpoints, relacionado con mant
 | `IOwnerCommandService.cs`       | Define comandos como iniciar sesión, actualizar información personal y crear cuenta. |
 | `IOwnerQueryService.cs`       | Define consultas para obtener gerentes mediante filtros (email, phone, status), identificador único o por una organización. |
 
-#### 4.2.1.2. Interface Layer
+#### 5.1.2. Interface Layer
 
 ### Interface Layer – Presentación de la Aplicación
 
@@ -3813,7 +3820,7 @@ Cada conjunto clave en el Bounded Context `IAM` cuenta con un **REST Controller*
 | `AuthenticationController.cs` | `/api/v1/authentication`           | Gestiona la autenticación de usuarios. |
 | `UserController.cs`    | `/api/v1/user`              | Maneja la creación, actualización y desvinculación de usuarios y preferencias. |
 
-#### 4.2.1.3. Application Layer
+#### 5.1.3. Application Layer
 
 ### Servicios de Aplicación – Gestión de Flujos de Negocio
 ---
@@ -3901,7 +3908,7 @@ Extraído del Bounded Context Canvas y el Event Storming elaborado:
 | ✅ **Actualizar información de cuenta de gerente**                            | Command         | `OwnerCommandService.Handle(UpdateUserCommand)` | Actualizar información personal de un administrador. |
 | ✅ **Actualizar preferencias**                          | Command         | `GuestPreferenceCommandService.Handle(UpdateGuestPreferenceCommand)`         | Actualiza las preferencias de un huésped asociado. |
 
-#### 4.2.1.4. Infrastructure Layer
+#### 5.1.4. Infrastructure Layer
 
 ### Hashing
 | Clase                     | Interfaz implementada       | Función principal |
@@ -3963,7 +3970,7 @@ Extraído del Bounded Context Canvas y el Event Storming elaborado:
 | `TokenService.cs`    | `ITokenService`         | Implementa las funciones de generar y validar token.  |
 | `TokenHandler.cs`    | `None`         | Se encarga de validar el token del `Authorization-Header` y aprobarlo.  |
 
-#### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+#### 5.1.6. Bounded Context Software Architecture Component Level Diagrams
 En el diagrama de componentes en el contexto IAM se puede observar la interacción del usuario al autenticarse en nuestro sistema.<br>
 URL Structurizr: <a href="https://structurizr.com/share/101537">https://structurizr.com/share/101537</a>
 <br><br>
@@ -3999,9 +4006,9 @@ Se muestra el diagrama de componentes de Web Application, mostrando los componen
 </div>
 Se muestra el diagrama de componentes de Edge API, mostrando los componentes y páginas relacionados entre sí.
 
-#### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
+#### 5.1.7. Bounded Context Software Architecture Code Level Diagrams
 
-##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+##### 5.1.7.1 Bounded Context Domain Layer Class Diagrams
 
 En el siguiente diagrama de clases se muestran las interfaces, clases e implementaciones de repositorios que conforman el bounded context actual. Este diagrama permite visualizar la estructura interna del dominio, así como las relaciones y dependencias entre los distintos componentes que lo integran.
 
@@ -4011,7 +4018,7 @@ En el siguiente diagrama de clases se muestran las interfaces, clases e implemen
 
 Link: https://lucid.app/lucidchart/0a661614-a2e4-42cb-b8a2-73a9bc6b6569/edit?viewport_loc=426%2C-1339%2C8386%2C2866%2C0_0&invitationId=inv_f0bef7c5-6e84-4e61-9298-6777d0880fb6
 
-##### 4.2.1.6.2. Bounded Context Database Design Diagram
+##### 5.1.7.2. Bounded Context Database Design Diagram
 
 Por otro lado, el diagrama entidad-relación (ERD) representa la estructura de la base de datos del bounded context, detallando las entidades, sus atributos y las relaciones entre ellas. Este modelo facilita la comprensión del diseño físico de los datos y su organización dentro del sistema.
 
@@ -4023,9 +4030,9 @@ Link: https://lucid.app/lucidchart/aa318714-457a-48c3-b363-9901c66f172c/edit?vie
 
 ---
 
-### 4.2.2. Bounded Context: Operations and Monitoring Bounded Context
+### 5.2. Bounded Context: Operations and Monitoring Bounded Context
 
-#### 4.2.2.1. Domain Layer
+#### 5.2.1. Domain Layer
 ##### Agregados y Entidades del Dominio `Operations and Monitoring` en nuestro Web/Mobile Application
 
 En nuestras aplicaciones móvil y web, tenemos definidas una carpeta modelo en cada Bounded Context que representa en DDD, una sección destinada al dominio, en la que creamos y exportamos nuestros agregados y entidades a modo de clases. Cada uno con un respectivo constructor, cuyos parametros son los atributos de la clase. 
@@ -4274,7 +4281,7 @@ Representa un tipo de habitación.
 
 ---
 
-#### 4.2.2.2. Interface Layer
+#### 5.2.2. Interface Layer
 ### Interface Layer – Presentación de la Aplicación
 
 La carpeta `Interfaces/REST` representa la capa de presentación de la arquitectura, encargada de recibir solicitudes HTTP, transformarlas en comandos o queries, y devolver respuestas adecuadas al cliente (por ejemplo, al frontend o a herramientas como Postman o Swagger).
@@ -4353,7 +4360,7 @@ Cada entidad clave en el Bounded Context `Operations and Monitoring` cuenta con 
 
 
 
-#### 4.2.2.3. Application Layer
+#### 5.2.3. Application Layer
 ### Servicios de Aplicación – Gestión de Flujos de Negocio
 ---
 
@@ -4408,7 +4415,7 @@ Extraído del Bounded Context Canvas y el Event Storming elaborado:
 
 
 
-#### 4.2.2.4. Infrastructure Layer
+#### 5.2.4. Infrastructure Layer
 
 ### Implementación de Repositories
 
@@ -4423,7 +4430,7 @@ Extraído del Bounded Context Canvas y el Event Storming elaborado:
 ---
 
 
-#### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
+#### 5.2.6. Bounded Context Software Architecture Component Level Diagrams
 En el diagrama de componentes en el contexto Booking se puede observar la interacción del usuario al hacer consultas relacionadas a reservas y habitaciones.<br>
 URL Structurizr: <a href="https://structurizr.com/share/101410/diagrams#Component-001">https://structurizr.com/share/101410/diagrams#Component-001</a>
 <br><br>
@@ -4454,21 +4461,21 @@ Se muestra el diagrama de componentes del Mobile Application, mostrando los Widg
 Se muestra el diagrama de componentes de Edge API, mostrando los componentes y páginas relacionados entre sí.
 
 
-#### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
+#### 5.2.7. Bounded Context Software Architecture Code Level Diagrams
 
-##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
+##### 5.2.7.1. Bounded Context Domain Layer Class Diagrams
 
 En el siguiente diagrama de clases se muestran las interfaces, clases e implementaciones de repositorios que conforman el bounded context actual. Este diagrama permite visualizar la estructura interna del dominio, así como las relaciones y dependencias entre los distintos componentes que lo integran.
 
 ![diagrama de clase](https://github.com/user-attachments/assets/6b076738-98c0-440c-8975-26229005f50a)
 
-##### 4.2.2.6.2. Bounded Context Domain Layer Class Diagrams Embedded Application
+##### 5.2.7.2. Bounded Context Database Design Diagram
+![image](https://github.com/user-attachments/assets/8c242d51-1399-4d88-b830-2c8ec1e21b18)
+
+##### 5.2.7.3. Bounded Context Domain Layer Class Diagrams Embedded Application
 <img src="./assets/img/organizational-management-bounded-context/diagram-class-thermostat.png" alt="Diagrama de clases del termostato" width="90%">
 
 En este diagrama de clases del Termostato, se puede observar la relación entre las entidades y los comandos asociados al Termostato. Siguiendo Modest IoT framework, el Termostato es un dispositivo IoT que se encarga de regular la temperatura de una habitación dada una preferencia del huésped. El Termostato puede ser encendido o apagado, y puede recibir actualizaciones de temperatura.
-
-##### 4.2.2.6.2. Bounded Context Database Design Diagram
-![image](https://github.com/user-attachments/assets/8c242d51-1399-4d88-b830-2c8ec1e21b18)
 
 
 Las tablas principales y unicas del Bounded Context son: 
@@ -4518,9 +4525,9 @@ Las tablas principales y unicas del Bounded Context son:
 
 ---
 
-### 4.2.5. Bounded Context: Inventory Bounded Context
+### 5.3. Bounded Context: Inventory Bounded Context
 
-#### 4.2.5.1. Domain Layer
+#### 5.3.1. Domain Layer
 ### Agregados y Entidades del Dominio `Inventory` en nuestro Web/Mobile Application
 
 En nuestras aplicaciones móvil y web, tenemos definidas una carpeta modelo en cada Bounded Context que representa en DDD, una sección destinada al dominio, en la que creamos y exportamos nuestros agregados y entidades a modo de clases. Cada uno con un respectivo constructor, cuyos parametros son los atributos de la clase.
@@ -4698,7 +4705,7 @@ Por cada Bounded Context definimos su propio services, con un api Service para c
 | `ISupplyRequestQueryService.cs`     | Define consultas para obtener solicitudes por ID, por pagador, por suministro o por hotel. |
 
 
-#### 4.2.5.2. Interface Layer
+#### 5.3.2. Interface Layer
 La carpeta Interfaces/REST representa la capa de presentación de la arquitectura, encargada de recibir solicitudes HTTP, transformarlas en comandos y devolver respuestas adecuadas al cliente (por ejemplo, al frontend o a herramientas como Postman o Swagger).
 
 ## Resources
@@ -4760,7 +4767,7 @@ Cada conjunto clave en el Bounded Context de Inventory cuenta con un REST Contro
 | `SupplyRequestController.cs`    | `/api/v1/supply-request`      | Administra el ciclo de vida de solicitudes de suministros. |
 
 
-#### 4.2.5.3. Application Layer
+### 5.3.3. Application Layer
 
 ## Servicios de Aplicación – Gestión de Flujos de Negocio
 
@@ -4821,7 +4828,7 @@ Extraído del Bounded Context Canvas y el Event Storming elaborado:
 | ✅Filter requests by supply| Query   | `SupplyRequestQueryService.Handle(GetSupplyRequestBySupplyIdQuery)` | Lista solicitudes por tipo de suministro |
 | ✅Check requester history  | Query   | `SupplyRequestQueryService.Handle(GetSupplyRequestByPaymentOwnerIdQuery)` | Muestra historial de solicitudes por pagador |
 
-#### 4.2.5.4. Infrastructure Layer
+### 5.3.4. Infrastructure Layer
 
 ## Supply
 
@@ -4874,9 +4881,9 @@ Se muestra el diagrama de componentes de Web Application, mostrando los componen
 </div><br>
 
 
-#### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
+#### 5.3.7. Bounded Context Software Architecture Code Level Diagrams
 
-##### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
+##### 5.3.7.1. Bounded Context Domain Layer Class Diagrams
 
 En el siguiente diagrama de clases se muestran las interfaces, clases e implementaciones de repositorios que conforman el bounded context actual. Este diagrama permite visualizar la estructura interna del dominio, así como las relaciones y dependencias entre los distintos componentes que lo integran.
 
@@ -4889,7 +4896,7 @@ Se ha diseñado un diagrama de clases que modela la arquitectura del sistema RFI
 ![image](https://github.com/user-attachments/assets/a21def6e-d6f8-47ee-b3d9-c357a95105c9)
 
 
-##### 4.2.5.6.2. Bounded Context Database Design Diagram
+##### 5.3.7.2. Bounded Context Database Design Diagram
 
 En el siguiente diagrama entidad-relación (ERD) se han ilustrado las principales tablas correspondientes al bounded context, detallando sus atributos y las relaciones existentes entre ellas. Este esquema facilita la comprensión de cómo se estructuran y conectan los datos dentro del sistema. 
 
@@ -4899,10 +4906,10 @@ En el siguiente diagrama entidad-relación (ERD) se han ilustrado las principale
 
 ---
 
-### 4.2.3. Bounded Context: Organizational Management Bounded Context
+## 5.4. Bounded Context: Organizational Management Bounded Context
 
-#### 4.2.3.1. Domain Layer
-### Agregados y Entidades del Dominio `Organizational Management`
+### 5.4.1. Domain Layer
+#### Agregados y Entidades del Dominio `Organizational Management`
 
 En el núcleo del dominio se definieron los siguientes **agregados** y **entidades** que representan los conceptos más importantes del contexto de gestión organizacional de los hoteles.
 
@@ -5107,7 +5114,7 @@ Cada bounded Context tiene definido sus servicios orientados al consumo de la AP
 
 ---
 
-#### 4.2.3.2. Interface Layer
+#### 5.4.2. Interface Layer
 ### Interface Layer – Presentación de la Aplicación
 
 La carpeta `Interfaces/REST` representa la capa de presentación de la arquitectura, encargada de recibir solicitudes HTTP, transformarlas en comandos o queries, y devolver respuestas adecuadas al cliente (por ejemplo, al frontend o a herramientas como Postman o Swagger).
@@ -5157,7 +5164,7 @@ Cada entidad clave en el Bounded Context `Organizational Management` cuenta con 
 ---
 
 
-#### 4.2.3.3. Application Layer
+#### 5.4.3. Application Layer
 ### Servicios de Aplicación – Gestión de Flujos de Negocio
 La carpeta `Application` representa la capa de aplicación de la arquitectura, encargada de orquestar los flujos de negocio y coordinar las interacciones entre los diferentes componentes del sistema.
 
@@ -5193,7 +5200,7 @@ Extraído del Bounded Context Canvas y el Event Storming elaborado:
 | ✅ **Edit hotel**              | Command       | `HotelCommandService.Handle(UpdateHotelCommand)` | Permite actualizar atributos de un hotel. |
 
 
-#### 4.2.3.4. Infrastructure Layer
+#### 5.4.4. Infrastructure Layer
 La capa de infraestructura representa la implementación concreta de los componentes del sistema, incluyendo la persistencia de datos, la comunicación con servicios externos y otros detalles técnicos.
 
 ### Implementación de Repositories
@@ -5205,7 +5212,7 @@ La capa de infraestructura representa la implementación concreta de los compone
 
 ---
 
-#### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
+#### 5.4.6. Bounded Context Software Architecture Component Level Diagrams
 
 A continuación, se presentan los diagramas de componentes tanto a nivel de Web Services, como de la aplicación web y móvil. Estos diagramas ilustran la interacción del usuario al realizar una solicitud de suministro en el sistema. Los diagramas muestran los componentes principales y sus interacciones<br>
 
@@ -5239,15 +5246,15 @@ Para el presente diagrama, se representa la arquitectura de componentes por part
   <img src="./assets/img/c4-model/fog-org-management.png" alt="Fog API Component Diagram" width="90%" />
 </div><br>
 
-#### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
+#### 5.4.7. Bounded Context Software Architecture Code Level Diagrams
 
-##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
+##### 5.4.7.1. Bounded Context Domain Layer Class Diagrams
 URL del diagrama de clases: <a href="https://lucid.app/lucidchart/aed64c50-821a-4c1b-967b-1e8e517fbf04/edit?viewport_loc=-1738%2C-716%2C5116%2C2288%2C0_0&invitationId=inv_1c5eb323-ed9e-49ab-8f1f-9103209bdec7">https://lucid.app/lucidchart/aed64c50-821a-4c1b-967b-1e8e517fbf04/edit?viewport_loc=-1738%2C-716%2C5116%2C2288%2C0_0&invitationId=inv_1c5eb323-ed9e-49ab-8f1f-9103209bdec7</a>
 <div style="text-align: center;">
   <img src="./assets/img/organizational-management-bounded-context/uml-class.PNG" alt="Class Diagram Organizational Management" width="90%" />
 </div><br>
 
-##### 4.2.3.6.2. Bounded Context Database Design Diagram
+##### 5.4.7.2. Bounded Context Database Design Diagram
 En el siguiente diagrama entidad-relación (ERD) se han ilustrado las principales tablas correspondientes al bounded context, detallando sus atributos y las relaciones existentes entre ellas. Este esquema facilita la comprensión de cómo se estructuran y conectan los datos dentro del sistema.
 
 <div style="text-align: center;">
@@ -5256,10 +5263,10 @@ En el siguiente diagrama entidad-relación (ERD) se han ilustrado las principale
 
 ---
 
-### 4.2.4. Bounded Context: Commerce Bounded Context
+## 5.5. Bounded Context: Commerce Bounded Context
 
-#### 4.2.4.1. Domain Layer
-### Aggregates, Entities y Value Objects del Dominio `Commerce`
+### 5.5.1. Domain Layer
+#### Aggregates, Entities y Value Objects del Dominio `Commerce`
 
 Se han identificado los siguientes **Aggregates**, **Entities** y **Value Objects** que representan los conceptos más importantes del contexto de comercio.
 
@@ -5582,7 +5589,7 @@ Interactúa con los endpoints relacionados al dashboard de analíticas.
 | `getWeeklyData(hotelId)`  | Obtiene los datos financieros organizados por semanas. |
 | `getMonthlyData(hotelId)`  | Obtiene los datos financieros organizados por meses. |
 
-#### 4.2.4.2. Interface Layer
+### 5.5.2. Interface Layer
 
 ## Web Services
 ---
@@ -5686,7 +5693,7 @@ A continuación se describen los **componentes vue** que muestran vistas genéri
 |--------------------------------------------------------|---------|
 | `LineChartWidget`      | Muestra el cuadro de analíticas con los datos indicados. |
 
-#### 4.2.4.3. Application Layer
+### 5.5.3. Application Layer
 
 ## Web Services
 ---
@@ -5748,7 +5755,7 @@ A partir del Bounded Context Canvas y el Event Storming elaborado, podemos ident
 | ✅ **Registrar un nuevo contrato de dueño**                      | Command         | `ContractOwnerCommandService.Handle(CreateContractOwnerCommand)` | Crea un nuevo registro de contrato de dueño con sus respectivos datos. |
 | ✅ **Actualizar un contrato de dueño existente**                | Command         | `ContractOwnerCommandService.Handle(UpdateContractOwnerCommand)` | Actualiza los datos de un contrato de dueño creado anteriormente. |
 
-#### 4.2.4.4. Infrastructure Layer
+### 5.5.4. Infrastructure Layer
 
 ## Web Services
 ---
@@ -5764,7 +5771,7 @@ A partir del Bounded Context Canvas y el Event Storming elaborado, podemos ident
 
 ---
 
-#### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
+### 5.5.6. Bounded Context Software Architecture Component Level Diagrams
 A continuación, se presentan los diagramas de componentes tanto a nivel de Web Services, como de la Web y Mobile Application. Estos diagramas ilustran la interacción del usuario al acceder a las funciones del Bounded Context Commerce. Los diagramas muestran los componentes principales y sus interacciones<br>
 
 URL Structurizr: <a href="https://structurizr.com/share/83581/1b4eb2ca-2f99-4fa1-bfcb-b16e225cf362">https://structurizr.com/share/83581/1b4eb2ca-2f99-4fa1-bfcb-b16e225cf362</a>
@@ -5811,9 +5818,9 @@ En este diagrama, se muestra la interacción de los componentes en el Fog API, m
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### 4.2.6. Bounded Context: Commmunication Bounded Context
+## 5.6. Bounded Context: Commmunication Bounded Context
 
-#### 4.2.6.1. Domain Layer
+### 5.6.1. Domain Layer
 
 En el núcleo del dominio se definieron los siguientes **agregados** y **entidades** que representan los conceptos más importantes del contexto de comunicación.
 
@@ -5901,7 +5908,7 @@ Representa una notificación que se envía a los usuarios de la aplicación. Est
 | `INotificationQueryService.cs`       | Define consultas para obtener notificaciones mediante su identificador único. |
 
 
-#### 4.2.6.2. Interface Layer
+#### 5.6.2. Interface Layer
 La carpeta `Interfaces/REST` representa la capa de presentación de la arquitectura, encargada de recibir solicitudes HTTP, transformarlas en comandos o queries, y devolver respuestas adecuadas al cliente (por ejemplo, al frontend o a herramientas como Postman o Swagger).
 
 ---
@@ -5940,7 +5947,7 @@ Cada entidad clave en el Bounded Context `Communication` cuenta con un **REST Co
 ---
 
 
-#### 4.2.6.3. Application Layer
+#### 5.6.3. Application Layer
 
 ### Servicios de Aplicación – Gestión de Flujos de Negocio
 ---
@@ -5970,7 +5977,7 @@ Extraído del Bounded Context Canvas y el Event Storming elaborado:
 ---
 
 
-#### 4.2.6.4. Infrastructure Layer
+#### 5.6.4. Infrastructure Layer
 
 La carpeta `Infrastructure` representa la capa de infraestructura de la arquitectura, que se encarga de la persistencia de datos y la implementación de los repositorios.
 
@@ -5982,7 +5989,7 @@ La carpeta `Infrastructure` representa la capa de infraestructura de la arquitec
 
 ---
 
-#### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams
+#### 5.6.6 Bounded Context Software Architecture Component Level Diagrams
 En el siguiente diagrama de componentes para Communication Context se puede observar la interacción de las notificaciones emitidas cada vez que ocurre un evento en el sistema.<br>
 URL Structurizr: <a href="https://structurizr.com/share/102320">https://structurizr.com/share/102320</a>
 <br><br>
@@ -6013,19 +6020,19 @@ Se muestra el diagrama de componentes de Web Application, mostrando los componen
 
 
 
-#### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams
+#### 5.6.7. Bounded Context Software Architecture Code Level Diagrams
 En esta sección, el equipo presenta y explica los diagramas que presentan un mayor
 detalle sobre la implementación de componentes en el bounded context. Aquí se
 incluye como secciones internas Bounded Context Domain Layer Class Diagrams y
 Bounded Context Database Diagram.
 https://medium.com/nick-tune-tech-strategy-blog/domain-driven-architecture-diagrams-139a75acb578
-##### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams
+##### 5.6.7.1. Bounded Context Domain Layer Class Diagrams
 
 <div style="text-align: center;">
   <img src="./assets/img/communication-bounded-context/communication-bc-uml.jpeg" alt="Communication BC UML" width="100%" />
 </div>
 
-##### 4.2.6.6.2. Bounded Context Database Design Diagram
+##### 5.6.7.2. Bounded Context Database Design Diagram
 En el siguiente diagrama entidad-relación (ERD) se han ilustrado las principales tablas correspondientes al bounded context, detallando sus atributos y las relaciones existentes entre ellas. Este esquema facilita la comprensión de cómo se estructuran y conectan los datos dentro del sistema.
 
 <div style="text-align: center;">
