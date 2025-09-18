@@ -2852,6 +2852,19 @@ Optimizar el 60% de las reservas realizadas por huéspedes en un plazo de 4 mese
 
 # Capítulo IV: Strategic-Level Software Design
 
+## 4.1. Strategic-Level Attribute-Driven Design
+
+### 4.1.1. Design Purpose
+
+
+### 4.1.2. Attribute-Driven Design Inputs
+
+#### 4.1.2.1. Primary functionality (Primary User Stories)
+
+#### 4.1.2.2. Quality attribute Scenarios
+
+#### 4.1.2.3. Constraints
+
 ## 4.2. Strategic-Level Domain-Driven Design
 
 ### 4.2.1. EventStorming
