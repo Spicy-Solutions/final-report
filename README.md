@@ -2854,12 +2854,37 @@ Optimizar el 60% de las reservas realizadas por huéspedes en un plazo de 4 mese
 
 ## 4.1. Strategic-Level Attribute-Driven Design
 
+
 ### 4.1.1. Design Purpose
 
 
 ### 4.1.2. Attribute-Driven Design Inputs
 
 #### 4.1.2.1. Primary functionality (Primary User Stories)
+
+A continuacion, se listan las primary user stories, teniendo en cuenta su importancia en el negocio:
+
+| **Epic / User**              | **Story ID** | **Título**                                   | **Descripción**                                                                                           | **Criterios de Aceptación**                                                  | **Relacionado**  |
+| ---------------------------- | ------------ | -------------------------------------------- | --------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------- |
+| **Landing & Marketing**      | HU01         | Obtener información de la empresa            | Como visitante del sitio web, quiero obtener información adicional sobre la empresa a cargo del producto. | Debo ver misión, visión, contacto y descripción clara de la empresa.         | HU02, HU03, HU04 |
+|                              | HU04         | Informarse sobre planes de subscripción      | Como visitante, quiero conocer los planes de subscripción disponibles.                                    | Debo ver precios y beneficios de cada plan para comparar.                    | HU31             |
+| **Gestión Organizacional**   | HU01         | Crear organización                           | Como hotel owner quiero registrar una organización para gestionar finanzas y operaciones.                 | Al enviar formulario, la organización debe quedar creada y activa.           | HU29, HU31       |
+|                              | HU29         | Invitar administradores a su organización    | Como hotel owner quiero añadir administradores a mi organización.                                         | Los administradores invitados deben recibir un email con link de activación. | HU11             |
+|                              | HU13         | Desvincular administrador de la organización | Como hotel owner quiero poder desvincular a un administrador.                                             | El admin ya no debe poder acceder después de ser desvinculado.               | HU11             |
+|                              | HU31         | Mejorar subscripción de la organización      | Como hotel owner quiero mejorar/cambiar la subscripción.                                                  | El cambio debe aplicarse inmediatamente y reflejarse en facturación.         | HU04             |
+| **Gestión de Habitaciones**  | HU03         | Registrar nueva habitación                   | Como hotel admin quiero registrar habitaciones.                                                           | La nueva habitación debe aparecer en la lista de habitaciones disponibles.   | HTU01            |
+|                              | HU08         | Editar estado de habitación                  | Como hotel owner quiero activar/inactivar habitación.                                                     | El cambio debe reflejarse en disponibilidad de reservas en tiempo real.      | HU15             |
+| **Gestión de Reservas**      | HU03         | Reservar habitación personalizada            | Como huésped quiero reservar habitaciones según mis preferencias.                                         | El sistema debe sugerir habitaciones compatibles y confirmar disponibilidad. | HU12             |
+|                              | HU04         | Visualizar y gestionar reservas activas      | Como huésped quiero visualizar y gestionar mis reservas.                                                  | Debo poder ver fechas, habitación y cancelar si está permitido.              | HU05             |
+|                              | HU05         | Cancelar reservas activas                    | Como huésped quiero cancelar una reserva.                                                                 | El sistema debe validar la política de cancelación antes de confirmar.       | HU04             |
+|                              | HU22         | Registrar reserva presencial                 | Como admin quiero crear una reserva manualmente.                                                          | Debe permitir asignar habitación y fechas en el acto.                        | HU18             |
+|                              | HU23         | Modificar fechas de una reserva              | Como admin quiero editar fechas de entrada/salida.                                                        | El sistema debe verificar disponibilidad antes de guardar.                   | HU24             |
+| **Inventario y Proveedores** | HU02         | Revisar stock de recursos del hotel          | Como hotel owner quiero revisar el stock actual.                                                          | Debe mostrar cantidad y estado de cada recurso en tiempo real.               | HU40             |
+|                              | HU06         | Agregar proveedores                          | Como hotel owner quiero agregar proveedor a mi organización.                                              | Los proveedores deben quedar registrados con datos de contacto.              | HU02             |
+| **Comunicación Interna**     | HU28         | Enviar mensajes al gerente                   | Como admin quiero comunicarme con el gerente.                                                             | Mensajes deben registrarse y poder ser consultados en el historial.          | HU33             |
+| **IoT & Dispositivos**       | HU56         | Tarjeta para acceso a habitaciones           | Como device user quiero usar tarjeta para ingresar.                                                       | Al acercar tarjeta válida, la puerta debe desbloquearse.                     | HU47             |
+|                              | HU57         | Control de temperatura en habitaciones       | Como device user quiero controlar la temperatura.                                                         | El display debe mostrar valor actualizado y el sistema registrar el cambio.  | HU60             |
+|                              | HU59         | Notificación por sensor de humo              | Como hotel owner quiero recibir notificación de humo.                                                     | Debe enviarse notificación push o email en tiempo real.                      | HU58             |
 
 #### 4.1.2.2. Quality attribute Scenarios
 
