@@ -2861,6 +2861,7 @@ Optimizar el 60% de las reservas realizadas por huéspedes en un plazo de 4 mese
 
 ### 4.1.1. Design Purpose
 
+El propósito del proceso de diseño de SweetManager es crear una solución que responda a los problemas identificados en la gestión de hotelera: la falta de automatización, la baja eficiencia operativa y la mala experiencia de huéspedes y administradores. Este diseño busca ofrecer una plataforma accesible y con integración IoT que facilite la gestión de reservas, gestión de finanzas, etc.
 
 ### 4.1.2. Attribute-Driven Design Inputs
 
