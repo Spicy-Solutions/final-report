@@ -225,6 +225,81 @@ Se llevaron a cabo reuniones semanales para hacer una revisión de lo elaborado 
 # Student Outcome
 En Ingeniería de Software, el logro de curso contribuye a alcanzar el:
 
+ABET – EAC - Student Outcome 3: Capacidad de comunicarse efectivamente con un
+rango de audiencias.
+
+Criterio: Capacidad de comunicarse efectivamente con un rango de audiencias.
+En el siguiente cuadro se describe las acciones realizadas y enunciados de
+conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
+del ABET – EAC - Student Outcome 3.
+
+<table>
+  <tr>
+    <th>Criterio Especifico</th>
+    <th>Acciones Realizadas</th>
+    <th>Conclusiones</th>
+  </tr>
+  <tr>
+    <td>Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.
+    </td>
+    <td>
+      <p>
+        TB1:
+        <p>
+        Mauricio Rojas: En este entregable, he fomentado en todo momento el trabajo en equipo y la comunicación constante. Adicionalmente, escuchando e intercambiando ideas con mis compañeros de equipo. De esta manera, planificamos tareas y cumplimos objetivos de una mejor manera.
+        </p>
+        <p>
+        Aaron Acuña: Colaboró en crear un ambiente de comunicación colaborativa, participó en la definición de tareas en el tablero Kanban y mantuvo responsabilidad en el cumplimiento de sus entregables.
+        </p>
+        <p>
+        Manuel Peña:
+        Expuso semanalmente los objetivos del equipo y revisó su cumplimiento en reuniones. Participó activamente en la explicación de artefactos clave como As-Is/To-Be Scenarios y Bounded Context Canvas.
+        </p>
+        <p>
+        Nelson Serrano:
+        Aclaró dudas, discutió objetivos y explicó tareas asignadas durante las reuniones. Presentó avances de User Stories y diagramas de arquitectura de forma clara.
+        </p>
+        <p>
+        David Rodriguez:
+        Contribuyó a definir metas, analizar entrevistas y explicar los hallazgos del Communication Bounded Context en las reuniones.
+        </p>
+      </p>
+    </td>
+    <td>
+      <p>
+    Durante este entregable, nos comunicamos de forma clara y objetiva con mi equipo, participando activamente en reuniones y exposiciones. Mantuvimos una comunicación constante, resolvimos dudas en conjunto y compartimos avances de los artefactos de manera ordenada. Gracias a esta interacción, logramos coordinar tareas, cumplir los plazos establecidos y asegurar que todos comprendiéramos los objetivos del proyecto, lo que fortaleció nuestro trabajo colaborativo y la calidad de los resultados.
+    </p>
+    </td>
+  </tr>
+  <tr>
+    <td>Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.</td>
+    <td>
+  <p>
+    TB1:
+  </p>
+  <p>
+    Mauricio Rojas: Para este entregable, redacté y documenté de manera clara los acuerdos del equipo en el tablero Kanban, asegurando que las tareas estuvieran bien definidas y comprensibles para todos los integrantes. Contribuí en la creación de documentación estructurada de los escenarios As-Is y To-Be.
+  </p>
+  <p>
+    Aaron Acuña: Elaboró descripciones escritas de las tareas asignadas, mantuvo actualizados los tickets en el tablero Kanban y documentó de manera objetiva los resultados alcanzados en su sección correspondiente.
+  </p>
+  <p>
+    Manuel Peña: Documentó semanalmente los objetivos del equipo y sus avances. Redactó explicaciones detalladas de los artefactos de arquitectura como As-Is/To-Be Scenarios y el Bounded Context Canvas para facilitar su comprensión.
+  </p>
+  <p>
+    Nelson Serrano: Produjo reportes escritos sobre el progreso de las User Stories y diagramas de arquitectura. Aseguró que las tareas estuvieran bien explicadas en la documentación y los entregables.
+  </p>
+  <p>
+    David Rodriguez: Escribió el análisis de entrevistas y los hallazgos relacionados con el Communication Bounded Context. Dejó registros claros y objetivos de los resultados obtenidos para el equipo.
+  </p>
+  </td>
+    <td>
+      <p>
+    Durante este entregable, redactamos de manera clara y objetiva la documentación necesaria para que todos los integrantes del equipo pudieran comprender las tareas, objetivos y resultados. Mantuvimos actualizado el tablero Kanban, registramos avances y explicamos los artefactos en detalle para facilitar su revisión. Gracias a esta comunicación escrita, logramos mantener un flujo de trabajo ordenado, cumplir los plazos establecidos y asegurar que la información estuviera disponible y bien estructurada para todo el equipo.
+      </p>
+    </td>
+  </tr>
+</table>
 
 # Capítulo I: Introducción
 
@@ -2853,7 +2928,6 @@ Optimizar el 60% de las reservas realizadas por huéspedes en un plazo de 4 mese
 # Capítulo IV: Strategic-Level Software Design
 
 ## 4.1. Strategic-Level Attribute-Driven Design
-
 
 ### 4.1.1. Design Purpose
 
