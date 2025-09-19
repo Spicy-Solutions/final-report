@@ -2897,6 +2897,82 @@ A continuacion, se listan las primary user stories, teniendo en cuenta su import
 
 #### 4.1.2.2. Quality attribute Scenarios
 
+En esta subsección se definen escenarios de atributos de calidad clave para Sweet Manager, siguiendo el formato recomendado por ATAM: Fuente de estímulo, Estímulo, Entorno, Artefacto, Respuesta esperada y Medida de respuesta. Estos escenarios guían decisiones arquitectónicas y criterios de aceptación transversales.
+
+- **Rendimiento (latencia Web/API)**
+  - Fuente: Huésped usando la Web App o Mobile App
+  - Estímulo: Consulta de disponibilidad y creación de reserva
+  - Entorno: Carga nominal (≤ 100 req/s en API) en horario pico
+  - Artefacto: API Web (Operations & Monitoring), DB relacional en la nube
+  - Respuesta: La API procesa búsqueda y reserva sin bloqueo y retorna confirmación
+  - Medida: P50 < 300 ms, P95 < 800 ms por endpoint crítico; error rate < 1%
+
+- **Disponibilidad (tolerancia a fallos)**
+  - Fuente: Administrador/Owner usando el dashboard
+  - Estímulo: Caída del VPS de API o reinicio de contenedor
+  - Entorno: Horario laboral; una zona de despliegue activa
+  - Artefacto: API Web y base de datos gestionada
+  - Respuesta: Recuperación automática mediante restart del orquestador y health checks; sin pérdida de datos confirmados
+  - Medida: RTO ≤ 5 min; RPO = 0 para transacciones confirmadas; disponibilidad mensual ≥ 99.5%
+
+- **Seguridad (acceso y datos personales)**
+  - Fuente: Actor malicioso externo
+  - Estímulo: Intento de acceso a endpoints sin autorización o escalamiento de privilegios
+  - Entorno: Producción
+  - Artefacto: IAM (autenticación/autorización), API Gateway/Reverse Proxy
+  - Respuesta: Rechazo con 401/403; registro del evento; bloqueo temporal por IP/brute-force
+  - Medida: 0 accesos no autorizados a datos sensibles; cobertura OWASP Top 10 con WAF/reglas; MFA habilitado para roles críticos (Owner/Admin)
+
+- **Escalabilidad (tráfico estacional)**
+  - Fuente: Pico de tráfico por campaña o temporada alta
+  - Estímulo: x5 solicitudes concurrentes durante 2 horas
+  - Entorno: Infra basada en contenedores; DB con auto-scale vertical limitado
+  - Artefacto: API Web y capa de cache HTTP
+  - Respuesta: Se incrementan réplicas de API; cache de lecturas calientes; se mantienen SLOs
+  - Medida: Throughput ≥ 500 req/s sostenidos; P95 < 1 s; utilización promedio por instancia < 70%
+
+- **Modificabilidad (cambio de regla de negocio)**
+  - Fuente: Product Owner
+  - Estímulo: Cambiar política de cancelación (ventana y penalidad)
+  - Entorno: Sprint regular con CI/CD
+  - Artefacto: Módulo de reservas en Operations & Monitoring; feature flags
+  - Respuesta: Cambio implementado con pruebas unitarias e integración sin afectar otros bounded contexts
+  - Medida: Lead time del cambio ≤ 2 días; 0 regresiones críticas en CI; cobertura > 80% en módulo afectado
+
+- **Observabilidad (detección/diagnóstico)**
+  - Fuente: Equipo de operación
+  - Estímulo: Incremento de latencia P95 en búsqueda de habitaciones
+  - Entorno: Producción
+  - Artefacto: Tracing distribuido, logs estructurados, métricas (APM)
+  - Respuesta: Alerta automática; trazas muestran cuellos (DB/IO); rollback o mitigación
+  - Medida: MTTR ≤ 30 min; cardinalidad de logs controlada; cobertura de traces para endpoints críticos ≥ 90%
+
+- **Interoperabilidad (servicios externos)**
+  - Fuente: API de pagos/servicio de emails
+  - Estímulo: Cambios menores de contrato o degradación temporal
+  - Entorno: Producción
+  - Artefacto: Adaptadores/ACL en Commerce y Communication
+  - Respuesta: Retries exponenciales con jitter; circuit breaker; fallback de colas outbox
+  - Medida: Tasa de éxito ≥ 99% con reintentos; tiempo en circuito abierto ≤ 2 min
+
+- **Usabilidad (tareas frecuentes)**
+  - Fuente: Administrador del hotel
+  - Estímulo: Registrar check-in/check-out y responder mensajes
+  - Entorno: Web App en escritorio; rol autenticado
+  - Artefacto: UI de Operations & Monitoring; Communication
+  - Respuesta: Flujos guiados con validaciones; accesibilidad AA
+  - Medida: Tiempo de completar check-in ≤ 30 s; error de validación visible en < 200 ms; SUS ≥ 80 en pruebas
+
+- **Recuperabilidad ante desastres (backup/restore)**
+  - Fuente: Fallo catastrófico en base de datos
+  - Estímulo: Corrupción de datos o pérdida de instancia primaria
+  - Entorno: Región cloud con backups automáticos diarios y PITR
+  - Artefacto: Base de datos gestionada; almacenamiento de backups
+  - Respuesta: Restauración a punto en el tiempo; reprocesamiento de eventos pendientes
+  - Medida: RPO ≤ 15 min (PITR); RTO ≤ 60 min para restaurar servicio básico
+
+
+
 #### 4.1.2.3. Constraints
 
 En esta sección se presentan las principales restricciones que guiarán el desarrollo de la solución. Estas incluyen el uso obligatorio de tecnologías específicas, requisitos de seguridad, tiempos de respuesta definidos y compatibilidad con navegadores, los cuales no son negociables por estar establecidos por el cliente y el negocio.
