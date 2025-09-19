@@ -2866,6 +2866,9 @@ El propósito del proceso de diseño de SweetManager es crear una solución que 
 
 ### 4.1.2. Attribute-Driven Design Inputs
 
+Para el caso de Sweet Manager, la aplicación del ADD permite identificar los escenarios de calidad prioritarios para la plataforma hotelera, evaluar cómo influyen en la elección de estilos arquitectónicos, patrones de diseño y tecnologías, y definir una estructura
+capaz de integrar tanto la gestión administrativa como la interoperabilidad con dispositivos IoT.
+
 #### 4.1.2.1. Primary functionality (Primary User Stories)
 
 A continuacion, se listan las primary user stories, teniendo en cuenta su importancia en el negocio:
