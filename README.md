@@ -2899,6 +2899,17 @@ A continuacion, se listan las primary user stories, teniendo en cuenta su import
 
 #### 4.1.2.3. Constraints
 
+En esta sección se presentan las principales restricciones que guiarán el desarrollo de la solución. Estas incluyen el uso obligatorio de tecnologías específicas, requisitos de seguridad, tiempos de respuesta definidos y compatibilidad con navegadores, los cuales no son negociables por estar establecidos por el cliente y el negocio.
+
+| Technical Story ID | Título                        | Descripción                                                                 | Criterios de Aceptación                                                                 | Relacionado con (Epic ID) |
+|--------------------|-------------------------------|-----------------------------------------------------------------------------|------------------------------------------------------------------------------------------|----------------------------|
+| TS01               | Uso de Base de Datos SQL      | El sistema debe utilizar exclusivamente una base de datos relacional SQL.   | Se valida que toda la persistencia de datos se realice en SQL y no en otras tecnologías. | EP-01 |
+| TS02               | Compatibilidad con Navegadores | El sistema debe ser compatible con Chrome, Firefox y Edge en sus dos últimas versiones. | Se realizan pruebas de compatibilidad en los navegadores definidos. | EP-01 |
+| TS03               | Autenticación Segura          | El sistema debe implementar autenticación mediante **OAuth 2.0** o similar estándar de seguridad. | Se valida que el inicio de sesión requiera credenciales seguras y que las sesiones estén protegidas. | EP-02 |
+| TS04               | Encriptación de Datos         | Todos los datos sensibles en tránsito deben estar encriptados mediante **TLS 1.3**. | Se verifica que las comunicaciones se realicen bajo HTTPS y no se permita HTTP plano. | EP-02 |
+| TS05               | Tiempo de Respuesta           | El sistema debe responder a cualquier solicitud en un máximo de **2 segundos** bajo carga normal. | Pruebas de rendimiento demuestran que el tiempo de respuesta no supera los 2s. | EP-03 |
+| TS06               | Escalabilidad Horizontal      | La solución debe poder desplegarse en múltiples instancias para manejar mayor carga. | Se valida la distribución de carga y la continuidad del servicio al añadir nuevas instancias. | EP-03 |
+
 ## 4.2. Strategic-Level Domain-Driven Design
 
 ### 4.2.1. EventStorming
