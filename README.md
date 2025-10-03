@@ -6355,3 +6355,308 @@ Este ejemplo muestra cómo el usuario puede recuperar información puntual desde
 <div style="text-align: center;">
   <img src="./assets/img/searching-systems/topbar2.PNG" alt="Barra de búsqueda" width="50%" />
 </div><br><br>
+
+## 6.3. Landing Page UI Design.
+### 6.3.1. Landing Page Wireframe.
+
+El wireframe diseñado para el Desktop Web Browser muestra una disposición estructurada por bloques, pensada para ofrecer una navegación fluida e intuitiva. En la parte superior se ubica un encabezado funcional que incorpora el menú principal de navegación, asegurando el acceso constante y visible a las secciones más relevantes del sitio. Para la versión Mobile Web Browser de la aplicación, se ha optado por un menú hamburguesa que permite maximizar el espacio de visualización y mantener la estética minimalista, al tiempo que facilita la navegación. Este enfoque es especialmente útil en dispositivos móviles, donde el espacio de pantalla es limitado.
+
+Utilizamos un esquema visual que aprovecha los principios de jerarquía visual al ubicar la información más destacada en la zona superior de la interfaz, lo cual permite a los usuarios identificar rápidamente los elementos clave y mejora la experiencia de uso.
+
+El diseño del wireframe también contempla la arquitectura de información, estructurando el contenido de manera lógica y coherente. Esto facilita la navegación y permite a los usuarios encontrar la información que buscan de manera eficiente. La disposición de los bloques y la jerarquía visual se han diseñado para guiar al usuario a través del sitio, asegurando que cada sección sea fácilmente identificable y accesible.
+
+<div style="text-align: center;">
+  <img src="./assets/img/landing-page/landing-page-wireframe.png" width="50%" />
+  <p style="font-style: italic">Wireframes de la Landing page para Desktop web browser</p>
+</div><br><br>
+
+
+<div style="text-align: center;">
+  <img src="./assets/img/landing-page/landing-page-wireframe-mobile.png" width="60%" />
+  <img src="./assets/img/landing-page/landing-page-wireframe-mobile2.png" width="60%" />
+  <p style="font-style: italic">Wireframes de la Landing page para Mobile web browser</p>
+</div><br><br>
+
+
+### 6.3.2. Landing Page Mock-up.
+
+El mock-up de la Landing Page presenta una interfaz moderna, coherente y visualmente atractiva siguiendo la identidd visual de la marca definida. La paleta utilizada se centra en el azul como color principal, lo cual comunica confianza, profesionalismo y serenidad. La elección de la tipografía “Poppins” contribuye a una lectura clara y fluida, gracias a su estilo limpio y contemporáneo.
+
+En términos de principios de diseño, se han aplicado conceptos como la proximidad, alineación, contraste y repetición, lo que permite una organización visual coherente y facilita que el usuario identifique patrones y jerarquías en el contenido. La estructura sigue una lógica de arquitectura de información en la que los bloques de contenido están jerarquizados desde lo más general a lo más específico, guiando al usuario a través de una trayectoria clara y efectiva. Asimismo, las llamadas a la acción (CTAs) están estratégicamente ubicadas para incentivar la conversión sin interrumpir la experiencia de navegación.
+
+<div style="text-align: center;">
+  <img src="./assets/img/landing-page/landing-page-mockup.png" width="80%" />
+  <p style="font-style: italic">Mock-up de la Landing page para Desktop web browser</p>
+</div><br><br>
+
+## 6.4. Applications UX/UI Design.
+### 6.4.1. Applications Wireframes.
+
+Los Wireframes diseñados para el Web Application muestran una organización orientada a ofrecer una navegación intuitiva y fluida para los usuarios. En la parte superior se encuentra el encabezado, con el logo y las opciones principales, y, directamente debajo, está el menú de navegación principal, el cual permite un acceso en todo momento a las pantallas más importantes. Este diseño organiza la información de forma que sea fácil de entender y cómoda a la vista, asegurándose de que cada sección sea fácilmente reconocible y accesible:
+
+
+![Wireframes](./assets/img/wireframes/web/wireframes%20%281%29.png)
+
+![Wireframes](./assets/img/wireframes/web/wireframes%20%282%29.png)
+
+![Wireframes](./assets/img/wireframes/web/wireframes%20%283%29.png)
+
+![Wireframes](./assets/img/wireframes/web/wireframes%20%284%29.png)
+
+![Wireframes](./assets/img/wireframes/web/wireframes%20%285%29.png)
+
+![Wireframes](./assets/img/wireframes/web/wireframes%20%286%29.png)
+
+![Wireframes](./assets/img/wireframes/web/wireframes%20%287%29.png)
+
+![Wireframes](./assets/img/wireframes/web/wireframes%20%288%29.png)
+
+![Wireframes](./assets/img/wireframes/web/wireframes%20%289%29.png)
+
+![Wireframes](./assets/img/wireframes/web/wireframes%20%2810%29.png)
+
+![Wireframes](./assets/img/wireframes/web/wireframes%20%2811%29.png)
+
+![Wireframes](./assets/img/wireframes/web/wireframes%20%2812%29.png)
+
+![Wireframes](./assets/img/wireframes/web/wireframes%20%2813%29.png)
+
+![Wireframes](./assets/img/wireframes/web/wireframes%20%2814%29.png)
+
+![Wireframes](./assets/img/wireframes/web/wireframes%20%2815%29.png)
+
+![Wireframes](./assets/img/wireframes/web/wireframes%20%2816%29.png)
+
+![Wireframes](./assets/img/wireframes/web/wireframes%20%2817%29.png)
+
+![Wireframes](./assets/img/wireframes/web/wireframes%20%2818%29.png)
+
+![Wireframes](./assets/img/wireframes/web/wireframes%20%2819%29.png)
+
+![Wireframes](./assets/img/wireframes/web/wireframes%20%2820%29.png)
+
+![Wireframes](./assets/img/wireframes/web/wireframes%20%2821%29.png)
+
+![Wireframes](./assets/img/wireframes/web/wireframes%20%2822%29.png)
+
+![Wireframes](./assets/img/wireframes/web/wireframes%20%2823%29.png)
+
+![Wireframes](./assets/img/wireframes/web/wireframes%20%2824%29.png)
+
+![Wireframes](./assets/img/wireframes/web/wireframes%20%2825%29.png)
+
+![Wireframes](./assets/img/wireframes/web/wireframes%20%2826%29.png)
+
+![Wireframes](./assets/img/wireframes/web/wireframes%20%2827%29.png)
+
+![Wireframes](./assets/img/wireframes/web/wireframes%20%2828%29.png)
+
+![Wireframes](./assets/img/wireframes/web/wireframes%20%2829%29.png)
+
+![Wireframes](./assets/img/wireframes/web/wireframes%20%2830%29.png)
+
+![Wireframes](./assets/img/wireframes/web/wireframes%20%2831%29.png)
+
+![Wireframes](./assets/img/wireframes/web/wireframes%20%2832%29.png)
+
+![Wireframes](./assets/img/wireframes/web/wireframes%20%2833%29.png)
+
+![Wireframes](./assets/img/wireframes/web/wireframes%20%2834%29.png)
+                                            
+El wireframe diseñado para el Mobile Application muestra una disposición estructurada por bloques, pensada para ofrecer una navegación fluida e intuitiva. En la parte superior se ubica un encabezado funcional que incorpora el menú principal de navegación, asegurando el acceso constante y visible a las secciones más relevantes del sitio. Para la versión Mobile Web Browser de la aplicación, se ha optado por un menú hamburguesa que permite maximizar el espacio de visualización y mantener la estética minimalista, al tiempo que facilita la navegación. Este enfoque es especialmente útil en dispositivos móviles, donde el espacio de pantalla es limitado.
+
+Este diseño de wireframe también contempla la arquitectura de información, estructurando el contenido de manera lógica y coherente. Esto facilita la navegación y permite a los usuarios encontrar la información que buscan de manera eficiente. La disposición de los bloques y la jerarquía visual se han diseñado para guiar al usuario a través del sitio, asegurando que cada sección sea fácilmente identificable y accesible.
+
+<div style="text-align: center;">
+  <img src="./assets/img/mobile-application/wireframe.png" width="40%" />
+  <p style="font-style: italic">Wireframes de la Mobile Application</p>
+</div><br><br>
+
+<div style="text-align: center;">
+  <img src="./assets/img/mobile-application/wireframe2.png" width="40%" />
+  <p style="font-style: italic">Wireframes de la Mobile Application</p>
+</div><br><br>
+
+### 6.4.2. Applications Wireflow Diagrams.
+En esta sección presentaremos los Wireflow Diagrams, los cuales definen el flujo de nuestra aplicación. Hemos relacionado cada uno a un User Goal, el cual determina cuál será el resultado final del flujo:
+
+#### User Goals:
+
+Registrarse:
+
+![Wireflow](./assets/img/wireflow-diagrams/web/wireflow-1.png)
+
+Iniciar Sesión:
+
+![Wireflow](./assets/img/wireflow-diagrams/web/wireflow-2.png)
+
+Visualizar información del Hotel:
+
+![Wireflow](./assets/img/wireflow-diagrams/web/wireflow-3.png)
+
+Realizar una reserva y visualizarla:
+
+![Wireflow](./assets/img/wireflow-diagrams/web/wireflow-4.png)
+
+Ver perfil de administrador:
+
+![Wireflow](./assets/img/wireflow-diagrams/web/wireflow-5.png)
+
+Establecer preferencias de huésped:
+
+![Wireflow](./assets/img/wireflow-diagrams/web/wireflow-6.png)
+
+Registrar un hotel nuevo:
+
+![Wireflow](./assets/img/wireflow-diagrams/web/wireflow-7.png)
+
+Registrar una habitación nueva:
+
+![Wireflow](./assets/img/wireflow-diagrams/web/wireflow-8.png)
+
+Administrar las reservas en su hotel:
+
+![Wireflow](./assets/img/wireflow-diagrams/web/wireflow-9.png)
+
+Visualizar mensajes:
+
+![Wireflow](./assets/img/wireflow-diagrams/web/wireflow-10.png)
+
+Revisar analíticas financieras del hotel:
+
+![Wireflow](./assets/img/wireflow-diagrams/web/wireflow-11.png)
+
+Revisar lista de proveedores:
+
+![Wireflow](./assets/img/wireflow-diagrams/web/wireflow-12.png)
+
+Revisar inventario:
+
+![Wireflow](./assets/img/wireflow-diagrams/web/wireflow-13.png)
+
+Gestionar administradores del hotel:
+
+![Wireflow](./assets/img/wireflow-diagrams/web/wireflow-14.png)
+
+Registrar y usar dispositivos IoT:
+
+![Wireflow](./assets/img/wireflow-diagrams/web/wireflow-15.png)
+
+
+#### User Goal: Registrarse a la aplicación de SweetManager
+
+En este flujo podemos visualizar que el usuario puede registrarse a la aplicación de SweetManager. El flujo comienza con el usuario accediendo a la página de inicio de sesión, donde tiene la opción de registrarse. Al hacer clic en "Registrarse", se le redirige a la página de registro, donde debe completar un formulario con su información personal. Una vez que el formulario es enviado, el sistema valida los datos y, si son correctos, crea una nueva cuenta para el usuario. Finalmente, se muestra un mensaje de confirmación y se redirige al usuario a la página de inicio.
+
+<div style="text-align: center;">
+  <img src="./assets/img/wireflow-diagrams/wireflowmobile1.png" width="80%" />
+  <p style="font-style: italic">Wireflow de Registrarse</p>
+</div><br><br>
+
+
+#### User Goal: Añadir un nuevo hotel
+
+El siguiente flujo muestra cómo el usuario Dueño de un hotel es capaz de añadir un nuevo hotel a la aplicación. Este flujo comienza con el usuario seleccionando la opción de añadir un nuevo hotel en la página principal de la aplicación. Luego, el usuario ingresa los datos necesarios para crear el nuevo hotel y finalmente se redirige a la página principal de la aplicación.
+
+<div style="text-align: center;">
+  <img src="./assets/img/wireflow-diagrams/wireflowmobile2.png" width="80%" />
+  <p style="font-style: italic">Wireflow de Registrarse</p>
+</div><br><br>
+
+
+#### User Goal: Enviar mensaje a usuario dentro de organización
+
+En este flujo se puede observar cómo el usuario Dueño de un hotel es capaz de enviar un mensaje a otro usuario dentro de la organización. Este flujo comienza con el usuario seleccionando la opción de enviar un mensaje en la página principal de la aplicación. Luego, el usuario ingresa el contenido del mensaje y finalmente se redirige a la página principal de la aplicación.
+
+
+  <div style="text-align: center;">
+  <img src="./assets/img/wireflow-diagrams/wireflowmobile3.png" width="80%" />
+  <p style="font-style: italic">Wireflow de Registrarse</p>
+</div><br><br>
+
+
+
+### 6.4.2. Applications Mock-ups.
+
+Para la aplicación web, se han diseñado mock-ups que reflejan la identidad visual de la marca y los principios de diseño establecidos. A continuación se presentan los mock-ups de las pantallas de la aplicación web.
+
+Consideramos que es escencial que la experiencia del usuario al navegar por primera vez por la aplicación sea fluida y agradable. Por ello, se ha diseñado una interfaz intuitiva que permite a los usuarios navegar fácilmente por las diferentes secciones de la aplicación. La barra de navegación superior proporciona acceso rápido a las funciones más importantes, como la gestión de reservas, el control de inventario y la administración de dispositivos IoT (en el caso de los administradores). Mientras que para los huéspedes, la barra de navegación lateral permite acceder a secciones como las de mis reservas, mis pagos y mis preferencias.
+
+### Web Application Mock-ups
+
+<div style="text-align: center;">
+  <img src="./assets/img/app-mockups/web1.png" width="90%" />
+  <p style="font-style: italic">Log in & Sign Up pages</p>
+</div><br><br>
+
+### Mobile Application Mock-ups
+
+<div style="text-align: center;">
+  <img src="./assets/img/app-mockups/mobile1.png" width="90%" />
+  <p style="font-style: italic">Guest Main Views</p>
+</div><br><br>
+
+<div style="text-align: center;">
+  <img src="./assets/img/app-mockups/mobile2.png" width="90%" />
+  <p style="font-style: italic">Subscription plans and admin views</p>
+</div><br><br>
+
+<div style="text-align: center;">
+  <img src="./assets/img/app-mockups/mobile3.png" width="90%" />
+  <p style="font-style: italic">Ower Analytics</p>
+</div><br><br>
+
+
+### 6.4.3. Applications User Flow Diagrams.
+A continuación se presentan los diagramas de flujo de usuario (User Flow Diagrams) para las aplicaciones web y móvil. Estos diagramas ilustran las rutas típicas que los usuarios pueden seguir al interactuar con la aplicación, teniendo en cuenta los diferentes roles de usuario (administrador, huésped y propietario).
+
+#### User Goal: Registrarse en la Aplicación Web de SweetManager
+
+En el siguiente flujo, se muestra el flujo de inicio de sesión en la Web Application. Este flujo es común para todos los usuarios, ya que todos deben iniciar sesión para acceder a la aplicación. El flujo comienza con el usuario ingresando su correo electrónico y contraseña en la página de inicio de sesión. Si las credenciales son correctas, el usuario es redirigido a la página principal de la aplicación.
+<div style="text-align: center;">
+  <img src="./assets/img//userflows/userflowweb1.png" width="90%" />
+</div><br><br>
+
+#### User Goal: Crear una nueva organización
+
+En el siguiente flujo, se puede demostrar cómo el usuario Dueño de un hotel es capaz de crear una nueva organización en la aplicación. Este flujo comienza con el usuario seleccionando la opción de crear una nueva organización en la página principal de la aplicación. Luego, el usuario ingresa los datos necesarios para crear la organización y finalmente se redirige a la página principal de la aplicación.
+<div style="text-align: center;">
+  <img src="./assets/img//userflows/userflowweb2.png" width="90%" />
+</div><br><br>
+
+#### User Goal: Añadir un administrador a la organización
+
+En el siguiente flujo, el administrador del hotel, es invitado a unirse a la organización creada por el dueño del hotel. Este flujo comienza con el dueño del hotel enviando una invitación al administrador a través de la aplicación. Luego, el administrador recibe la invitación y acepta unirse a la organización. Finalmente, el administrador es redirigido a la página principal de la aplicación.
+<div style="text-align: center;">
+  <img src="./assets/img//userflows/userflowweb3.png" width="90%" />
+</div><br><br>
+
+#### User Goal: Registrarse en la Aplicación Móvil de SweetManager
+
+En el siguiente flujo se puede observar el inicio de sesión o registro de un usuario en nuestro Mobile Application. Este flujo es común para todos los usuarios, ya que todos deben iniciar sesión para acceder a la aplicación. El flujo comienza con el usuario ingresando su correo electrónico y contraseña en la página de inicio de sesión. Si las credenciales son correctas, el usuario es redirigido a la página principal de la aplicación.
+<div style="text-align: center;">
+  <img src="./assets/img//userflows/mobile1.png" width="90%" />
+</div><br><br>
+
+#### User Goal: Buscar un hotel
+
+En el siguiente flujo se puede observar el comportamiento del huésped, al encontrar o seleccionar un hotel para ver más su detalle, administrador y dueño de hotel al gestionar su organización y los dispositivos IoT. Este flujo comienza con el usuario seleccionando la opción de buscar un hotel en la página principal de la aplicación. Luego, el usuario ingresa los datos necesarios para buscar el hotel y finalmente se redirige a la página principal de la aplicación.
+
+<div style="text-align: center;">
+  <img src="./assets/img//userflows/mobile2.png" width="90%" />
+</div><br><br>
+
+## 6.5. Applications Prototyping.
+Mediante la herramienta de Figma, se elaboró el prototipado correspondiente a la aplicación para que pueda servir de guía en la programación de este. De la misma manera, funciona para reconocer los paths que pueden llegar a mantener los diferentes usuarios basado en sus diferentes roles.
+
+Link directo hacia el prototyping: https://www.figma.com/proto/N0Oc3Y6SzhUWzSGF9yDLty/Apps-Mobiles---mauwiwi?node-id=5334-2915&p=f&t=rU4tRCifwjIBviUS-1&scaling=contain&content-scaling=fixed&page-id=4171%3A2345&starting-point-node-id=5334%3A2915&show-proto-sidebar=1
+
+Asimismo, se realizó un video demostrativo para explicar los diferentes flujos que mantendrá nuesta aplicación. Este video se encuentra disponible en el siguiente link: https://n9.cl/7p1d2g
+
+
+<img src="./assets/img/application-prototyping/webapp.PNG" alt="Web App Prototyping" width="100%" />
+
+Link directo hacia el mobile prototyping: https://www.figma.com/proto/N0Oc3Y6SzhUWzSGF9yDLty/Apps-Mobiles---mauwiwi?node-id=3846-1527&t=yxfxPIeSPfCG5IaX-0&scaling=min-zoom&content-scaling=fixed&page-id=110%3A1227&starting-point-node-id=3846%3A1527
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/YQ0OANa.png" alt="Mobile Prototyping" width="80%" />
+</div><br>
