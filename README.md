@@ -995,6 +995,10 @@ En esta sección se documentarán las preguntas que se utilizaron en nuestras en
 
 - ¿Cómo gestionan actualmente la satisfacción y las preferencias de los clientes en su hotel?
 
+- ¿Con qué frecuencia analiza datos como ingresos o preferencias de los huéspedes para tomar decisiones en la gestión del hotel?
+
+- ¿Qué tan útiles cree que podrían ser las herramientas que le ayuden a tomar decisiones estratégicas basadas en datos, como la optimización de precios o la planificación de recursos?
+
 - ¿Cómo ve conveniente un sistema hotelero dedicado a la gestión de recursos, comunicación con proveedores, seguimiento de ganancias, etc?
 
 **Preguntas Segmento 2: Administradores**
