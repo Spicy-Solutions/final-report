@@ -6244,3 +6244,109 @@ La única tabla del bounded context `Communication` es la tabla `Notification`. 
 | `SenderType`| `string?`             | Origen del que proviene el mensaje: "Guest", "Admin", "Owner" o "System" |
 | `SenderId`      | `int?`             | Identificador único del usuario que envía el mensaje |
 | `ReceiverId`    | `int?`             | Identificador único del usuario que recibe el mensaje |
+
+
+
+# Capítulo VI: Solution UI/UX Design
+
+## 5.2. Information Architecture.
+### 5.2.1. Organization Systems.
+
+Se emplean tres patrones de organización visual —jerárquico, secuencial y matricial— según la naturaleza del contenido o la tarea. Con ello se asegura una navegación clara, una UX eficiente y una correcta adaptación a distintos contextos.
+
+- <strong>Visual Hierarchy:</strong> La disposición jerárquica se usa principalmente en la página de inicio y en vistas con información crítica (por ejemplo, disponibilidad de habitaciones por hotel). Se priorizan elementos como la barra de búsqueda, categorías destacadas y tarjetas con imagen, ubicación, nombre y precio, de modo que el usuario identifique con rapidez las mejores alternativas de hospedaje.
+
+
+<div style="text-align: center;">
+<img width="710" height="360" alt="image" src="https://github.com/user-attachments/assets/f7802ad3-fa9e-41e2-86b8-de765aa5f446" />
+</div><br>
+
+
+- <strong>Step-by-Step to Accomplish:</strong> El modelo secuencial se aplica a flujos guiados donde cada paso depende del anterior. Un ejemplo es “subscription plans”, en el que el usuario avanza de la selección del plan a la confirmación del pago de forma progresiva y ordenada.
+
+
+<div style="text-align: center;">
+<img width="686" height="874" alt="image" src="https://github.com/user-attachments/assets/8d8a0e72-2b15-4ebd-8fb3-2c9cab77c689" />
+</div><br>
+
+
+- <strong>Matricial:</strong> Este patrón se utiliza en vistas tipo tabla —como Inventario— para mostrar múltiples atributos por elemento (ID, nombre, precio, cantidad, stock, proveedor) de forma ordenada. Favorece la comparación y la gestión simultánea de ítems, optimizando el control del inventario.
+
+<div style="text-align: center;">
+<img width="742" height="422" alt="image" src="https://github.com/user-attachments/assets/fa37f735-a769-445d-9f30-7576980f94e9" />
+</div><br>
+
+
+### 5.2.2. Labeling Systems.
+
+En <em>Sweet Manager</em> se prioriza un etiquetado claro y directo para que administradores y demás usuarios comprendan el contenido sin fricción. Este enfoque reduce la curva de aprendizaje y agiliza la navegación.
+
+#### a. Etiquetas simplificadas y claras  
+Se emplean rótulos breves y con significado preciso en las secciones principales:
+
+- **Overview** → *Resumen*
+- **Analytics** → *Estadísticas*
+- **Providers** → *Proveedores*
+- **Inventory** → *Inventario*
+- **Rooms** → *Habitaciones*
+- **Organization** → *Organización*
+- **Devices** → *Dispositivos*
+- **Billing & Plans** → *Planes de Suscripción*
+- **Alerts** → *Alertas*
+- **Log Out** → *Cerrar Sesión*
+
+Estas etiquetas buscan exactitud semántica, evitando ambigüedades y tecnicismos innecesarios.
+
+#### b. Asociaciones clave  
+Se refuerza la usabilidad asociando cada término con el beneficio esperado para el usuario:
+
+- **"Inventario"** → control de stock, abastecimiento y proveedores.
+- **"Planes de Suscripción"** → pagos, gestión de servicios y control financiero.
+- **"Alertas"** → notificaciones de seguridad, incidentes y eventos relevantes.
+- **"Habitaciones"** → gestión de disponibilidad, limpieza y asignaciones.
+- **"Dispositivos"** → sensores, IoT y monitoreo en tiempo real.
+
+El sistema evita redundancias y términos crípticos, priorizando funcionalidad y claridad para perfiles no técnicos.
+
+
+### 5.2.3. SEO Tags and Meta Tags
+
+Para aumentar la visibilidad de **SweetManager** en buscadores, captar nuevos usuarios y describir adecuadamente la landing page y la aplicación web, se definen las siguientes meta etiquetas para incluir en el `<head>` de las páginas principales:
+
+```html
+<title>SweetManager - Empowering Smart Hotel Management</title>
+<meta name="description" content="SweetManager is a smart hotel management platform that enhances operational efficiency through IoT integration, collaborative tools, and real-time insights.">
+<meta name="keywords" content="hotel management, smart hotels, IoT for hotels, room booking, hotel software, hotel automation">
+<meta name="author" content="SweetManager Team">
+```
+
+
+### 5.2.4. Searching Systems.
+Dado el volumen de información, se habilitan mecanismos de búsqueda para encontrar datos con rapidez:
+- **Barra de búsqueda**: Presente en la mayoría de las pantallas para localizar contenidos por palabra clave.
+- **Filtros de búsqueda**: Permiten refinar resultados por fecha, tipo de información (reservas, pagos, etc.) y estado (pendiente, completado, etc.).
+- **Búsqueda por nombre de hotel**: Facilita ubicar rápidamente un hotel específico por su nombre.
+
+<div style="text-align: center;">
+<img width="513" height="49" alt="image" src="https://github.com/user-attachments/assets/88fd1d5c-53b7-4bd5-a0ba-98b00302d9ce" />
+</div><br>
+Este ejemplo muestra cómo el usuario puede recuperar información puntual desde la barra de búsqueda, disponible en gran parte de la aplicación para acelerar la consulta.
+<br><br>
+
+- **Búsqueda de administradores**: El usuario podrá buscar administradores por su dirección de correo electrónico, lo que le permitirá encontrar rápidamente la información de contacto del administrador que necesita.
+
+<div style="text-align: center;">
+<img width="509" height="383" alt="image" src="https://github.com/user-attachments/assets/41c536ee-ff7b-4dd2-8ed9-bcbe49995cc5" />
+</div><br><br>
+
+### 5.2.5. Navigation Systems.
+- **Filtros, paginación y orden**: Las vistas de listado admiten filtros (fecha, tipo de información, estado), paginación y ordenamiento para acceder con rapidez a la información relevante. Además, se incluyen barras de acceso rápido a pantallas clave como "Overview", "Analytics", "Providers", etc., ubicadas en la parte superior para una navegación inmediata.
+
+<div style="text-align: center;">
+  <img src="./assets/img/searching-systems/topbar.PNG" alt="Barra de búsqueda" width="50%" />
+</div><br><br>
+<div style="text-align: center;">
+  <img src="./assets/img/searching-systems/topbar2.PNG" alt="Barra de búsqueda" width="50%" />
+</div><br><br>
+
+
