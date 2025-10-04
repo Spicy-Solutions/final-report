@@ -6256,6 +6256,9 @@ La única tabla del bounded context `Communication` es la tabla `Notification`. 
 ## 6.1. Style Guidelines.
 ### 6.1.1. General Style Guidelines
 
+#### Lenguaje y tonalidad:
+El lenguaje utilizado en la Landing Page, así como en las aplicaciones web y móvil de SweetManager es claro y directo, evitando tecnicismos innecesarios. La tonalidad es amigable y profesional, buscando generar confianza en los usuarios. El idioma empleado en todos nuestros productos es el inglés. Cabe resaltar que tanto para la Web Application como para la Mobile Application se hará uso de internacionalización (i18n) para permitir la traducción al español. 
+
 #### Tipografia:
 La tipografía usada en la Landing Page, aplicaciones web y móvil de SweetManager es "Poppins". Esta tipografía es moderna y visible, lo que facilita la lectura en distintos dispositivos. Se utilizarán diferentes tamaños y pesos de la tipografía para resaltar la información relevante dentro de las paginas.
 
