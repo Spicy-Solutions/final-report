@@ -6256,24 +6256,24 @@ El lenguaje utilizado en la Landing Page, así como en las aplicaciones web y m�
 #### Tipografia:
 La tipografía usada en la Landing Page, aplicaciones web y móvil de SweetManager es "Poppins". Esta tipografía es moderna y visible, lo que facilita la lectura en distintos dispositivos. Se utilizarán diferentes tamaños y pesos de la tipografía para resaltar la información relevante dentro de las paginas.
 
-![typography](/final-report/assets/img/style-guidelines/typography.png)
+![typography](./assets/img/style-guidelines/typography.png)
 
 
 #### Logotipo:
 
  El logotipo de SweetManager es una representación visual  de la marca, que incluye elementos como un camino que conduce hacia hoteles, simbolizados por las siglas de SweetManager. Su diseño moderno refuerza la identidad y el carácter distintivo de la marca. 
 
-![logotype](/final-report/assets/img/style-guidelines/logotype.png)
+![logotype](./assets/img/style-guidelines/logotype.png)
 
 #### Colores:
 
 El color principal de SweetManager es el azul #0066CC, que se utiliza en la mayoría de los elementos de la interfaz. Este color transmite confianza y profesionalismo. Además, se utilizan otros colores secundarios para resaltar información relevante y mejorar la legibilidad. A continuación se presentará una paleta de colores utilizada en la Landing Page, así como en las aplicaciones web y móvil de SweetManager: 
 
-![colors](/final-report/assets/img/style-guidelines/colors.png)
+![colors](./assets/img/style-guidelines/colors.png)
 
 #### Colores de estado:
 
-![status_colors](/final-report/assets/img/style-guidelines/status_colors.png)
+![status_colors](./assets/img/style-guidelines/status_colors.png)
 
 #C13515: Color utilizado para indicar errores o advertencias. Este color es llamativo y ayuda a captar la atención del usuario ante situaciones críticas. Por ejemplo, cuando un pago no se ha procesado correctamente o cuando hay un problema con la reserva de un hotel.
 
@@ -6289,13 +6289,13 @@ El color principal de SweetManager es el azul #0066CC, que se utiliza en la mayo
 
 Los mensajes de error y advertencia se mostrarán por consola y serán fáciles de entender y claros, esto será principalmente orientado a los desarrolladores, permitiendoles identificar y resolver problemas de manera eficiente. Asimismo, para mostrar a los huéspedes el cambio de temperatura en el hotel, se utilizarán pantallas LCD reflectivas segmentadas que mostrarán la temperatura en grados Celsius. Estas pantallas son fáciles de leer y proporcionan información clara y precisa a los usuarios. Se seguirán las convenciones generales de LCD Display, por lo cual, en dicha pantalla, se mostrarán los mensajes o las palabras con letras mayúsculas, para que sea más sencillo de leer; se usará la primera línea para mostrar información principal, como la temperatura actual, y la segunda línea del LCD para información complementaria, como la unidad de medida (Celsius, en nuestro caso). De igual forma, se procurará que los colores del fondo y de los caracteres del display tengan un contraste correcto para que puedan ser fácilmente legibles por cualquier usuario.
 
-![iot](/final-report/assets/img/style-guidelines/device1.png)
+![iot](./assets/img/style-guidelines/device1.png)
 
 Ejemplo de pantalla LCD reflectiva segmentada con Style Guidelines generales
 
 Para el monitoreo del ambiente, hemos contemplado una luz LED que se encenderá si es que se detecta humo dentro de la habitación, lo cual puede suponer un potencial incendio. Esta luz será roja y estará colocada en un lugar visible de la habitación, de modo de que cualquier persona que esté dentro va a ser correctamente alertada y seguirá los procedimientos de seguridad correspondientes.
 
-![device2](/final-report/assets/img/style-guidelines/device2.png)
+![device2](./assets/img/style-guidelines/device2.png)
 
 
 ### 6.1.2. Web, Mobile and IoT Style Guidelines.
