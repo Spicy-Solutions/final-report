@@ -6605,58 +6605,90 @@ Consideramos que es escencial que la experiencia del usuario al navegar por prim
   <p style="font-style: italic">Ower Analytics</p>
 </div><br><br>
 
+# Conclusiones
 
-### 6.4.3. Applications User Flow Diagrams.
-A continuación se presentan los diagramas de flujo de usuario (User Flow Diagrams) para las aplicaciones web y móvil. Estos diagramas ilustran las rutas típicas que los usuarios pueden seguir al interactuar con la aplicación, teniendo en cuenta los diferentes roles de usuario (administrador, huésped y propietario).
+## Conclusiones y Recomendaciones
+Nuestro proyecto de Sweet Manager se va desarrollando progresivamente. Estamos diseñando y desarrollando una solución IoT que aborda las necesidades de los gerentes, administradores y huéspedes de hoteles, facilitando la gestión diaria, el seguimiento de ingresos y egresos, la administración de recursos, el contacto con proveedores, gestión de los procesos de check-in y check-out hasta el control de temperatura de habitaciones mediante termoestatos inteligentes.
 
-#### User Goal: Registrarse en la Aplicación Web de SweetManager
+Nuestros Problem Statements identificaban una gestión fragmentada y poco eficiente en los procesos hoteleros diarios, desde el seguimiento de ingresos y egresos, la administración de reservas, hasta la comunicación con proveedores y huéspedes. Para abordar estos retos, asumimos que los usuarios valoran la automatización, visibilidad en tiempo real y centralización de las operaciones como elementos fundamentales para mejorar su experiencia y eficiencia.
 
-En el siguiente flujo, se muestra el flujo de inicio de sesión en la Web Application. Este flujo es común para todos los usuarios, ya que todos deben iniciar sesión para acceder a la aplicación. El flujo comienza con el usuario ingresando su correo electrónico y contraseña en la página de inicio de sesión. Si las credenciales son correctas, el usuario es redirigido a la página principal de la aplicación.
-<div style="text-align: center;">
-  <img src="./assets/img//userflows/userflowweb1.png" width="90%" />
-</div><br><br>
+Durante el proceso, se establecieron Hipótesis como que los administradores necesitan una vista consolidada de los huéspedes actuales (HU12), que los propietarios requieren trazabilidad financiera clara (EP02), y que los huéspedes prefieren experiencias fluidas y simples al momento de reservar y hospedarse (EP05). Las validaciones realizadas hasta el momento, mediante el diseño de entrevistas e historias de usuario, han respaldado estas hipótesis.
 
-#### User Goal: Crear una nueva organización
+Luego, se establecieron user stories y se diseñó la arquitectura del software, además de un proceso de Event Storming, que nos permitieron definir Bounded Contexts completos. Con estos Bounded Context y aplicando Domain Driven Design, pudimos desarrollar correctamente nuestro Web Applications. Escogiendo tambien a un Aspect Leader por cada Bounded Context, de este modo, cada integrande del grupo pudo participar del desarrollo de todas las soluciones y con un contexto con el que ya estaban familiarizados. 
 
-En el siguiente flujo, se puede demostrar cómo el usuario Dueño de un hotel es capaz de crear una nueva organización en la aplicación. Este flujo comienza con el usuario seleccionando la opción de crear una nueva organización en la página principal de la aplicación. Luego, el usuario ingresa los datos necesarios para crear la organización y finalmente se redirige a la página principal de la aplicación.
-<div style="text-align: center;">
-  <img src="./assets/img//userflows/userflowweb2.png" width="90%" />
-</div><br><br>
+En cuanto a la elaboración de los servicios web y mobile applications, aplicamos la misma estrategia de trabajo, permitiendonos culminar los entregables a tiempo. De igual modo conectamos ambas aplicaciones con nuestro servicio. Y con respecto a lo requerido por los dispositivos IOT, planteamos la creación de una FOG API que se conectase a todos los EDGE API de cada dispositvo IOT en el hotel. Así como una Embedded application que se encarga del funcionamiento correcto del dispositvo. 
 
-#### User Goal: Añadir un administrador a la organización
+Además, se ha trabajado en definir una arquitectura técnica sólida, capaz de escalar y adaptarse a distintos contextos hoteleros. Esto ha implicado diseñar flujos de información entre capas, establecer canales de comunicación eficientes entre los dispositivos IoT y el backend, y desarrollar interfaces intuitivas para facilitar la interacción del usuario final con el sistema.
 
-En el siguiente flujo, el administrador del hotel, es invitado a unirse a la organización creada por el dueño del hotel. Este flujo comienza con el dueño del hotel enviando una invitación al administrador a través de la aplicación. Luego, el administrador recibe la invitación y acepta unirse a la organización. Finalmente, el administrador es redirigido a la página principal de la aplicación.
-<div style="text-align: center;">
-  <img src="./assets/img//userflows/userflowweb3.png" width="90%" />
-</div><br><br>
+Para continuar con el desarrollo estratégico de SweetManager, recomendamos:
 
-#### User Goal: Registrarse en la Aplicación Móvil de SweetManager
+Validar mediante prototipos de alta fidelidad las funcionalidades priorizadas para cada segmento, enfocándonos especialmente en las vistas operativas de administración y control de huéspedes activos.
 
-En el siguiente flujo se puede observar el inicio de sesión o registro de un usuario en nuestro Mobile Application. Este flujo es común para todos los usuarios, ya que todos deben iniciar sesión para acceder a la aplicación. El flujo comienza con el usuario ingresando su correo electrónico y contraseña en la página de inicio de sesión. Si las credenciales son correctas, el usuario es redirigido a la página principal de la aplicación.
-<div style="text-align: center;">
-  <img src="./assets/img//userflows/mobile1.png" width="90%" />
-</div><br><br>
+Tomar en cuenta y priorizar en todo momento la información encontrada por las entrevistas y entrevistas de validación, pues son la prueba de si el proyecto planteado cubre las necesidades del cliente y por ende, es efectivo o no en su cometido. 
 
-#### User Goal: Buscar un hotel
-
-En el siguiente flujo se puede observar el comportamiento del huésped, al encontrar o seleccionar un hotel para ver más su detalle, administrador y dueño de hotel al gestionar su organización y los dispositivos IoT. Este flujo comienza con el usuario seleccionando la opción de buscar un hotel en la página principal de la aplicación. Luego, el usuario ingresa los datos necesarios para buscar el hotel y finalmente se redirige a la página principal de la aplicación.
-
-<div style="text-align: center;">
-  <img src="./assets/img//userflows/mobile2.png" width="90%" />
-</div><br><br>
-
-## 6.5. Applications Prototyping.
-Mediante la herramienta de Figma, se elaboró el prototipado correspondiente a la aplicación para que pueda servir de guía en la programación de este. De la misma manera, funciona para reconocer los paths que pueden llegar a mantener los diferentes usuarios basado en sus diferentes roles.
-
-Link directo hacia el prototyping: https://www.figma.com/proto/N0Oc3Y6SzhUWzSGF9yDLty/Apps-Mobiles---mauwiwi?node-id=5334-2915&p=f&t=rU4tRCifwjIBviUS-1&scaling=contain&content-scaling=fixed&page-id=4171%3A2345&starting-point-node-id=5334%3A2915&show-proto-sidebar=1
-
-Asimismo, se realizó un video demostrativo para explicar los diferentes flujos que mantendrá nuesta aplicación. Este video se encuentra disponible en el siguiente link: https://n9.cl/7p1d2g
+Establecer las User Stories y Bounded Context efectivamente, pues son la base de muchos puntos a tomar en cuenta a la hora de elaborar el proyecto y más aun, a la hora de desarrollar los entregables. Por lo que un error con el establecimiento de estos dos puntos, puede generar cambios importantes en toda la solución. 
 
 
-<img src="./assets/img/application-prototyping/webapp.PNG" alt="Web App Prototyping" width="100%" />
+# Bibliografía
 
-Link directo hacia el mobile prototyping: https://www.figma.com/proto/N0Oc3Y6SzhUWzSGF9yDLty/Apps-Mobiles---mauwiwi?node-id=3846-1527&t=yxfxPIeSPfCG5IaX-0&scaling=min-zoom&content-scaling=fixed&page-id=110%3A1227&starting-point-node-id=3846%3A1527
+- Gothelf, J., & Seiden, J. (2021). Lean UX (3rd ed.). O'Reilly Media. https://www.oreilly.com/library/view/lean-ux-3rd/9781098116293/
 
-<div style="text-align: center;">
-  <img src="https://i.imgur.com/YQ0OANa.png" alt="Mobile Prototyping" width="80%" />
-</div><br>
+- Gothelf, J. (2024). LeanUX Sampler. Scribd. https://es.scribd.com/document/655516553/Leanux-Sampler
+
+- Progressa Lean. (2014). 5W+2H: Técnica de análisis de problemas. https://www.progressalean.com/5w2h-tecnica-de-analisis-de-problemas/
+
+- UX Planet. (2017). Information architecture: Basics for designers. Medium – UX Planet. https://uxplanet.org/information-architecture-basics-for-designers-b5d43df62e20
+
+- Ostelea. (2021, febrero 10). ¿Qué es la gestión hotelera y cuál es su importancia en el sector hotelero? https://www.ostelea.com/actualidad/blog-turismo/direccion-hotelera/que-es-la-gestion-hotelera-y-cual-es-su-importancia-en-el-sector-hotelero
+
+- Solucionex. (2024). Buenas prácticas para el desarrollo de grandes proyectos con Vue.js. https://www.solucionex.com/blog/buenas-practicas-para-el-desarrollo-de-grandes-proyectos-con-vuejs
+
+- Eseme, S. (2021, agosto 12). 10 cosas que debes saber sobre Vue.js frontend framework. Kinsta. https://kinsta.com/es/blog/vue-js/
+
+- de Javier, V. M. C. (2024). DDD y arquitectura Onion: Todo lo que necesitas saber. Paradigma Digital. https://www.paradigmadigital.com/techbiz/domain-driven-design-y-arquitectura-onion/
+
+- Tapia, S. (2021, junio 21). Arquitectura DDD (Domain Driven Design). https://sergiotapia.net/arquitectura-ddddomain-driven-design/
+
+- Cooper, A., Reimann, R., Cronin, D., Noessel, C., Csizmadi, J., & LeMoine, D. (2014). About face: The essentials of interaction design (4th ed.). Wiley.
+
+- Nielsen, J. (1995). 10 usability heuristics for user interface design. Nielsen Norman Group. https://www.nngroup.com/articles/ten-usability-heuristics/
+
+- Norman, D. A. (2013). The design of everyday things (Revised & expanded ed.). Basic Books.
+
+- International Organization for Standardization. (2018). ISO 9241-210:2018 Ergonomics of human-system interaction — Part 210: Human-centred design for interactive systems. https://www.iso.org/standard/77520.html
+
+- Python 3.13 documentation. (s. f.). Python Documentation. https://docs.python.org/3/
+
+- Wokwi. (s. f.). wokwi-docs/docs/diagram-format.md at main · wokwi/wokwi-docs. GitHub. https://github.com/wokwi/wokwi-docs/blob/main/docs/diagram-format.md
+
+- Welcome to Wokwi! | Wokwi Docs. (s. f.-b). https://docs.wokwi.com/
+
+- Wokwi — Arduino ESP32 latest documentation. (s. f.). https://docs.espressif.com/projects/arduino-esp32/en/latest/third_party/wokwi.html
+
+- Getting Started with the Wokwi Arduino Simulator. (n.d.). DigiKey. https://www.digikey.com/en/maker/tutorials/2022/getting-started-with-the-wokwi-arduino-simulator
+
+- Wikipedia contributors. (2025, 5 mayo). Heuristic (computer science). Wikipedia. https://en.wikipedia.org/wiki/Heuristic_%28computer_science%29
+
+- Heuristics — PySCIPOpt  documentation. (s. f.). https://pyscipopt.readthedocs.io/en/latest/tutorials/heuristic.html
+
+- SEON. (2023, 30 junio). What are heuristic rules - how do they work? | SEON. https://seon.io/resources/dictionary/heuristic-rules/
+
+- Ddd-Crew. (s. f.). GitHub - ddd-crew/free-ddd-learning-resources: A collection of resources for learning DDD. All are free to access. GitHub. https://github.com/ddd-crew/free-ddd-learning-resources
+
+- Jamesmontemagno. (s. f.). Designing a DDD-oriented microservice - .NET. Microsoft Learn. https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/ddd-oriented-microservice
+
+- Fernando, N., Shrestha, S., Loke, S. W., & Lee, K. (2025). On Edge-Fog-Cloud Collaboration and Reaping Its Benefits: A Heterogeneous Multi-Tier Edge Computing Architecture. Future Internet, 17(1), 22. https://doi.org/10.3390/fi17010022
+
+- Mann, Z. Á. (2020). Notions of architecture in fog computing. Computing, 103(1), 51-73. https://doi.org/10.1007/s00607-020-00848-z
+
+- Build your edge computing infrastructure now. (2025, 18 marzo). [Vídeo]. Cisco. https://www.cisco.com/site/us/en/learn/topics/computing/what-is-edge-computing.html
+
+- Edge Computing and Edge Networking: An Overview. (2025, 2 mayo). Kentik. https://www.kentik.com/kentipedia/edge-computing-and-edge-networking/
+
+- Jpreese. (s. f.). Best practices for writing unit tests - .NET. Microsoft Learn. https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices
+
+- Schmitt, J. (2021, 3 diciembre). Unit testing vs integration testing. CircleCI. https://circleci.com/blog/unit-testing-vs-integration-testing/
+
+- Ghosh, A. (2022, 21 abril). Differences Between Functional, Unit and Integration Testing. https://www.headspin.io/blog/unit-integration-and-functional-testing-4-main-points-of-difference
+
+- Atlassian. (s. f.). GitFlow Workflow | Atlassian Git Tutorial. https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
