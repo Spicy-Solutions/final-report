@@ -1249,25 +1249,24 @@ Ramón también relata que, en algunas ocasiones, ha experimentado problemas con
 **Entrevista 03 (Huéspedes)**
 <br>
 
-URL del vídeo: <https://acortar.link/8jKmNcD> 
+URL del vídeo: <[https://acortar.link/8jKmNcD](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214733_upc_edu_pe/EW9EsGpGOitClmPircWFcukBjgoYGGpEaP_wlzo-tWdHIA?e=ogQTKc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)> 
 <br>
-Nombre: Enzo Céspedes <br>
+Nombre: Leandro Medina <br>
 Edad: 23 <br>
 Sexo: Masculino <br>
-Lugar donde vive: Los Olivos <br>
-Ocupación: Ingeniero Industrial <br>
-Duración de la entrevista: 59:57 - 01: 08: 24  <br>
+Lugar donde vive: Villa Maria del Triunfo <br>
+Ocupación: Cocinero <br>
+Duración de la entrevista:  - 8: 03  <br>
 Personalidad: Responsable y Trabajador <br>
 <br>
 
-![image](https://github.com/user-attachments/assets/b0abcd99-1456-49ff-93e1-8063f986f7fa)
+<img width="1861" height="923" alt="image" src="https://github.com/user-attachments/assets/15edbd9f-be38-4efc-81eb-2b2c3ac44cc3" />
 
-En resumen, Enzo Céspedes es un joven ingeniero industrial, práctico y sociable, que acostumbra viajar con sus padres o con amigos. Valora sobre todo la ubicación y el precio al momento de elegir un hotel, aunque también presta atención a las comodidades ofrecidas, así como a la cercania con lugares turisticos de interés. Es un usuario con presencia digital moderada, usa frecuentemente Google Chrome como buscador y sus principales dispositivos tecnológicos son su celular Apple y su laptop MacBook, que lleva siempre consigo en sus viajes. 
+Leandro comentó que suele utilizar aplicaciones como Booking o Airbnb para buscar y reservar hoteles, ya que las considera plataformas seguras, rápidas y confiables. Antes de decidirse, compara precios, revisa la ubicación y lee los comentarios de otros usuarios, pues valora mucho las experiencias previas de otros viajeros. Entre los criterios más importantes al elegir un hotel, destacó la ubicación, el precio y las reseñas, además de servicios esenciales como el Wi-Fi gratuito y el desayuno incluido. Mencionó haber tenido experiencias frustrantes en el pasado, cuando las instalaciones no coincidían con las fotos publicadas en línea, por lo que ahora revisa con mayor detalle las opiniones antes de confirmar una reserva.
 
-Con respecto a su experiencia en hoteles, el confirma que se ha sentido frustrado anteriormente al reservar una  habitación en linea, debido a los procesos tan lentos y burocraticos que suelen necesitar. Tambien, que cancelar una reserva suele requerir bastantes procesos como tener que acercarse a recepción para poder realizar el tramite, cuando una alternativa digital podria solventar este problema. 
+Leandro valora que las aplicaciones recuerden sus preferencias personales y datos como métodos de pago, historial de reservas o tipo de habitación, ya que eso le ahorra tiempo y facilita las futuras búsquedas. Le gustaría también que las apps le ofrezcan sugerencias personalizadas basadas en su historial, siempre que no se perciban como publicidad invasiva. Considera útil tener acceso a su historial completo de reservas, tanto para repetir hoteles donde tuvo buenas experiencias como para evitar aquellos que no cumplieron sus expectativas.
 
-Cuando se le presentó la idea de una aplicación que le permita buscar y reservar hoteles, gestionar sus preferencias, cancelar con facilidad y comunicarse directamente con el personal, Enzo se mostró muy entusiasta. Comentó que una solución así le facilitaría mucho la vida, especialmente si pudiera filtrar hoteles según ubicación, comparar precios rápidamente y tener todo centralizado en su teléfono.
-
+Asimismo, cree que sería muy práctico poder comunicarse directamente con el personal del hotel desde la app, para resolver dudas o realizar solicitudes sin necesidad de ir a recepción. Le da mucha importancia a que el proceso de cancelación sea rápido y sencillo, ya que los planes de viaje pueden cambiar, y por eso prefiere hoteles con políticas flexibles aunque tengan un costo ligeramente mayor. Finalmente, mencionó que en algunas ocasiones ha tenido que reservar directamente al llegar al hotel, sobre todo en viajes imprevistos, pero que en general prefiere hacerlo en línea por la comodidad, la seguridad y la posibilidad de encontrar mejores precios. En resumen, Leandro es un usuario digital que valora la eficiencia, transparencia y personalización en las plataformas de reserva, priorizando siempre la confianza y la flexibilidad en su experiencia de viaje.
 
 
 
