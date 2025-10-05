@@ -1066,29 +1066,10 @@ Personalidad: Análitica
 </div><br>
 
 En resumen, Carlo Rebagliati es un gerente de hotel con un largo camino de experiencia. Él es una persona analítica, comunicativa, empática y profesional que le importan las estadísticas y los beneficios y consecuencias de cada decisión. Nos relata que sus canales de comunicación preferidos son Whatssap, Zoom y cara a cara; adicionalmente, su navegador más frecuente es Google Chrome y usa Smartphone Android y una computadora con Windows. . Los principales desafíos que tiene su hotel es el llamado a los turistas desde provincia, ya que la mayoría de la clientela que tiene son turistas. Afortunadamente, está manteniendo a sus trabajadores motivados para que las bajas ventas por temporadas no afecte su rendimiento. Adicionalmente, mencionó que tienen una plataforma web donde los clientes realizan sus reservas, también tienen un área contable y administrativa para el seguimiento de ganancia y recursos. Finalmente, cree necesario una aplicación o software que se concentre en la gestión de un hotel, tanto para la comunicación, administración, gestión y seguimiento de recursos.
+
 <br><br>
+
 **Entrevista 02 (Gerentes)**
-<br>
-
-URL del vídeo: <https://acortar.link/8jKmNcD>
-
-Nombre: Sergio Alberto Cadillo Nuñez <br>
-Edad: 30 <br>
-Sexo: Masculino <br>
-Lugar donde vive: Pueblo Libre-Lima <br>
-Ocupación: Dueño de un emprendimeinto hotelero <br>
-Duración de la entrevista: 21:24 - 27:00 <br>
-Personalidad: Analítica <br>
-
-![image](https://github.com/user-attachments/assets/9d53ee36-9745-4052-ad76-0df61544e3f3)
-
-
-En resumen, Sergio Alberto Cadillo Nuñez es un joven emprendedor de 30 años con una personalidad analítica y enfoque práctico. Vive en Pueblo Libre, Lima, y actualmente lidera su propio emprendimiento hotelero. Durante la entrevista, nos compartió que uno de los principales desafíos en la gestión diaria de su hotel es el control de inventario y la gestión eficiente de proveedores. Actualmente, el seguimiento de ingresos y reservas lo realiza mediante herramientas básicas como Excel, complementadas por procesos manuales. A pesar de ello, valora la organización y procura mantener un orden estructurado con apoyo de su equipo contable y administrativo. Entre las funcionalidades que considera más útiles para mejorar la eficiencia de su hotel destacan la automatización de reportes, una gestión centralizada de reservas y una plataforma integrada para coordinar con proveedores. 
-
-Al hablar sobre herramientas, el comenta que hace uso de Excel, Word y OneDrive desde su computadora HP y que responde mensajes desde su telefono móvil Iphone. 
-
-<br><br>
-**Entrevista 03 (Gerentes)**
 <br>
 
 URL del vídeo: <https://acortar.link/8jKmNcD>
@@ -1173,30 +1154,6 @@ Finalmente, al ser consultado sobre herramientas que podrían mejorar su labor, 
 
 <br><br>
 
-**Entrevista 03 (Administradores)**
-<br>
-
-URL del vídeo: <https://acortar.link/8jKmNcD>
-
-<br>
-Nombre: Sergio Renard <br>
-Edad: 21 <br>
-Sexo: Masculino <br>
-Lugar donde vive: La Plata - Argentina <br>
-Ocupación: Administrador de hotel <br>
-Duración de la entrevista: : 46:45 - 51:04 <br>
-Personalidad: Alegre <br>
-
-<div style="text-align: center;">
-  <img src="https://i.imgur.com/sKGvt61.png" alt="Sergio Renard Interview" width="80%" />
-</div><br>
-
-Sergio Renard es un administrador hotelero de La Plata, Argentina, al frente de un hospedaje familiar que recibe tanto a turistas locales como internacionales. Su gestión diaria implica desafíos importantes, ya que actualmente realiza el control de reservas, pagos y asignaciones de forma manual. Esta dinámica le demanda mucho tiempo y conlleva un alto riesgo de errores humanos.
-
-Comprometido con brindar un servicio de calidad y atento a las necesidades de sus huéspedes, Sergio busca modernizar su operativa mediante una solución tecnológica. Su objetivo principal es ofrecer una experiencia más personalizada, permitiendo a los clientes registrar sus preferencias de estadía y facilitando así futuras visitas. Además, considera esencial contar con una plataforma que no solo automatice las reservas, sino que también integre funciones administrativas, seguimiento de recursos y comunicación interna en un solo entorno digital.
-
-Sergio se describe como una persona práctica y enfocada en mejorar continuamente. Actualmente trabaja con una laptop Acer Aspire con Windows 10 y un teléfono Xiaomi Poco X6, por lo que espera que cualquier solución tecnológica sea compatible con estos dispositivos y de fácil implementación.
-
 
 **Entrevista 01 (Huéspedes)**
 <br>
@@ -1219,34 +1176,7 @@ Adicionalmente, Anatoly comenta que utiliza una laptop HP con sistema operativo 
 
 Anatoly nos cuenta que sería muy valiosa una aplicación robusta que satisfaga las principales necesidades de los huéspedes al buscar un hotel que se adecúe a sus preferencias, y que facilite tanto la toma de decisiones como el proceso de hospedaje.
 
-<br><br>
-
 **Entrevista 02 (Huéspedes)**
-
-<br>
-
-URL del vídeo: <https://acortar.link/8jKmNcD> 
-<br>
-Nombre: Ramón Jorge <br>
-Edad: 51 <br>
-Sexo: Masculino <br>
-Lugar donde vive: Jesús María - Lima <br>
-Ocupación: Ingeniero Civil <br>
-Duración de la entrevista: 51:04 - 59:57 <br> 
-Personalidad: Tranquilo <br>
-<br>
-
-![Entrevista° 2 - Huespedes](assets/img/interview-analysis/customer-2.png)
-
-Ramón se presenta como una persona de carácter tranquilo y relajado, con un estilo de vida sobrio y una presencia limitada en redes sociales. En cuanto al uso de tecnología, prefiere herramientas prácticas y funcionales. Nos comenta que su buscador de Internet más utilizado es Google, mientras que los dispositivos tecnológicos que más emplea en su día a día son su teléfono celular Redmi 8 y su laptop Asus Vivobook 15.
-
-Es un huésped frecuente en distintos tipos de hoteles, ya sea por viajes laborales o vacaciones personales. Acostumbra a realizar sus reservas de forma sencilla: busca en Google alojamientos disponibles y suele ingresar a la primera opción que el buscador le ofrece. A pesar de esa dinámica, señala que tiene criterios específicos que valora al elegir un hotel, como la ubicación, el precio y los servicios incluidos tanto en la habitación como en el establecimiento en general.
-
-Ramón también relata que, en algunas ocasiones, ha experimentado problemas con sus reservaciones, lo cual le ha generado molestias y desconfianza en ciertos procesos. Por ello, al presentarle la propuesta de una aplicación móvil que le permita reservar, cancelar, personalizar preferencias y comunicarse directamente con el personal del hotel, reaccionó de forma muy positiva. Afirmó que una herramienta de ese tipo le resultaría sumamente útil y que sin duda estaría dispuesto a utilizarla, ya que le daría mayor control y seguridad sobre sus reservas y mejoraría su experiencia como huésped.
-
-<br><br>
-
-**Entrevista 03 (Huéspedes)**
 <br>
 
 URL del vídeo: <[https://acortar.link/8jKmNcD](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214733_upc_edu_pe/EW9EsGpGOitClmPircWFcukBjgoYGGpEaP_wlzo-tWdHIA?e=ogQTKc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)> 
