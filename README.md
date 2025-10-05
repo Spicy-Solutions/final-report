@@ -325,7 +325,7 @@ Brindar a los hoteles una solución integral de gestión administrativa y operat
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-![mauricio](/integrantes/mauricio.png)
+![mauricio me pica](/integrantes/mauricio.png)
 
 ![david](/integrantes/david.png)
 
