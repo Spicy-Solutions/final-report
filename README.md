@@ -1075,26 +1075,23 @@ En resumen, Carlo Rebagliati es un gerente de hotel con un largo camino de exper
 URL del vídeo: <https://acortar.link/8jKmNcD>
 
 <br>
-Nombre: Luis Fernández <br>
+Nombre: Alvaro Jimenez <br>
 Edad: 28 <br>
 Sexo: Masculino <br>
-Lugar donde vive: Surquillo - Lima <br>
+Lugar donde vive: Miraflores, Lima <br>
 Ocupación: Dueño y manager de un hotel <br>
-Duración de la entrevista: 12:20 - 21:24 <br>
-Personalidad: Extrovertido <br>
+Duración de la entrevista: <br>
+Personalidad: Analítica <br>
 <br>
 
 <div style="display:flex; justify-content:center; align-items:center; width: 100%">
 <img src="./assets/img/interview-analysis/owner3.png" alt="Entrevista° 3 - Dueños" width="90%" />
 </div>
 
-Luis es una persona extrovertida, carismática y siempre dispuesto a conversar. Su actitud alegre y sociable lo convierte en alguien muy accesible tanto para clientes como para su equipo. En su vida cotidiana, utiliza con frecuencia herramientas tecnológicas, siendo Google su motor de búsqueda predilecto y su iPhone 14 el dispositivo que más emplea para mantenerse conectado y organizar sus actividades.
-
-Junto con sus hermanos, es propietario de un pequeño hotel ubicado en la ciudad de Huaraz, el cual administran de forma directa. Según explica, los principales desafíos que enfrentan actualmente son la gestión eficiente de las habitaciones y el inventario, así como la falta de personal en temporadas altas, lo que genera sobrecarga de trabajo y desorganización operativa.
-
-Luis señala que actualmente utilizan herramientas básicas como Excel para llevar el control del negocio y que la comunicación con los clientes se realiza principalmente a través de WhatsApp. Aunque estos métodos han sido funcionales hasta cierto punto, admite que la gestión resulta poco formal y propensa a errores, especialmente al momento de registrar y monitorear las reservas, lo que puede generar confusiones tanto para el equipo como para los huéspedes.
-
-Al presentarle la idea de una aplicación móvil desde la cual pueda gestionar las habitaciones, reservas, huéspedes, trabajadores e incluso mantener comunicación directa con los administradores, se mostró genuinamente entusiasmado. Afirmó que una herramienta de ese tipo no solo sería útil, sino que definitivamente optaría por implementarla si estuviera disponible, ya que solucionaría varios de los problemas que actualmente enfrenta en la operación del hotel.
+<br>
+Alvaro es una persona organizada que enfrenta varios desafíos en la gestión diaria del hotel, como la coordinación del personal y la adaptación a las expectativas cambiantes de los huéspedes. Dedica su tiempo a gestionar las reservas, el control de inventarios y la administración de recursos humanos. A pesar de utilizar herramientas como Opera PMS y QuickBooks, considera que la integración de estas plataformas podría mejorar. La falta de comunicación clara entre departamentos y la dificultad para gestionar los inventarios son algunas de las frustraciones que enfrenta.
+<br>
+El valora la movilidad y la accesibilidad en las soluciones tecnológicas, destacando la necesidad de un sistema centralizado que permita el monitoreo en tiempo real. También menciona la importancia de herramientas que faciliten la gestión financiera y el análisis de datos, así como un sistema que permita la comunicación eficiente entre el personal del hotel.
 
 <br><br>
 **Entrevista 01 (Administradores)**
