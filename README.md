@@ -6312,8 +6312,8 @@ Dentro de la paleta de colores el color primario utilizado en la interfaz es #00
 
 A continuación, se muestran ejemplos de vistas usando los colores específicados:
 
-![image2](/final-report/assets/img/style-guidelines/image2.png)
-![image1](/final-report/assets/img/style-guidelines/image1.png)
+![image2](./assets/img/style-guidelines/image2.png)
+![image1](./assets/img/style-guidelines/image1.png)
 
 
 ## 6.2. Information Architecture.
