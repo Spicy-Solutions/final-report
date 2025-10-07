@@ -1141,23 +1141,17 @@ Por último, Gianella menciona que la gestión de proveedores y el control de in
 URL del vídeo: <https://acortar.link/8jKmNcD>
 <br>
 
-Nombre: Fabricio Gabriel Chavez Morales <br>
-Edad: 28 <br>
-Sexo: Masculino <br>
-Lugar donde vive: Magdalena del Mar-Lima <br>
-Ocupación: Administrador del hotel Los Lirios <br>
+Nombre: Jashira Elguera <br>
+Edad: 24 <br>
+Sexo: Femenino <br>
+Lugar donde vive: Miraflores, Lima <br>
+Ocupación: Administradora del hotel <br>
 Duración de la entrevista: 36:50 - 46:45 <br>
-Personalidad: Enfocado, orientado al servicio al cliente <br>
+Personalidad: Enfocada, orientada al servicio al cliente <br>
 
-![Entrevista° 2 - Administradores](./assets/img/interview-analysis/admin-2.png)
+![Entrevista° 2 - Administradores](/assets/img/interview-analysis/admin-2.png)
 
-
-Fabricio señala que actualmente utiliza un software de gestión para el control de habitaciones (ocupadas, desocupadas, con o sin personal de housekeeping, etc.) y para el seguimiento de los alimentos servidos. Considera que sería útil incorporar a la aplicación de gestión de housekeeping un sección que permita registrar y monitorear la cantidad de artículos de limpieza disponibles y utilizados, con el fin de optimizar la administración de estos recursos. Durante la conversación, menciona que una de las principales dificultades que ha enfrentado en la gestión de su negocio es que algunos usuarios encuentran el proceso de reserva confuso o demasiado extenso.
-
-Adicionalmente a ello, nos comenta que tiene una laptop Toshiba con sistema operativo Windows y dos telefonos, ambos Android, pero uno de ellos es personal, mientras el otro lo utiliza para el trabajo unicamente. 
-
-Finalmente, al ser consultado sobre herramientas que podrían mejorar su labor, destaca el uso de plataformas como Sweet Manager y otras aplicaciones orientadas a hacer de la administración hotelera una experiencia más eficiente y personalizada.
-
+En resumen, Jashira utiliza con frecuencia Google Chrome, una laptop y su smartphone. Se describe cómo organizada y enfocada en resultados. Sus principales desafíos en la gestión hotelera son la falta de integración entre herramientas, la comunicación ineficiente con el personal y el control de inventario. Actualmente usa distintas plataformas para reservas y finanzas, lo que complica la operación. Considera fundamental la movilidad y valora soluciones fáciles de usar, con soporte técnico y acceso en tiempo real. Ve como muy útil una app integral que centralice la gestión de recursos, comunicación, finanzas e inventarios.
 
 <br><br>
 
