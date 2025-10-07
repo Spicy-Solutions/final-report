@@ -1216,7 +1216,7 @@ A continuación, se registraron todas las entrevistas realizadas para nuestra so
 
 **Entrevista 01 (Gerentes)**
 
-URL del Vídeo: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210138_upc_edu_pe/EaQcQuvkGYRBjemN5xTUnloBumSj2C9EiSSY4GDXpSotxQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=t5IWTA>
+URL del Vídeo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210138_upc_edu_pe/EYUk_M2j24NIgsNvfkVJqcYBfC9Tw3dufqa96OuEGWVN2w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=sfbiUW 
 
 Nombres: Carlo
 
@@ -1245,8 +1245,7 @@ En resumen, Carlo Rebagliati es un gerente de hotel con un largo camino de exper
 **Entrevista 02 (Gerentes)**
 <br>
 
-URL del vídeo: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210138_upc_edu_pe/EaQcQuvkGYRBjemN5xTUnloBumSj2C9EiSSY4GDXpSotxQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=t5IWTA>
-
+URL del vídeo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210138_upc_edu_pe/EYUk_M2j24NIgsNvfkVJqcYBfC9Tw3dufqa96OuEGWVN2w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=sfbiUW 
 
 <br>
 Nombre: Alvaro Jimenez <br>
@@ -1270,7 +1269,7 @@ El valora la movilidad y la accesibilidad en las soluciones tecnológicas, desta
 <br><br>
 **Entrevista 01 (Administradores)**
 
-URL del Vídeo: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210138_upc_edu_pe/EaQcQuvkGYRBjemN5xTUnloBumSj2C9EiSSY4GDXpSotxQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=t5IWTA>
+URL del Vídeo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210138_upc_edu_pe/EYUk_M2j24NIgsNvfkVJqcYBfC9Tw3dufqa96OuEGWVN2w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=sfbiUW
 
 
 Nombres: Norma
@@ -1299,7 +1298,7 @@ La administradora Norma Sanchez utiliza principalmente Google Chrome y una lapto
 **Entrevista 02 (Administradores)**
 <br>
 
-URL del vídeo: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210138_upc_edu_pe/EaQcQuvkGYRBjemN5xTUnloBumSj2C9EiSSY4GDXpSotxQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=t5IWTA>
+URL del vídeo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210138_upc_edu_pe/EYUk_M2j24NIgsNvfkVJqcYBfC9Tw3dufqa96OuEGWVN2w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=sfbiUW
 
 <br>
 
@@ -1321,7 +1320,7 @@ En resumen, Jashira utiliza con frecuencia Google Chrome, una laptop y su smartp
 **Entrevista 01 (Huéspedes)**
 <br>
 
-URL del vídeo: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210138_upc_edu_pe/EaQcQuvkGYRBjemN5xTUnloBumSj2C9EiSSY4GDXpSotxQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=t5IWTA>
+URL del vídeo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210138_upc_edu_pe/EYUk_M2j24NIgsNvfkVJqcYBfC9Tw3dufqa96OuEGWVN2w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=sfbiUW
 
 <br>
 Nombre: Anatoly Noriega <br>
@@ -1345,8 +1344,7 @@ Anatoly nos cuenta que sería muy valiosa una aplicación robusta que satisfaga 
 **Entrevista 02 (Huéspedes)**
 <br>
 
-URL del vídeo: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210138_upc_edu_pe/EaQcQuvkGYRBjemN5xTUnloBumSj2C9EiSSY4GDXpSotxQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=t5IWTA>
-
+URL del vídeo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210138_upc_edu_pe/EYUk_M2j24NIgsNvfkVJqcYBfC9Tw3dufqa96OuEGWVN2w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=sfbiUW
 <br>
 Nombre: Leandro Medina <br>
 Edad: 23 <br>
