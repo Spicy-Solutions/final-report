@@ -46,7 +46,7 @@
   </thead>
   <tbody>
     <tr>
-      <td rowspan="6">V1</td>
+      <td rowspan="5">V1</td>
       <td>25/08/2025</td>
       <td>Mauricio Abraham Rivo Rojas Sánchez</td>
       <td>
@@ -57,7 +57,7 @@
       </td>
     </tr>
     <tr>
-      <td>25/10/2025</td>
+      <td>25/08/2025</td>
       <td>Aaron Elías Acuña Alarcón</td>
       <td>
         <ul>
@@ -68,7 +68,7 @@
       </td>
     </tr>
     <tr>
-      <td>25/10/2025</td>
+      <td>25/08/2025</td>
       <td>Manuel Sebastian Peña Rivera</td>
       <td>
         <ul>
@@ -78,7 +78,7 @@
       </td>
     </tr>
     <tr>
-      <td>25/10/2025</td>
+      <td>25/08/2025</td>
       <td>David Bryan Rodriguez Santos</td>
       <td>
         <ul>
@@ -89,7 +89,7 @@
       </td>
     </tr>
     <tr>
-      <td>25/10/2025</td>
+      <td>25/08/2025</td>
       <td>Nelson Elias Serrano Ircañaupa</td>
       <td>
         <ul>
@@ -100,7 +100,7 @@
       </td>
     </tr>
     <tr>
-      <td rowspan="6">V2</td>
+      <td rowspan="5z">V2</td>
       <td>08/10/2025</td>
       <td>Mauricio Abraham Rivo Rojas Sánchez</td>
       <td>
@@ -413,8 +413,13 @@ del ABET – EAC - Student Outcome 3.
       </p>
     </td>
     <td>
+      TB1:
       <p>
     Durante este entregable, nos comunicamos de forma clara y objetiva con mi equipo, participando activamente en reuniones y exposiciones. Mantuvimos una comunicación constante, resolvimos dudas en conjunto y compartimos avances de los artefactos de manera ordenada. Gracias a esta interacción, logramos coordinar tareas, cumplir los plazos establecidos y asegurar que todos comprendiéramos los objetivos del proyecto, lo que fortaleció nuestro trabajo colaborativo y la calidad de los resultados.
+    </p>
+    TB2:
+    <p>
+    El equipo demostró un alto nivel de colaboración y comunicación efectiva a lo largo del proyecto. Se enfocaron en presentar de manera clara y objetiva las decisiones de diseño y arquitectura, asegurando que todos los miembros comprendieran el funcionamiento del sistema y pudieran contribuir desde sus áreas. Además, se promovieron espacios de retroalimentación que permitieron justificar decisiones técnicas, optimizar la estructura del sistema y mejorar su rendimiento, seguridad y escalabilidad. Gracias a estas acciones, se logró mantener una visión compartida del proyecto, facilitar el trabajo interdisciplinario y asegurar que las soluciones desarrolladas respondieran de forma integral a los objetivos planteados.
     </p>
     </td>
   </tr>
@@ -462,8 +467,13 @@ del ABET – EAC - Student Outcome 3.
         </p>
   </td>
     <td>
+      TB1:
       <p>
-    Durante este entregable, redactamos de manera clara y objetiva la documentación necesaria para que todos los integrantes del equipo pudieran comprender las tareas, objetivos y resultados. Mantuvimos actualizado el tablero Kanban, registramos avances y explicamos los artefactos en detalle para facilitar su revisión. Gracias a esta comunicación escrita, logramos mantener un flujo de trabajo ordenado, cumplir los plazos establecidos y asegurar que la información estuviera disponible y bien estructurada para todo el equipo.
+      Durante este entregable, redactamos de manera clara y objetiva la documentación necesaria para que todos los integrantes del equipo pudieran comprender las tareas, objetivos y resultados. Mantuvimos actualizado el tablero Kanban, registramos avances y explicamos los artefactos en detalle para facilitar su revisión. Gracias a esta comunicación escrita, logramos mantener un flujo de trabajo ordenado, cumplir los plazos establecidos y asegurar que la información estuviera disponible y bien estructurada para todo el equipo.
+      </p>
+      TB2:
+      <p>
+      El equipo realizó un trabajo exhaustivo en la documentación escrita del proyecto, asegurando que cada aspecto técnico y de diseño quedara claramente explicado y accesible para todos los involucrados. Se desarrollaron guías detalladas que establecieron criterios visuales coherentes y normas de accesibilidad, así como documentos que describieron de forma precisa la arquitectura del sistema, los flujos de usuario y la estructura de navegación. Además, se redactaron reportes completos sobre decisiones de diseño, procesos de interfaz y pruebas de usabilidad, acompañados de documentación técnica que explicó el impacto de las modificaciones, mecanismos de seguridad e integraciones implementadas. 
       </p>
     </td>
   </tr>
