@@ -392,23 +392,23 @@ del ABET – EAC - Student Outcome 3.
         TB2:
         <p>
         David Rodríguez:
-        Durante el desarrollo del proyecto, presenté de manera clara y objetiva las propuestas relacionadas con las guías de estilo ante el equipo, explicando cómo cada decisión de diseño contribuía a la coherencia visual del sistema. Participé activamente en reuniones técnicas, respondiendo preguntas y adaptando el lenguaje a compañeros de diferentes especialidades para asegurar una comprensión común del trabajo realizado.
+        Durante el desarrollo del proyecto, presenté de manera clara las propuestas relacionadas con las guías de estilo ante el equipo, explicando cómo cada decisión de diseño contribuía a la coherencia visual del sistema. Participé en las reuniones, adaptando el lenguaje a mis compañeros para asegurar una comprensión común del trabajo realizado.
         </p>
         <p>
         Nelson Serrano:
-        Me encargué de exponer en las reuniones la estructura y organización de la arquitectura de la información, comunicando con claridad los flujos de navegación y la jerarquía de contenidos. A través de presentaciones orales, logré que todos los integrantes del equipo entendieran el funcionamiento del sistema y aportaran mejoras desde sus distintas áreas.
+        Me encargué de exponer en las reuniones la estructura y organización de la arquitectura, comunicando con claridad la jerarquía de contenidos. A través de presentaciones orales, logré que todos los integrantes del equipo entendieran el funcionamiento del sistema y hicieran aportes desde sus distintas áreas.
         </p>
         <p>
         Aaron Acuña:
-        Compartí con el equipo el diseño de la interfaz y el flujo de interacción de la aplicación, explicando oralmente cómo cada elemento de la experiencia de usuario respondía a objetivos funcionales y técnicos. Además, lideré sesiones de retroalimentación en las que presenté avances y justifiqué decisiones tomadas en el proceso de diseño.
+        Apoyé explicando oralmente cómo cada componente de la experiencia de usuario respondía a objetivos funcionales y técnicos. Además, lideré sesiones de retroalimentación en las que presenté avances y justifiqué decisiones tomadas en el proceso de diseño.
         </p>
         <p>
         Manuel Peña:
-        Expuse de manera objetiva los ajustes implementados en la arquitectura, explicando las mejoras realizadas en la comunicación entre servicios y su impacto en el rendimiento del sistema. Participé activamente en las reuniones semanales, respondiendo consultas técnicas y aclarando detalles sobre las decisiones de diseño arquitectónico tomadas.
+        Expuse de manera objetiva los ajustes implementados en la arquitectura, explicando las mejoras realizadas en la comunicación entre servicios y su impacto en el rendimiento del sistema. Participé  en las reuniones, respondiendo consultas técnicas y aclarando dudas sobre las decisiones de diseño arquitectónico tomadas.
         </p> 
         <p>
         Mauricio Rojas:
-        Comuniqué de forma oral los resultados de las revisiones de arquitectura, presentando soluciones para optimizar la seguridad y escalabilidad del sistema. Durante las exposiciones, adapté mi explicación a públicos de distintas especialidades, facilitando la comprensión técnica y fomentando el trabajo colaborativo en el equipo.
+        Comuniqué de forma oral los resultados de las revisiones de arquitectura, presentando soluciones para optimizar la seguridad y escalabilidad del sistema. Durante las exposiciones, adapté mi explicación a públicos de distintas especialidades, haciendo más sencillo la comprensión técnica y fomentando el trabajo colaborativo en el equipo.
         </p>
       </p>
     </td>
