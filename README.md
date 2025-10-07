@@ -1053,7 +1053,7 @@ A continuación, se registraron todas las entrevistas realizadas para nuestra so
 
 **Entrevista 01 (Gerentes)**
 
-URL del Vídeo: <https://acortar.link/8jKmNcD>
+URL del Vídeo: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210138_upc_edu_pe/EaQcQuvkGYRBjemN5xTUnloBumSj2C9EiSSY4GDXpSotxQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=t5IWTA>
 
 Nombres: Carlo
 
@@ -1082,7 +1082,8 @@ En resumen, Carlo Rebagliati es un gerente de hotel con un largo camino de exper
 **Entrevista 02 (Gerentes)**
 <br>
 
-URL del vídeo: <https://acortar.link/8jKmNcD>
+URL del vídeo: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210138_upc_edu_pe/EaQcQuvkGYRBjemN5xTUnloBumSj2C9EiSSY4GDXpSotxQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=t5IWTA>
+
 
 <br>
 Nombre: Alvaro Jimenez <br>
@@ -1090,7 +1091,7 @@ Edad: 28 <br>
 Sexo: Masculino <br>
 Lugar donde vive: Miraflores, Lima <br>
 Ocupación: Dueño y manager de un hotel <br>
-Duración de la entrevista: <br>
+Duración de la entrevista: 12:20 - 23:14 <br>
 Personalidad: Analítica <br>
 <br>
 
@@ -1106,7 +1107,8 @@ El valora la movilidad y la accesibilidad en las soluciones tecnológicas, desta
 <br><br>
 **Entrevista 01 (Administradores)**
 
-URL del Vídeo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212236_upc_edu_pe/EaJw9gCJZV9GrzoWdRFa2XEBVG7gngD8B6CYWnM4rkWtKA?e=W49z2Z&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+URL del Vídeo: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210138_upc_edu_pe/EaQcQuvkGYRBjemN5xTUnloBumSj2C9EiSSY4GDXpSotxQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=t5IWTA>
+
 
 Nombres: Norma
 
@@ -1120,7 +1122,7 @@ Ocupación: Administradora de RRHH en la gestión de hoteles
 
 Lugar donde vive: Miraflores, Perú
 
-Duración de la entrevista: 0:00 - 5:00.
+Duración de la entrevista: 23:15 - 28:14.
 
 
 <div style="display:flex; justify-content:center; align-items:center; width: 100%">
@@ -1134,7 +1136,8 @@ La administradora Norma Sanchez utiliza principalmente Google Chrome y una lapto
 **Entrevista 02 (Administradores)**
 <br>
 
-URL del vídeo: <https://acortar.link/8jKmNcD>
+URL del vídeo: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210138_upc_edu_pe/EaQcQuvkGYRBjemN5xTUnloBumSj2C9EiSSY4GDXpSotxQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=t5IWTA>
+
 <br>
 
 Nombre: Jashira Elguera <br>
@@ -1142,7 +1145,7 @@ Edad: 24 <br>
 Sexo: Femenino <br>
 Lugar donde vive: Miraflores, Lima <br>
 Ocupación: Administradora del hotel <br>
-Duración de la entrevista: 36:50 - 46:45 <br>
+Duración de la entrevista: 28:15 - 34:29 <br>
 Personalidad: Enfocada, orientada al servicio al cliente <br>
 
 ![Entrevista° 2 - Administradores](/assets/img/interview-analysis/admin-2.png)
@@ -1155,16 +1158,19 @@ En resumen, Jashira utiliza con frecuencia Google Chrome, una laptop y su smartp
 **Entrevista 01 (Huéspedes)**
 <br>
 
-URL del vídeo: <https://acortar.link/8jKmNcD> 
+URL del vídeo: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210138_upc_edu_pe/EaQcQuvkGYRBjemN5xTUnloBumSj2C9EiSSY4GDXpSotxQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=t5IWTA>
+
 <br>
 Nombre: Anatoly Noriega <br>
 Edad: 22 <br>
 Sexo: Masculino <br>
 Lugar donde vive: Breña - Lima <br>
 Ocupación: Contador<br>
-Duración de la entrevista:  01: 08: 24 - 01: 15: 59 <br> 
+Duración de la entrevista: 42:33 - 49:16 <br> 
 Personalidad: Analítica <br>
+
 ![Entrevista° 1 - Huespedes](https://i.imgur.com/RqN0KAx.png)<br>
+
 Anatoly se presenta como una persona analítica, empática y profesional, que busca siempre salir beneficiado de las decisiones que toma. Nos relata que le resulta muy importante contar con un sistema que automatice y mejore los procesos de reserva, que incluya un historial de reservas e incluso sugerencias de hoteles según sus preferencias y experiencias anteriores.
 
 Es un huésped con un nivel de experiencia amateur, ya que es una persona apasionada por conocer nuevos lugares. Además, destaca la importancia de la atención al cliente en los servicios hoteleros, así como la facilidad para realizar reservas y la limpieza de las habitaciones. En algunas ocasiones ha utilizado aplicaciones web dedicadas a sistemas hoteleros; sin embargo, no fue una experiencia agradable debido a la falta de mejoras en dichos sistemas.
@@ -1176,14 +1182,15 @@ Anatoly nos cuenta que sería muy valiosa una aplicación robusta que satisfaga 
 **Entrevista 02 (Huéspedes)**
 <br>
 
-URL del vídeo: <[https://acortar.link/8jKmNcD](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214733_upc_edu_pe/EW9EsGpGOitClmPircWFcukBjgoYGGpEaP_wlzo-tWdHIA?e=ogQTKc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)> 
+URL del vídeo: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210138_upc_edu_pe/EaQcQuvkGYRBjemN5xTUnloBumSj2C9EiSSY4GDXpSotxQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=t5IWTA>
+
 <br>
 Nombre: Leandro Medina <br>
 Edad: 23 <br>
 Sexo: Masculino <br>
 Lugar donde vive: Villa Maria del Triunfo <br>
 Ocupación: Cocinero <br>
-Duración de la entrevista:  - 8: 03  <br>
+Duración de la entrevista: 34:30 - 42:33  <br>
 Personalidad: Responsable y Trabajador <br>
 <br>
 
