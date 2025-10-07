@@ -1106,34 +1106,30 @@ El valora la movilidad y la accesibilidad en las soluciones tecnológicas, desta
 <br><br>
 **Entrevista 01 (Administradores)**
 
-URL del Vídeo: <https://acortar.link/8jKmNcD>
+URL del Vídeo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212236_upc_edu_pe/EaJw9gCJZV9GrzoWdRFa2XEBVG7gngD8B6CYWnM4rkWtKA?e=W49z2Z&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
-Nombres: Gianella
+Nombres: Norma
 
-Apellidos: Francia
+Apellidos: Sanchez
 
-Edad: 25
+Edad: 35
 
 Sexo: Femenino
 
 Ocupación: Administradora de RRHH en la gestión de hoteles
 
-Lugar donde vive: Santa Anita, Perú
+Lugar donde vive: Miraflores, Perú
 
-Duración de la entrevista: 27:00 - 36:50.
+Duración de la entrevista: 0:00 - 5:00.
 
 
 <div style="display:flex; justify-content:center; align-items:center; width: 100%">
-<img src="./assets/img/interview-analysis/admin-1.PNG" alt="Administradora de hotel" width="90%" />
+<img src="./assets/img/interview-analysis/admin-1.png" alt="Administradora de hotel" width="90%" />
 </div>
 <br>
-Gianella Francia es una joven administradora de uno de la cadena de hoteles más importantes para el turismo extranjero Decameron Resort. Gianella nos cuenta su experiencia como administradora de recursos humanos en la gestión de hoteles. Ella es una persona analítica, empática y profesional que busca siempre salir beneficiada de las decisiones. Nos relata que le resulta de mucha importancia un sistema que automatize y mejore los procesos de reserva, que incluya un historial de reservas e inclusive sugerencias de hoteles de acuerdo a sus preferencias e historial. Ella menciona que actualmente utiliza softwares como Opera PMS para disminuir la carga laboral mediante procesos automatizados, sin embargo, no llega a ser completoy no brinda herramientas innovadoras que beneficie administración y cliente. Afortunadamente, está manteniendo a sus trabajadores motivados para que las bajas ventas por temporadas no afecte su rendimiento. Adicionalmente, mencionó que tienen una plataforma web donde los clientes realizan sus reservas, también tienen un área contable y administrativa para el seguimiento de ganancia y recursos. Finalmente, cree necesario una aplicación o software que se concentre en la gestión de un hotel, tanto para la comunicación, administración, gestión y seguimiento de recursos.
+Entrevista 01 (Administradores)
 
-Gianella nos describe que su navegador más utilizado es Google Chrome y su dispositivo preferido es su celular Android. Ella se siente cómoda utilizando herramientas digitales y está abierta a la adopción de nuevas tecnologías que faciliten su trabajo diario. En cuanto a la comunicación, prefiere el uso de WhatsApp y correos electrónicos para coordinar con su equipo y proveedores.
-
-De la misma manera, ella considera que la comunicación y colaboración del equipo son fundamentales para el éxito de la gestión hotelera. En su opinión, un sistema hotelero dedicado a la gestión de recursos, comunicación con proveedores y seguimiento de ganancias podría mejorar significativamente la eficiencia operativa y la satisfacción del cliente.
-
-Por último, Gianella menciona que la gestión de proveedores y el control de inventarios son aspectos críticos en su trabajo diario. Ella considera que una herramienta que facilite la gestión de estos procesos podría ayudar a optimizar los recursos y mejorar la rentabilidad del hotel. También destaca la importancia de contar con un sistema que permita gestionar las preferencias y solicitudes de los huéspedes, lo que contribuiría a brindar un mejor servicio y aumentar la satisfacción del cliente.
+La administradora Norma Sanchez utiliza principalmente Google Chrome y una laptop para gestionar reservas, reportes y coordinar con el equipo, comunicándose a través de correo, llamadas, WhatsApp y videollamadas. Se describe como una persona ordenada, responsable y práctica, que valora un ambiente de trabajo con buena comunicación, respeto y organización. Entre sus frustraciones destaca la falta de integración entre los sistemas, lo que genera tareas manuales repetitivas y dificulta la coordinación entre áreas para atender solicitudes de los huéspedes. Sus objetivos laborales se centran en mejorar la organización del hotel y ofrecer una mejor experiencia a los clientes, mientras que a nivel personal busca fortalecer sus habilidades de liderazgo. Aunque actualmente usan programas para reservas, inventarios y facturación, la ausencia de conexión entre ellos reduce la eficiencia, por lo que considera fundamental una plataforma unificada con alertas automáticas. Percibe la tecnología como clave para agilizar procesos, reducir errores y tomar decisiones informadas, proponiendo registros en línea para el check-in y check-out, así como herramientas que guarden preferencias de los huéspedes y faciliten la retroalimentación, todo orientado a optimizar la gestión, mejorar el servicio y reducir el trabajo manual.
 
 **Entrevista 02 (Administradores)**
 <br>
