@@ -100,7 +100,7 @@
       </td>
     </tr>
     <tr>
-      <td rowspan="5z">V2</td>
+      <td rowspan="5">V2</td>
       <td>08/10/2025</td>
       <td>Mauricio Abraham Rivo Rojas Sánchez</td>
       <td>
