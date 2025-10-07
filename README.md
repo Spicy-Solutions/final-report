@@ -35,6 +35,127 @@
 
 # Registro de Versiones del Informe
 
+<table>
+  <thead>
+    <tr>
+      <th>Versión</th>
+      <th>Fecha</th>
+      <th>Autor</th>
+      <th>Descripción de modificación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="6">V1</td>
+      <td>25/08/2025</td>
+      <td>Mauricio Abraham Rivo Rojas Sánchez</td>
+      <td>
+        <ul>
+          <li>Antecedentes y Problemática</li>
+          <li>User stories</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>25/10/2025</td>
+      <td>Aaron Elías Acuña Alarcón</td>
+      <td>
+        <ul>
+          <li>Lean UX Process</li>
+          <li>Product Backlog</li>
+          <li>Ubiquitous Language</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>25/10/2025</td>
+      <td>Manuel Sebastian Peña Rivera</td>
+      <td>
+        <ul>
+          <li>User Journey Mapping</li>
+          <li>Impact Mapping</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>25/10/2025</td>
+      <td>David Bryan Rodriguez Santos</td>
+      <td>
+        <ul>
+          <li>As-is Scenario Mapping</li>
+          <li>To-Be Scenario Mapping</li>
+          <li>User Task Matrix</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>25/10/2025</td>
+      <td>Nelson Elias Serrano Ircañaupa</td>
+      <td>
+        <ul>
+          <li>Análisis Competitivo</li>
+          <li>Estrategias Frente a Competidores</li>
+          <li>Empathy Mapping</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="6">V2</td>
+      <td>08/10/2025</td>
+      <td>Mauricio Abraham Rivo Rojas Sánchez</td>
+      <td>
+        <ul>
+          <li>Web Applications</li>
+          <li>Software Development Environment & Deployment Configuration</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>08/10/2025</td>
+      <td>Aaron Elías Acuña Alarcón</td>
+      <td>
+        <ul>
+          <li>Landing Page UI Design</li>
+          <li>Application UX/UI Design</li>
+          <li>Wireframes & Wireflow</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>08/10/2025</td>
+      <td>Manuel Sebastian Peña Rivera</td>
+      <td>
+        <ul>
+          <li>Web Applications</li>
+          <li>Software Development Environment & Deployment Configuration</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>08/10/2025</td>
+      <td>David Bryan Rodriguez Santos</td>
+      <td>
+        <ul>
+          <li>Web Applications</li>
+          <li>Software Development Environment & Deployment Configuration</li>
+          <li>Source Code Style Guides and Management</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>08/10/2025</td>
+      <td>Nelson Elias Serrano Ircañaupa</td>
+      <td>
+        <ul>
+          <li>Information Architecture</li>
+          <li>Software Development Environment & Deployment Configuration</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+  </tbody>
+</table>
 
 # Project Report Collaboration Insights
 
@@ -268,6 +389,27 @@ del ABET – EAC - Student Outcome 3.
         David Rodriguez:
         Contribuyó a definir metas, analizar entrevistas y explicar los hallazgos del Communication Bounded Context en las reuniones.
         </p>
+        TB2:
+        <p>
+        David Rodríguez:
+        Durante el desarrollo del proyecto, presenté de manera clara y objetiva las propuestas relacionadas con las guías de estilo ante el equipo, explicando cómo cada decisión de diseño contribuía a la coherencia visual del sistema. Participé activamente en reuniones técnicas, respondiendo preguntas y adaptando el lenguaje a compañeros de diferentes especialidades para asegurar una comprensión común del trabajo realizado.
+        </p>
+        <p>
+        Nelson Serrano:
+        Me encargué de exponer en las reuniones la estructura y organización de la arquitectura de la información, comunicando con claridad los flujos de navegación y la jerarquía de contenidos. A través de presentaciones orales, logré que todos los integrantes del equipo entendieran el funcionamiento del sistema y aportaran mejoras desde sus distintas áreas.
+        </p>
+        <p>
+        Aaron Acuña:
+        Compartí con el equipo el diseño de la interfaz y el flujo de interacción de la aplicación, explicando oralmente cómo cada elemento de la experiencia de usuario respondía a objetivos funcionales y técnicos. Además, lideré sesiones de retroalimentación en las que presenté avances y justifiqué decisiones tomadas en el proceso de diseño.
+        </p>
+        <p>
+        Manuel Peña:
+        Expuse de manera objetiva los ajustes implementados en la arquitectura, explicando las mejoras realizadas en la comunicación entre servicios y su impacto en el rendimiento del sistema. Participé activamente en las reuniones semanales, respondiendo consultas técnicas y aclarando detalles sobre las decisiones de diseño arquitectónico tomadas.
+        </p> 
+        <p>
+        Mauricio Rojas:
+        Comuniqué de forma oral los resultados de las revisiones de arquitectura, presentando soluciones para optimizar la seguridad y escalabilidad del sistema. Durante las exposiciones, adapté mi explicación a públicos de distintas especialidades, facilitando la comprensión técnica y fomentando el trabajo colaborativo en el equipo.
+        </p>
       </p>
     </td>
     <td>
@@ -297,6 +439,27 @@ del ABET – EAC - Student Outcome 3.
   <p>
     David Rodriguez: Escribió el análisis de entrevistas y los hallazgos relacionados con el Communication Bounded Context. Dejó registros claros y objetivos de los resultados obtenidos para el equipo.
   </p>
+   TB2:
+    <p>   
+       David Rodríguez:
+        Documenté detalladamente las Style Guidelines del proyecto, explicando por escrito las decisiones de diseño, la estructura visual y las normas de accesibilidad. Redacté informes claros y objetivos que sirvieron como guía de referencia para el equipo, facilitando la implementación de un estilo visual consistente en toda la plataforma.
+        </p>
+        <p>
+        Nelson Serrano:
+        Elaboré documentación completa sobre la arquitectura de la información, describiendo la jerarquía de contenido, flujos de usuario y estructura del sistema. La redacción fue clara y precisa, lo que permitió que miembros de diferentes especialidades comprendieran la lógica de navegación y su aplicación práctica.
+        </p>
+        <p>
+          Aaron Acuña:
+          Redacté reportes detallados sobre el proceso de diseño de la interfaz, describiendo los componentes, la navegación y las decisiones tomadas en cuanto a experiencia de usuario. Estos documentos facilitaron la validación del diseño y sirvieron como material de soporte para las pruebas de usabilidad.
+        </p>
+        <p>
+        Manuel Peña:
+        Escribí la documentación técnica sobre los ajustes arquitectónicos realizados, detallando el impacto de las modificaciones y justificando cada decisión. Mi redacción permitió que tanto el equipo técnico como el no técnico comprendieran el funcionamiento interno del sistema y sus mejoras.
+        </p> 
+        <p>
+        Mauricio Rojas:
+        Desarrollé documentación exhaustiva sobre las correcciones de arquitectura, explicando por escrito los mecanismos de seguridad implementados, las integraciones externas y los patrones utilizados. Estos informes fueron compartidos con el equipo y con el docente, brindando una visión clara y objetiva del trabajo realizado.
+        </p>
   </td>
     <td>
       <p>
