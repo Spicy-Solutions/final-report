@@ -303,45 +303,6 @@ Se llevaron a cabo reuniones semanales para hacer una revisión de lo elaborado 
      + [6.4.2. Applications Wireflow Diagrams](#642-applications-wireflow-diagrams)
      + [6.4.2. Applications Mock-ups](#642-applications-mock-ups)
      + [6.4.3. Applications User Flow Diagrams](#643-applications-user-flow-diagrams)
-   * [6.5. Applications Prototyping](#65-applications-prototyping)
-- [Capítulo VII: Product Implementation, Validation & Deployment](#capítulo-vii-product-implementation-validation--deployment)
-   * [7.1. Software Configuration Management](#71-software-configuration-management)
-      + [7.1.1. Software Development Environment Configuration](#711-software-development-environment-configuration) 
-      + [7.1.2. Source Code Management](#712-source-code-management)
-      + [7.1.3. Source Code Style Guide & Conventions](#713-source-code-style-guide--conventions)
-      + [7.1.4. Software Deployment Configuration](#714-software-deployment-configuration)
-   * [7.2. Solution Implementation](#72-solution-implementation)
-      + [7.2.1. ](#721-sprint-1)
-         - [7.2.1.1. Sprint Planning 1](#7211-sprint-planning-1)
-         - [7.2.1.2. Sprint Backlog 1](#7212-sprint-backlog-1)
-         - [7.2.1.3. Development Evidence for Sprint Review](#7213-development-evidence-for-sprint-review)
-         - [7.2.1.4. Testing Suite Evidence for Sprint Review](#7214-testing-suite-evidence-for-sprint-review)
-         - [7.2.1.5. Execution Evidence for Sprint Review](#7215-execution-evidence-for-sprint-review)
-         - [7.2.1.6. Services Documentation Evidence for Sprint Review](#7217-services-documentation-evidence-for-sprint-review)
-         - [7.2.1.7. Software Deployment Evidence for Sprint Review](#7217-software-deployment-evidence-for-sprint-review)
-         - [7.2.1.8. Team Collaboration Insights during Sprint](#7218-team-collaboration-insights-during-sprint)
-      + [7.2.2. ](#722-sprint-2)
-         - [7.2.2.1. Sprint Planning 2](#7221-sprint-planning-2)
-         - [7.2.2.2. Sprint Backlog 2](#7222-sprint-backlog-2)
-         - [7.2.2.3. Development Evidence for Sprint Review](#7223-development-evidence-for-sprint-review)
-         - [7.2.2.4. Testing Suite Evidence for Sprint Review](#7224-testing-suite-evidence-for-sprint-review)
-         - [7.2.2.5. Execution Evidence for Sprint Review](#7225-execution-evidence-for-sprint-review)
-         - [7.2.2.6. Services Documentation Evidence for Sprint Review](#7226-services-documentation-evidence-for-sprint-review)
-         - [7.2.2.7. Software Deployment Evidence for Sprint Review](#7227-software-deployment-evidence-for-sprint-review)
-         - [7.2.2.8. Team Collaboration Insights during Sprint](#7228-team-collaboration-insights-during-sprint)
-      + [7.2.3. ](#723-sprint-3)
-         - [7.2.3.1. Sprint Planning 3](#7231-sprint-planning-3)
-         - [7.2.3.2. Sprint Backlog 3](#7232-sprint-backlog-3)
-         - [7.2.3.3. Development Evidence for Sprint Review](#7233-development-evidence-for-sprint-review)
-         - [7.2.3.4. Testing Suite Evidence for Sprint Review](#7234-testing-suite-evidence-for-sprint-review)
-         - [7.2.3.5. Execution Evidence for Sprint Review](#7235-execution-evidence-for-sprint-review)
-         - [7.2.3.6. Services Documentation Evidence for Sprint Review](#7236-services-documentation-evidence-for-sprint-review)
-         - [7.2.3.7. Software Deployment Evidence for Sprint Review](#7237-software-deployment-evidence-for-sprint-review)
-         - [7.2.3.8. Team Collaboration Insights during Sprint](#7238-team-collaboration-insights-during-sprint)
-    * [7.3. Validation Interviews.](#73-validation-interviews)
-         - [7.3.1. Diseño de Entrevistas.](#731-diseño-de-entrevistas)
-         - [7.3.2. Registro de Entrevistas.](#732-registro-de-entrevistas)
-    * [7.4. Video About-the-Product.](#74-video-about-the-product)
 - [Conclusiones](#conclusiones)
    * [Recomendaciones](#recomendaciones)
 - [Video About-the-Team](#video-about-the-team)
@@ -3192,36 +3153,24 @@ Imagen con resultado del Event Storming en relación a Commerce Bounded Context:
 #### 4.2.2 Candidate Context Discovery
 
 **Paso 1: Unstructured Exploration:** En el primer paso del EventStorming, se inicia con una sesión de lluvia de ideas enfocada en definir eventos o "cosas interesantes que sucedieron en el negocio". Es importante destacar que los eventos siempre son escritos en pasado. Para lograrlo, nos reunimos en grupo y empezamos a hacer una lluvia de ideas en la herramienta de Miro, con ayuda de post-its, los cuales reflejan un mapeo inicial de todos los posibles eventos que el sistema debería manejar para brindar una solución integral.  
-**Imagen de la Reunión:**  
-![Captura de pantalla 2025-04-08 202939](https://github.com/user-attachments/assets/094d7d96-808f-4de9-91fd-25f0bb3261c2)  
 **Imagen ejemplo:**  
 ![image](https://github.com/user-attachments/assets/0b722e13-49b3-42ed-bc04-473079ab5863)
 
 **Paso 2: Timelines:** En este segundo paso, organizamos los eventos en el orden en el que ocurren dentro del dominio. En algunos casos, se dividen los eventos en ramificaciones, dependiendo de si se pueden generar diferentes resultados vinculados a un mismo evento. Para elaborarlas, primero debemos empezar con un happy path, o sea un escenario en el que todo resultó de forma exitosa. Después de ello, se pueden crear otras alternativas, que abarquen tanto fallos como otros resultados alternativos. Para conseguirlo, cada miembro seleccionó ciertos eventos y empezó a desarrollar una sucesión entre ellos. En este proceso, también definimos más eventos, así como happy paths. Este paso permite visualizar todas las posibles trayectorias que seguiría el sistema en respuesta a cada evento, estableciendo la base para desarrollar un flujo de trabajo eficiente y cohesivo que garantice una respuesta rápida y adecuada a cada situación monitorizada.  
-**Imagen de la Reunión:**  
-![Captura de pantalla 2025-04-08 203747](https://github.com/user-attachments/assets/841c9c77-fc3f-45bc-8f3b-d2f78c4df9fb)  
 **Imagen ejemplo:**  
 ![image](https://github.com/user-attachments/assets/c06d909f-2324-46c0-b449-d78410e8cd15)
 
 **Paso 3: Pain Points:** Aprovechamos este paso para establecer algunos puntos de interés, incluidos cuellos de botella, falta de documentación y carencias de conocimiento.
 
 **Paso 4: Pivotal Points:** Una vez que tenemos nuestras líneas de eventos al completo e incluimos los pain points, debemos definir eventos que marquen un cambio, ya sea en el contexto o en el proceso. Estos eventos se denominan eventos principales.  
-**Imagen de la Reunión:**  
-![Captura de pantalla 2025-04-08 205839](https://github.com/user-attachments/assets/c66a0c5e-948c-4904-b35c-35a7da48837a)
 
 **Paso 5: Commands:** En este paso introducimos los comandos, los cuales describen las acciones o causas que desencadenan eventos. Estos son escritos en imperativo y describen las operaciones que se ejecutan en el sistema. También asignamos aquellas funcionalidades importantes para la gestión hotelera y la reserva de habitaciones. Detallamos un flujo que, eventualmente, nos ayudaría a definir aquellos comandos que formarán parte de nuestra aplicación. Por último, definimos a los actores involucrados y los comandos que desencadenan.  
-**Imagen de la Reunión:**  
-![Captura de pantalla 2025-04-08 211944](https://github.com/user-attachments/assets/befb813c-7f3b-4d41-886c-0e6cfdbeb53b)  
 **Imagen ejemplo:**  
 ![Captura de pantalla 2025-04-08 212427](https://github.com/user-attachments/assets/7693502e-eb1f-469c-afdb-3f6bb1803147)
 
 **Paso 6: Policies:** En este sexto paso, aquellos comandos no vinculados con ningún usuario pueden ser vinculados con políticas de automatización que los ejecutan. Básicamente, hace que un comando se ejecute automáticamente cuando ciertos eventos ocurren.  
-**Imagen de la reunión:**  
-![Captura de pantalla 2025-04-08 215300](https://github.com/user-attachments/assets/29faa56e-a32b-4099-bd25-07e2885f6f03)
 
 **Paso 7: Read Models:** Introducimos los modelos de lectura, que abarcan desde reportes, vistas del frontend y queries. Permite definir una vista de datos para cada comando.  
-**Imagen de la Reunión:**  
-![Captura de pantalla 2025-04-08 213433](https://github.com/user-attachments/assets/6a6d8425-bb20-4f87-98e2-dc3a77e6653f)
 
 **Paso 8: External Systems:** Incluimos los sistemas externos que no pertenecen al dominio en el que estamos trabajando. Estos sistemas pueden recibir eventos o ejecutar comandos.  
 **Imagen ejemplo:**  
