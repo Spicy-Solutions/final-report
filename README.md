@@ -6722,6 +6722,62 @@ Consideramos que es escencial que la experiencia del usuario al navegar por prim
   <p style="font-style: italic">Ower Analytics</p>
 </div><br><br>
 
+# Capitulo VII: Product Implementation, Validation & Deployment
+
+## 7.1. Software Configuration Management.
+
+
+### 7.1.1.  Software Development Environment Configuration.
+
+Los productos involucrados para la solución de nuestro proyecto son:
+
+- Landing Page: Cumple como propósito de cautivar a los visitantes a usar el servicios que ofrecemos, a través de datos estadísticos y vídeos de presentación del producto.
+
+- Web Application: Permite a los gerentes de hoteles y al personal de administradores gestionar operaciones, monitorear el estado de dispositivos IoT (como sensores de temperatura), y visualizar datos estadísticos. También facilita la gestión de reservas, control de inventarios y la comunicación interna dentro del sistema hotelero.
+
+- Mobile Application: Permite a los gerentes de hotel, administradores y huéspedes el acceso a funcionalidades clave del sistema desde cualquier lugar. Adicionalmente, prioriza una navegación simple y enfocada segun el segemento.
+
+- Web Services: Proporciona endpoints para la integración de estos con Web Application y Mobile Application garantizando el manejo de intercambio de datos entre la plataforma central y otros sistemas.
+
+- Edge API: Sirve como intermediario entre los dispositivos IoT en el hotel (como sensores de temperatura) y la infraestructura central en la nube. Procesa datos a nivel local para asegurar respuestas rápidas, como ajustar la temperatura en una habitación o detectar fallos en dispositivos de manera autónoma.
+
+- Embedded Application: Se ejecutan directamente en los dispositivos IoT del hotel, gestionando tareas específicas como controlar el sistema de temperatura. Adicionalmente, permitirá enviar datos al sistema central de Sweet Manager para un monitoreo centralizado.
+
+### 7.1.2.  Source Code Management.
+
+En esta sección, explicamos la forma en que estamos controlar el versionamiento de nuestro proyecto. Tomamos como base para crear un flujo de trabjo Gitflow, hemos trabajado con Features Branches (ramas por feature) y mediante pull requests, las hemos unido al develop y posteriormente a la rama main. 
+
+Para su nomenclatura hemos seguido la siguiente estructura:
+
+- Prefijo: Comienza con feature/ para indicar claramente que se trata de una rama de función- 
+- Nombre descriptivo: Proporciona un nombre conciso y descriptivo para la función.
+
+También usamos los Conventional Commits y para la nomenclatura de commits:
+
+- Para los release: release-* 
+- Para los hotfix: hotfix-* 
+
+También se usa Semantic Versioning para la numeración de los release.
+
+Se adjunta los enlaces para visualizar los repositorios de la organización:
+
+
+Repositorio del aplicación movil:
+
+- https://github.com/Spicy-Solutions/mobile-applications
+
+Repositorio de la aplicación web:
+
+- https://github.com/Spicy-Solutions/front-end
+
+Repositorio del web services:
+
+- https://github.com/Spicy-Solutions/web-services
+
+Repositorio del reporte:
+
+- https://github.com/Spicy-Solutions/final-report
+
 # Conclusiones
 
 ## Conclusiones y Recomendaciones
