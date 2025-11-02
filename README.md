@@ -6778,6 +6778,44 @@ Repositorio del reporte:
 
 - https://github.com/Spicy-Solutions/final-report
 
+### 7.1.3. Source Code Style Guide & Conventions.
+
+**Lenguaje C#**
+
+| Referencias Adoptadas | Explicación y Convenciones|
+|-----------|-----------|
+| C# Coding Conventions: https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions | Consideramos en utilizar la documentación de Microsoft  para aprender buenas prácticas y sintaxis de C#, puesto que lo utilizaremos en el desarrollo del Back-end. | Microsoft ASP .NET Core Coding Guidelines: https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines#coding-guidelines | Consideramos en utilizar la documentación de la referencia especificada para estudiar y aprender buenas prácticas, convenciones y cómo integrar código C# a ASP .NET Core, ya que lo utilizaremos en el backend de nuestros productos. |
+
+**Lenguaje Vue.JS**
+| Referencias Adoptadas | Explicación y Convenciones |
+|-----------|-----------|
+| Html Style Guide and Coding Conventions: https://www.w3schools.com/html/html5_syntax.asp | Consideramos que será beneficioso guiarnos y aprender de la documentación de la referencia indicada, ya que contiene una gran cantidad de información sobre las etiquetas HTML. Esto es fundamental para su uso en nuestros proyectos. | Google HTML/ CSS Style Guide: https://google.github.io/styleguide/htmlcssguide.html | Consideramos guiarnos con la documentación de Google para tener una lista de recomendaciones que nos ayude a mejorar la estructura de nuestras páginas. |Vue Style Guide: https://vuejs.org/v2/style-guide/|Consideramos guiarnos de la documentación oficial de Vue.JS para estudiar la sintaxis, buenas prácticas, recomendaciones, etc. De esta manera podremos desarrollar un mejor producto de Software.|
+
+**Lenguaje Gherkin**
+
+| Referencias Adoptadas | Explicación y Convenciones|
+|-----------|-----------|
+| Gherkin Conventions for Readable Specifications: https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/ | Consideramos guiarnos y aprender de la documentación situada en la referencia indicada, porque necesitamos tener ideas de cómo trabajar bajo ese lenguaje y poder usar de manera adecuada las herramientas.| Gherkin Conventions for Readable Specifications: https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/ | Consideramos guiarnos y aprender de la documentación situada en la referencia indicada, porque necesitamos tener ideas de cómo trabajar bajo ese lenguaje y poder usar de manera adecuada las herramientas. |
+
+**Lenguaje Dart**
+
+| Referencias Adoptadas| Explicación y Convenciones |
+|-----------|-----------|
+| Dart Style Guide: https://dart.dev/effective-dart/style | Dart ofrece en su documentación, algunas practicas, estilos y nomenclaturas para tanto la declaracionde de funciones, carpetas, clases, etc. |
+
+**Lenguaje Md**
+
+| Referencias Adoptadas| Explicación y Convenciones |
+|-----------|-----------|
+| The Markdown Guide: https://www.markdownguide.org/ | Consideramos guiarnos de la guía oficial de markdown para tener mayor noción de trabajo con el uso de esta tecnología. Usaremos el archivo .md para todo lo que es descripción o información del proyecto. |
+
+**Lenguaje Python**
+
+| Referencias Adoptadas| Explicación y Convenciones |
+|-----------|-----------|
+| Python Enhancement Proposals hecho por The Python Software Foundation: https://peps.python.org/pep-0008/ | Usamos las convenciones determinadas por la organización detras de Python, para una amplia noción de las nomenclaturas y buenas practicas para la elaboración de la Api. |
+
+
 # Conclusiones
 
 ## Conclusiones y Recomendaciones
