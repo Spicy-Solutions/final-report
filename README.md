@@ -6722,6 +6722,61 @@ Consideramos que es escencial que la experiencia del usuario al navegar por prim
   <p style="font-style: italic">Ower Analytics</p>
 </div><br><br>
 
+### 6.4.3. Applications User Flow Diagrams.
+A continuación se presentan los diagramas de flujo de usuario (User Flow Diagrams) para las aplicaciones web y móvil. Estos diagramas ilustran las rutas típicas que los usuarios pueden seguir al interactuar con la aplicación, teniendo en cuenta los diferentes roles de usuario (administrador, huésped y propietario).
+
+#### User Goal: Registrarse en la Aplicación Web de SweetManager
+
+En el siguiente flujo, se muestra el flujo de inicio de sesión en la Web Application. Este flujo es común para todos los usuarios, ya que todos deben iniciar sesión para acceder a la aplicación. El flujo comienza con el usuario ingresando su correo electrónico y contraseña en la página de inicio de sesión. Si las credenciales son correctas, el usuario es redirigido a la página principal de la aplicación.
+<div style="text-align: center;">
+  <img src="./assets/img//userflows/userflowweb1.png" width="90%" />
+</div><br><br>
+
+#### User Goal: Crear una nueva organización
+
+En el siguiente flujo, se puede demostrar cómo el usuario Dueño de un hotel es capaz de crear una nueva organización en la aplicación. Este flujo comienza con el usuario seleccionando la opción de crear una nueva organización en la página principal de la aplicación. Luego, el usuario ingresa los datos necesarios para crear la organización y finalmente se redirige a la página principal de la aplicación.
+<div style="text-align: center;">
+  <img src="./assets/img//userflows/userflowweb2.png" width="90%" />
+</div><br><br>
+
+#### User Goal: Añadir un administrador a la organización
+
+En el siguiente flujo, el administrador del hotel, es invitado a unirse a la organización creada por el dueño del hotel. Este flujo comienza con el dueño del hotel enviando una invitación al administrador a través de la aplicación. Luego, el administrador recibe la invitación y acepta unirse a la organización. Finalmente, el administrador es redirigido a la página principal de la aplicación.
+<div style="text-align: center;">
+  <img src="./assets/img//userflows/userflowweb3.png" width="90%" />
+</div><br><br>
+
+#### User Goal: Registrarse en la Aplicación Móvil de SweetManager
+
+En el siguiente flujo se puede observar el inicio de sesión o registro de un usuario en nuestro Mobile Application. Este flujo es común para todos los usuarios, ya que todos deben iniciar sesión para acceder a la aplicación. El flujo comienza con el usuario ingresando su correo electrónico y contraseña en la página de inicio de sesión. Si las credenciales son correctas, el usuario es redirigido a la página principal de la aplicación.
+<div style="text-align: center;">
+  <img src="./assets/img//userflows/mobile1.png" width="90%" />
+</div><br><br>
+
+#### User Goal: Buscar un hotel
+
+En el siguiente flujo se puede observar el comportamiento del huésped, al encontrar o seleccionar un hotel para ver más su detalle, administrador y dueño de hotel al gestionar su organización y los dispositivos IoT. Este flujo comienza con el usuario seleccionando la opción de buscar un hotel en la página principal de la aplicación. Luego, el usuario ingresa los datos necesarios para buscar el hotel y finalmente se redirige a la página principal de la aplicación.
+
+<div style="text-align: center;">
+  <img src="./assets/img//userflows/mobile2.png" width="90%" />
+</div><br><br>
+
+## 6.5. Applications Prototyping.
+Mediante la herramienta de Figma, se elaboró el prototipado correspondiente a la aplicación para que pueda servir de guía en la programación de este. De la misma manera, funciona para reconocer los paths que pueden llegar a mantener los diferentes usuarios basado en sus diferentes roles.
+
+Link directo hacia el prototyping: https://www.figma.com/proto/N0Oc3Y6SzhUWzSGF9yDLty/Apps-Mobiles---mauwiwi?node-id=5334-2915&p=f&t=rU4tRCifwjIBviUS-1&scaling=contain&content-scaling=fixed&page-id=4171%3A2345&starting-point-node-id=5334%3A2915&show-proto-sidebar=1
+
+Asimismo, se realizó un video demostrativo para explicar los diferentes flujos que mantendrá nuesta aplicación. Este video se encuentra disponible en el siguiente link: https://n9.cl/7p1d2g
+
+
+<img src="./assets/img/application-prototyping/webapp.PNG" alt="Web App Prototyping" width="100%" />
+
+Link directo hacia el mobile prototyping: https://www.figma.com/proto/N0Oc3Y6SzhUWzSGF9yDLty/Apps-Mobiles---mauwiwi?node-id=3846-1527&t=yxfxPIeSPfCG5IaX-0&scaling=min-zoom&content-scaling=fixed&page-id=110%3A1227&starting-point-node-id=3846%3A1527
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/YQ0OANa.png" alt="Mobile Prototyping" width="80%" />
+</div><br>
+
 # Capitulo VII: Product Implementation, Validation & Deployment
 
 ## 7.1. Software Configuration Management.
