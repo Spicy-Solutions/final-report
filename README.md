@@ -6897,6 +6897,647 @@ El despliegue de la Embedded Application dependerá de la plataforma de hardware
 
 Para la distribución de la aplicación móvil durante el desarrollo y pruebas, se utilizará Firebase App Distribution, permitiendo enviar versiones preliminares a testers internos de manera segura, rápida y con seguimiento de métricas de uso y errores.
 
+## 7.2. Solution Implementation
+
+### 7.2.1. Sprint 1
+
+#### 7.2.1.1. Sprint Planning 1
+
+
+#### 7.2.1.2. Sprint Backlog 1
+
+#### 7.2.1.3. Development Evidence for Sprint Review
+
+#### 7.2.1.4. Testing Suite Evidence for Sprint Review
+
+#### 7.2.1.5. Execution Evidence for Sprint Review
+
+#### 7.2.1.6. Services Documentation Evidence for Sprint Review
+
+#### 7.2.1.7. Software Deployment Evidence for Sprint Review
+
+#### 7.2.1.8. Team collaboration Insights during Sprint
+
+## 7.3. Validation Interviews
+
+### 7.3.1. Diseño de Entrevistas
+
+En esta sección el equipo estableció por cada segmento objetivo los elementos a incluir en la sesión de validación.
+
+#### Preguntas de Validación – Segmento 1: Gerentes (Owners)
+Estas preguntas buscan validar la utilidad, usabilidad y valor percibido de las interfaces (Web App, Mobile App y Landing Page) desde su rol estratégico.
+
+- Landing Page
+
+¿La información en la landing page fue suficiente para entender los beneficios del sistema?
+
+¿Te resultó confiable el diseño y contenido del sitio para decidir registrarte?
+
+¿Qué tanto influyó la presentación de funcionalidades en tu interés por probar la plataforma?
+
+¿Faltó alguna información clave que te hubiera gustado ver antes de registrarte?
+
+- Mobile Application
+
+¿Te resultó cómoda la experiencia de usar la app desde tu celular?
+
+¿Te sentiste en control al modificar precios o disponibilidad de habitaciones desde la app?
+
+¿Qué tan útil te pareció gestionar reservas y ver alertas desde tu celular?
+
+- Web Application
+
+¿La interfaz web te permitió tener una visión clara del estado general del hotel?
+
+¿Pudiste configurar fácilmente el tipo de habitaciones, tarifas y servicios desde el panel web?
+
+¿Encontraste rápido las opciones para ver reportes, estadísticas o ingresos?
+
+¿Hay alguna funcionalidad importante que esperabas encontrar y no estaba disponible en la versión web?
+
+#### Preguntas de Validación – Segmento 2: Administradores (Admins)
+
+- Landing Page
+
+¿La landing page te ayudó a comprender cómo esta plataforma te facilitaría el trabajo diario?
+
+¿Te sentiste identificado/a con los problemas que la plataforma promete solucionar?
+
+¿Te habría gustado una demo interactiva o más casos de uso concretos?
+
+- Web Application
+
+¿Pudiste ver el historial de reservas y estados de habitación sin dificultad desde el navegador?
+
+¿Te pareció clara y bien organizada la distribución del contenido en el panel web?
+
+¿La plataforma te permitió completar tus tareas más rápido o te generó pasos innecesarios?
+
+#### Preguntas de Validación – Segmento 3: Huéspedes (Guests)
+Estas preguntas están pensadas para validar si la experiencia de usuario en el proceso de búsqueda, reserva y contacto con el hotel fue fluida, agradable y clara.
+
+- Mobile Application
+
+¿Te resultó fácil registrarte y crear un perfil desde el celular?
+
+¿La experiencia de reservar una habitación fue clara y sin fricciones?
+
+- Web Application
+
+¿Encontraste rápidamente el hotel que buscabas en la versión web?
+
+¿El proceso de reserva en el navegador fue más claro o más confuso que en la app?
+
+¿Pudiste revisar tu historial de reservas y preferencias de manera sencilla?
+
+¿Hubo algún momento del flujo web en que decidiste abandonar la reserva? ¿Por qué?
+
+- Embedded Application Wokwi
+
+¿Pudiste ver reflejada correctamente tu temperatura preferida en la pantalla del termostato (LCD) al ingresar a la habitación?
+
+¿El sistema ajustó la temperatura automáticamente de acuerdo a tu perfil o preferencias guardadas en la app?
+
+### 7.3.2. Registro de Entrevistas 
+
+A continuación, se registraron todas las entrevistas de validación para nuestra solución, categorizadas según su segmento objetivo, y con un resumen que destaca las características y críticas realizadas sobre nuestro proyecto.
+
+**Entrevista 01 (Gerentes)**
+
+URL del Vídeo: <https://shorturl.at/h5k4G>
+
+Nombres: Carlo
+
+Apellidos: Rebagliati
+
+Edad: 45
+
+Sexo: Masculino
+
+Ocupación: Gerente Hotelero
+
+Lugar donde vive: Pueblo Libre
+
+Duración de la entrevista: 00:00 - 21:40 
+
+Personalidad: Análitica
+
+<div style="text-align: center;">
+  <img src="./assets/img/validation-interviews/carlo_rebagliati.jpg" alt="Owner Carlo Rebagliati" width="100%" />
+</div><br>
+
+En resumen, Carlo Rebagliati, gerente de hotel, adoptó una perspectiva analítica al evaluar todos los productos presentados.
+
+Comenzando por la Landing Page, sugirió incluir enlaces a fuentes confiables que respalden los datos estadísticos mostrados. Además, recomendó enriquecer el contenido de los componentes y mejorar significativamente el diseño visual. Según su opinión, este aspecto resulta crucial, ya que la interfaz actual no le generó interés por continuar navegando ni por acceder a la aplicación web.
+
+Respecto a la aplicación web, destacó una mejora notable en el diseño. No obstante, propuso agregar mayor nivel de detalle en la vista de los hoteles, incluyendo información sobre los servicios ofrecidos, tipos de planes disponibles (familiares, luna de miel, individuales, etc.), y especificaciones como si el alojamiento incluye desayuno. En cuanto a la navegación, comentó que le pareció intuitiva y funcional.
+
+Finalmente, Carlo subrayó la importancia de que tanto la aplicación web como la Landing Page cuenten con soporte multilingüe, específicamente en inglés y español, con el fin de facilitar la comprensión del contenido para un público más amplio.
+
+<br><br>
+
+**Entrevista 02 (Gerentes)**
+<br>
+
+
+<br><br>
+
+**Entrevista 01 (Administradores)**
+<br>
+
+
+<br><br>
+
+**Entrevista 02 (Administradores)**
+<br>
+
+<br><br>
+
+**Entrevista 01 (Huespedes)**
+<br>
+
+URL del vídeo: <https://shorturl.at/KLBqb>
+<br>
+Nombre: Anatoly Noriega <br>
+Edad: 22 <br>
+Sexo: Masculino <br>
+Lugar donde vive: Breña - Lima <br>
+Ocupación: Contador<br>
+Duración de la entrevista:  01: 08: 24 - 01: 15: 59 <br> 
+Personalidad: Analítica <br>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/YtyyOfv.png" alt="Anatoly Noriega Interview" width="80%" />
+</div><br>
+
+<br>
+
+Anatoly comentó que el proceso de registro y creación de perfil desde el celular fue ágil y sencillo. Resaltó que la experiencia al reservar una habitación fue clara y sin dificultades, con pasos intuitivos que le brindaron confianza durante toda la operación. A través del navegador, encontró sin problemas el hotel que buscaba gracias al motor de búsqueda optimizado y los filtros disponibles. Al comparar la versión web con la móvil, indicó que ambas funcionaron correctamente, aunque percibió que la versión web ofrecía una experiencia ligeramente más fluida.
+
+Finalmente, confirmó que la aplicación embebida ajustó automáticamente la temperatura de acuerdo con las preferencias almacenadas en su perfil, un detalle tecnológico que consideró valioso para mejorar su nivel de confort.
+
+<br><br>
+
+
+**Entrevista 02 (Huespedes)**
+<br>
+
+<br><br>
+
+### 7.3.3. Evaluaciones según heuristicas
+
+#### SITE o APP A EVALUAR:
+Sweet Manager Web Application
+
+#### TAREAS A EVALUAR:
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Registro de un usuario nuevo 
+2. Registro de organización
+3. Registro de Reservas
+4. Búsqueda de hoteles
+5. Visualización de proveedores
+6. Visualización de habitaciones
+7. Visualización de inventario
+8. Visualización de perfil y reservas
+9. Visualización de analíticas
+10. Visualización de reservas 
+11. Solicitud de dispositivos IOT
+12. Pasarela de pago
+
+
+No estan incluidos en esta evaluación las siguientes tareas:
+1. Visualización de organización laboral
+2. Mensajes y alertas
+3. Invitación de otros usuarios a la organización
+4. Notificaciones
+
+#### ESCALA DE SEVERIDAD Y TABLA RESUMEN DE PROBLEMAS
+
+| Nivel | Descripción |
+|-------|-------------|
+| 1     | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolviéndolo de cara al siguiente release. |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+| #  | Problema                                                                 | Escala de severidad | Heurística/Principio violado(a)                                |
+|----|--------------------------------------------------------------------------|----------------------|-----------------------------------------------------------------|
+| 1  | No se utiliza la misma paleta de colores en la sección de login | 1 | Usability: Consistencia y estándares |
+| 2  | No hay acceso a FAQ o tutoriales dentro de la app | 1| Usability: Ayuda y documentación |
+| 3  | Incluye un botón “Contact Support" pero no redirecciona a ningun lugar ni proporciona alguna herramienta de contacto o de atención al cliente   | 3 | Information Architecture: ¿Es útil?      |
+| 4  | Incluye un botón "Olvidé mi contraseña" pero no redirecciona a una vista dedicada a ello o incluye una funcionalidad de "Recuperar Contraseña"   | 3                    | Information Architecture: ¿Es útil?                            |
+| 5  | No incluye información de la cantidad de dispositivos IOT que se pueden solicitar según el plan  | 2  | Information Architecture: ¿Es findable? |
+| 6  | No existen opciones de filtro de suministros | 2  | Usability: Flexibilidad y eficiencia de uso |
+| 7  | No incluye información sobre el piso o área a la que pertenece cada habitación del hotel | 1  | Usabilidad - Correspondencia entre el sistema y el mundo real |
+| 8  | No existen botones de "Guardar y Nuevo" o atajos de teclado que permitan una rápida creación de suministros/habitaciones en masa | 2  |Usability:  Flexibilidad y eficiencia de uso |
+| 9  | No incluye la posibilidad de elegir el tipo de gráfico de analíticas   | 1 | Usability: Libertad y control del usuario   |
+| 10  | No existe la posibilidad de editar nombre y dirección del hotel | 3 | Usability: Libertad y control del usuario |
+
+
+
+#### DESCRIPCIÓN DE PROBLEMAS:
+
+##### PROBLEMA #1: No se utiliza la misma paleta de colores en la sección de sign in  
+**Severidad:** 1  
+**Heurística violada:** Usability: Consistencia y estándares  
+
+**Problema:**  
+La sección de login presenta una paleta de colores distinta al resto de la aplicación, lo cual rompe con la identidad visual general del sistema. Esto puede generar confusión y una percepción de baja cohesión en el diseño.  
+
+![image](https://github.com/user-attachments/assets/7c4fe792-9bd9-4dd4-a812-a72a91fb28d4)
+
+**Recomendación:**  
+Unificar los colores de la sección de login con los usados en el resto de la aplicación.  
+
+##### PROBLEMA #2: No hay acceso a FAQ o tutoriales dentro de la app  
+**Severidad:** 1  
+**Heurística violada:** Usability: Ayuda y documentación  
+
+**Problema:**  
+Los usuarios no encuentran fácilmente una sección de preguntas frecuentes (FAQ) o tutoriales que les orienten en el uso de la aplicación, lo que puede generar frustración especialmente en usuarios nuevos o poco experimentados.  
+
+![image](https://github.com/user-attachments/assets/ec479cc6-79ea-4ad4-8010-f2cdebf0cc66)
+
+**Recomendación:**  
+Incluir un acceso visible a una sección de ayuda o preguntas frecuentes.  
+
+##### PROBLEMA #3: Incluye un botón “Contact Support" pero no redirecciona a ningún lugar ni proporciona alguna herramienta de contacto o de atención al cliente  
+**Severidad:** 3  
+**Heurística violada:** Information Architecture: ¿Es útil?  
+
+**Problema:**  
+Existe un botón de “Contact Support”, pero al hacer clic no lleva a ninguna página ni ofrece formas de contactar al equipo de soporte, lo cual afecta la experiencia del usuario en momentos críticos en los que pueda necesitar asistencia.  
+
+![image](https://github.com/user-attachments/assets/28cc34d1-968a-4b5f-b315-a44ef5f09229)
+![image](https://github.com/user-attachments/assets/7a7a1e3b-204f-484c-86fb-ed0076d12f24)
+
+**Recomendación:**  
+Vincular el botón a una vista de contacto o a un formulario funcional.  
+
+##### PROBLEMA #4: Incluye un botón "Olvidé mi contraseña" pero no redirecciona a una vista dedicada a ello o incluye una funcionalidad de "Recuperar Contraseña"  
+**Severidad:** 3  
+**Heurística violada:** Information Architecture: ¿Es útil?  
+
+**Problema:**  
+Aunque se presenta un botón para recuperar la contraseña, este no lleva a ninguna página ni ofrece retroalimentación, lo que bloquea completamente al usuario en caso de olvidar sus credenciales.  
+
+![image](https://github.com/user-attachments/assets/16370fd5-39a5-46f3-af29-a2c7eef05e2e)
+
+**Recomendación:**  
+Implementar la funcionalidad de recuperación de contraseña con ingreso de correo.  
+
+##### PROBLEMA #5: No incluye información de la cantidad de dispositivos IOT que se pueden solicitar según el plan  
+**Severidad:** 2  
+**Heurística violada:** Information Architecture: ¿Es findable?  
+
+**Problema:**  
+No se proporciona información sobre la cantidad de dispositivos IoT que pueden solicitarse con cada plan de suscripción, lo que obliga al usuario a asumirla.  
+
+![image](https://github.com/user-attachments/assets/ef19cbcc-d01f-4585-9227-9de5008973a8)
+
+
+**Recomendación:**  
+Agregar una tabla comparativa clara de planes y límites de dispositivos o en modal la cantidad de dispositivos de cada plan.
+
+##### PROBLEMA #6: No existen opciones de filtro para suministros  
+**Severidad:** 2  
+**Heurística violada:** Usability: Flexibilidad y eficiencia de uso  
+
+**Problema:**  
+En la sección de suministros no hay filtros disponibles para facilitar la búsqueda, lo que dificulta encontrar artículos específicos en bases de datos grandes o complejas.  
+
+![image](https://github.com/user-attachments/assets/45d7a595-4e1f-4b51-a7da-a4d1b03e893c)
+
+**Recomendación:**  
+Añadir filtros por nombre, categoría o estado a la vista de suministros.  
+
+##### PROBLEMA #7: Falta información sobre el piso o área de las habitaciones del hotel  
+**Severidad:** 1  
+**Heurística violada:** Usability: Correspondencia entre el sistema y el mundo real  
+
+**Problema:**  
+Las habitaciones del hotel no muestran a qué piso o área pertenecen, lo que dificulta la navegación lógica del sistema y puede saturar al administrador al no permitirle filtrar ni evaluar por área.  
+
+![image](https://github.com/user-attachments/assets/cb168769-3bac-4baa-956f-fa3bb27453f8)
+
+**Recomendación:**  
+Mostrar la ubicación física (piso/área) junto al número o nombre de habitación y permitir ordenar por este atributo.
+
+##### PROBLEMA #8: No existen botones de "Guardar y Nuevo" o atajos de teclado que permitan una rápida creación de suministros/habitaciones en masa  
+**Severidad:** 2  
+**Heurística violada:** Usability: Flexibilidad y eficiencia de uso  
+
+**Problema:**  
+No hay opciones para guardar y crear un nuevo elemento rápidamente, ni atajos de teclado. Esto reduce la eficiencia del usuario al tener que realizar el mismo proceso repetidamente para crear múltiples elementos.  
+
+![image](https://github.com/user-attachments/assets/5f26d6b9-d0ef-496e-ba61-c968ef8c3986)
+
+
+**Recomendación:**  
+Agregar botón “Guardar y nuevo” y atajos para duplicar formularios o implementar funcionalidad de teclado como `Ctrl+Enter` para guardar.
+
+##### PROBLEMA #9: No incluye la posibilidad de elegir el tipo de gráfico en analíticas  
+**Severidad:** 1  
+**Heurística violada:** Usability: Libertad y control del usuario  
+
+**Problema:**  
+El usuario no puede seleccionar el tipo de gráfico que desea visualizar (barras, líneas, pastel, etc.), limitando su capacidad de interpretación y personalización de datos analíticos.  
+
+![image](https://github.com/user-attachments/assets/16020a8e-a432-41d9-98f6-d3c1258dc997)
+
+**Recomendación:**  
+Permitir al usuario cambiar entre distintos tipos de gráfico con un selector.  
+
+##### PROBLEMA #10: No se puede editar el nombre y dirección del hotel  
+**Severidad:** 3  
+**Heurística violada:** Usability: Libertad y control del usuario  
+
+**Problema:**  
+No hay opción para que el usuario edite información básica del hotel como su nombre o dirección, lo que reduce la capacidad de gestión del sistema por parte del usuario.  
+
+![image](https://github.com/user-attachments/assets/06c41fb6-675f-4be7-bb30-066c94ae88f2)
+
+
+**Recomendación:**  
+Permitir modificar nombre y dirección desde el Hotel Overview. 
+
+
+### SITE o APP A EVALUAR:
+Sweet Manager Mobile Application
+
+#### TAREAS A EVALUAR:
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Registro de un usuario nuevo 
+2. Registro de organización
+3. Registro de Reservas
+4. Búsqueda de hoteles
+5. Visualización de organización laboral
+6. Visualización de habitaciones
+7. Visualización de perfil y reservas
+8. Visualización de proveedores 
+9. Solicitud de dispositivos IOT
+10. Pasarela de pago
+
+
+No estan incluidos en esta evaluación las siguientes tareas:
+1. Mensajes y alertas
+2. Notificaciones
+
+#### ESCALA DE SEVERIDAD Y TABLA RESUMEN DE PROBLEMAS
+
+| #  | Problema                                                                 | Escala de severidad | Heurística/Principio violado(a)                                |
+|----|--------------------------------------------------------------------------|----------------------|-----------------------------------------------------------------|
+| 1 | Incluye una sección de selección de rol, a pesar de estar registrado ya el usuario con su rol. | 2  |Usability:  Flexibilidad y eficiencia de uso |
+| 2  | No hay acceso a FAQ o tutoriales dentro de la app | 1| Usability: Ayuda y documentación |
+| 3  | Incluye una checkbox con los Términos y Condiciones y Políticas de Privacidad, pero no existe la posibilidad de leerlos| 3 | Information Architecture: ¿Es útil? |
+| 4  | Incluye un botón "Olvidé mi contraseña" pero no redirecciona a una vista dedicada a ello o incluye una funcionalidad de "Recuperar Contraseña" | 3 | Information Architecture: ¿Es útil? |
+| 5  | No incluye información sobre la habitación en la que se ubica cada dispositivo IOT | 2  | Usability: Flexibilidad y eficiencia de uso |
+| 6  | No existe la opción de ocultar la ultima conexión a la aplicación | 1  | Usability: Flexibilidad y eficiencia de uso |
+| 7  | No existe la posibilidad de editar  el nombre y la dirección del hotel | 3 | Usability: Libertad y control del usuario |
+| 8  | No incluye la posibilidad de pagar la suscripcion, mediante diferentes medios de pago como Google Pay, Apple Pay a pesar de incluir sus imagenes en la pasarela de pago  | 3 | Information Architecture: ¿Es útil? |
+
+##### PROBLEMA #1: Incluye una sección de selección de rol, a pesar de estar registrado ya el usuario con su rol  
+**Severidad:** 2  
+**Heurística violada:** Usability: Flexibilidad y eficiencia de uso  
+
+**Problema:**  
+Se muestra una pantalla innecesaria para seleccionar un rol, incluso si el usuario ya tiene un rol previamente registrado. Esto ralentiza la experiencia y agrega pasos innecesarios.  
+
+![image](https://github.com/user-attachments/assets/9b1cfe93-5ddd-42e0-a450-13909e55e895)
+
+**Recomendación:**  
+Implementar una redirección automática al dashboard correspondiente según el rol guardado.
+
+##### PROBLEMA #2: No hay acceso a FAQ o tutoriales dentro de la app  
+**Severidad:** 1  
+**Heurística violada:** Usability: Ayuda y documentación  
+
+**Problema:**  
+Los usuarios no tienen acceso a material de ayuda, lo que dificulta su orientación y resolución de dudas durante el uso inicial o ante errores.  
+
+![image](https://github.com/user-attachments/assets/b4670cbe-13c4-4912-a60f-03ac9362c962)
+
+**Recomendación:**  
+Agregar una sección accesible desde el menú con preguntas frecuentes o un tutorial básico.  
+
+##### PROBLEMA #3: Incluye una checkbox con los Términos y Condiciones y Políticas de Privacidad, pero no existe la posibilidad de leerlos  
+**Severidad:** 3  
+**Heurística violada:** Information Architecture: ¿Es útil?  
+
+**Problema:**  
+No se provee acceso al contenido de los documentos legales que el usuario debe aceptar, lo cual genera desconfianza y afecta la transparencia del sistema.  
+
+![image](https://github.com/user-attachments/assets/ac150724-acad-4663-be65-9073e969ba08)
+
+**Recomendación:**  
+Hacer que al tocar “Términos y Condiciones” o “Política de Privacidad” se abra una vista o PDF.
+
+##### PROBLEMA #4: Incluye un botón "Olvidé mi contraseña" pero no redirecciona a una vista dedicada a ello o incluye una funcionalidad de "Recuperar Contraseña"  
+**Severidad:** 3  
+**Heurística violada:** Information Architecture: ¿Es útil?  
+
+**Problema:**  
+La opción existe visualmente pero no tiene una funcionalidad real, lo que puede frustrar al usuario que ha olvidado su contraseña y necesita recuperar el acceso.  
+
+![image](https://github.com/user-attachments/assets/7ed113c3-e70d-4c06-a63f-22d797ca80cc)
+
+![image](https://github.com/user-attachments/assets/7f01a3e1-9b4d-412b-b4e9-478e2a9c82f0)
+
+**Recomendación:**  
+Implementar una vista donde el usuario pueda ingresar su correo para recuperar su contraseña.  
+
+##### PROBLEMA #5: No incluye información sobre la habitación en la que se ubica cada dispositivo IOT  
+**Severidad:** 2  
+**Heurística violada:** Usability: Flexibilidad y eficiencia de uso  
+
+**Problema:**  
+El usuario no puede visualizar dispositivos IoT con la habitación a la que pertencen, dificultando su gestión y mantenimiento.  
+
+![image](https://github.com/user-attachments/assets/b0e98314-f4f6-4b47-ac18-46a64e1007b3)
+
+**Recomendación:**  
+Mostrar número de habitación junto al nombre del dispositivo en la sección de Devices. 
+
+##### PROBLEMA #6: No existe la opción de ocultar la última conexión a la aplicación  
+**Severidad:** 1  
+**Heurística violada:** Usability: Flexibilidad y eficiencia de uso  
+
+**Problema:**  
+El usuario no tiene control sobre su privacidad respecto a la última vez que usó la app, lo que puede ser un problema en entornos colaborativos o sensibles.  
+
+![image](https://github.com/user-attachments/assets/1fb0e2c8-a1b0-45e7-a579-1d70c158b33c)
+
+**Recomendación:**  
+Añadir una opción tipo “Ocultar última vez en línea” en la configuración, y así evitar que en la sección de organización, los demás trabajadores puedan visualizarla. 
+
+##### PROBLEMA #7: No existe la posibilidad de editar el nombre y la dirección del hotel  
+**Severidad:** 3  
+**Heurística violada:** Usability: Libertad y control del usuario  
+
+**Problema:**  
+No hay opción para que el usuario edite información básica del hotel como su nombre o dirección, lo que reduce la capacidad de gestión del sistema por parte del usuario.  
+
+![image](https://github.com/user-attachments/assets/8f02afb3-e667-45bd-97e8-bb9d23d3b34e)
+
+
+**Recomendación:**  
+Habilitar campos editables para nombre y dirección en Hotel Overview. 
+
+##### PROBLEMA #8: No incluye la posibilidad de pagar la suscripción mediante diferentes medios de pago como Google Pay o Apple Pay, a pesar de incluir sus imágenes en la pasarela de pago  
+**Severidad:** 3  
+**Heurística violada:** Information Architecture: ¿Es útil?  
+
+**Problema:**  
+Se muestran íconos de métodos de pago populares que en realidad no están implementados, generando confusión y expectativas falsas en el usuario.  
+
+![image](https://github.com/user-attachments/assets/2ca9f9b8-6451-406c-ad96-537303f943b9)
+
+**Recomendación:**  
+Ocultar los íconos de medios de pago no habilitados o implementar realmente esas opciones.  
+
+
+
+### SITE o APP A EVALUAR:
+Sweet Manager Serial Monitor
+
+#### TAREAS A EVALUAR:
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Impresión de temperatura del termostato en tiempo real
+
+
+#### ESCALA DE SEVERIDAD Y TABLA RESUMEN DE PROBLEMAS
+
+| #  | Problema                                                                 | Escala de severidad | Heurística/Principio violado(a)                                |
+|----|--------------------------------------------------------------------------|----------------------|-----------------------------------------------------------------|
+| 1  | No existe la posibilidad de configurar la temperatura en la pantalla a modo de pantalla táctil | 3                    | Usability: Libertad y control del usuario                      |
+| 2  | No es consistente con el diseño de interfaz de demás soluciones técnologicas de Sweet Manager, vease paleta de colores, lenguaje con el consumidor  | 1                    | Usability: Consistencia y estándares                           |
+| 3  | Su funcionamiento no es automatico, los valores tardan unos segundos en pasar desde la app hasta la pantalla | 3 | Usability: Eficiente uso |
+| 4  | No incluye temperatura en distintas medidas como Kelvin o Farenheidt | 2| Information Architecture: ¿Es Findable?  |
+| 5  | La iluminación del Serial Monitor es baja, generando que en horas nocturnas, los usuarios no puedan visualizar la pantalla sin luz externa adicional | 2| Information Architecture: ¿Es Findable?  |
+
+#### PROBLEMA #1: No existe la posibilidad de configurar-+ la temperatura mediante pantalla táctil 
+**Severidad:** 3 
+**Heurística violada:** Libertad y control del usuario 
+
+**Problema:** 
+La pantalla actual no cuenta con funcionalidad táctil para permitir la configuración directa de la temperatura. Esto obliga al usuario a depender exclusivamente de la aplicación móvil o comandos externos, limitando la autonomía y control directo sobre el dispositivo.
+
+![image](https://github.com/user-attachments/assets/2611a2c9-54c1-4eb0-a762-0d489aee6398)
+
+**Recomendación:** 
+Incorporar controles táctiles básicos (botones digitales en pantalla o sliders) que permitan al usuario ajustar directamente la temperatura desde el dispositivo, aumentando así su usabilidad e independencia.
+
+
+#### PROBLEMA #2: No es consistente con el diseño de otras soluciones tecnológicas de Sweet Manager 
+**Severidad:** 1 
+**Heurística violada:** Consistencia y estándares 
+
+**Problema:** 
+La interfaz de la pantalla no sigue la línea de diseño visual (paleta de colores, tipografía, estilo gráfico) ni el lenguaje comunicacional utilizado en otras soluciones Sweet Manager, lo que puede generar una experiencia de usuario incoherente o confusa.
+
+![image](https://github.com/user-attachments/assets/f54c4f60-149e-4e6d-8725-0e9c640ac19c)
+
+
+**Recomendación:** 
+Actualizar la interfaz gráfica de la pantalla para alinearla con los estándares de diseño de Sweet Manager, incluyendo paleta de colores azul, íconos consistentes y mensajes en el mismo tono de comunicación.
+
+
+#### PROBLEMA #3: Su funcionamiento no es automático; los valores tardan segundos en reflejarse en la pantalla 
+**Severidad:** 3 
+**Heurística violada:** Eficiente uso del sistema 
+
+**Problema:** 
+Existe un retraso perceptible entre el ajuste de temperatura en la app y su reflejo en la pantalla del dispositivo. Este desfase puede llevar a errores de interpretación, frustración del usuario o ajustes innecesarios por pensar que el cambio no se ha registrado.
+
+![image](https://github.com/user-attachments/assets/454d6303-2775-4111-9204-0aa65add3035)
+
+
+**Recomendación:** 
+Optimizar la comunicación entre la app y el dispositivo para garantizar una respuesta más inmediata, o incluir un indicador de “sincronización en curso” que informe al usuario que el cambio se está procesando.
+
+
+#### PROBLEMA #4: No incluye opciones para mostrar la temperatura en distintas unidades (Kelvin o Fahrenheit) 
+**Severidad:** 2 
+**Heurística violada:** Arquitectura de información – ¿Es Findable? 
+
+**Problema:** 
+El sistema solo permite visualizar la temperatura en grados Celsius, sin ofrecer opciones para alternar a otras unidades comunes como Fahrenheit o Kelvin. Esto limita su comprensión y utilidad para usuarios internacionales o técnicos que manejan otras escalas.
+
+![image](https://github.com/user-attachments/assets/b42c9131-e215-41f6-93c3-aa83ba1b7191)
+
+
+**Recomendación:** 
+Añadir una opción de configuración que permita al usuario seleccionar la unidad de medida deseada desde el menú del dispositivo o desde la app.
+
+
+#### PROBLEMA #5: La iluminación del Serial Monitor es baja, dificultando la lectura nocturna sin luz externa 
+**Severidad:** 2 
+**Heurística violada:** Arquitectura de información – ¿Es Findable? 
+
+**Problema:** 
+Durante la noche o en ambientes con poca luz, la retroiluminación del monitor serial es insuficiente, lo que impide una lectura clara de los valores en pantalla sin utilizar linternas u otras fuentes externas de iluminación.
+
+![image](https://github.com/user-attachments/assets/f60b7f9a-305a-4fab-8724-cf66f12ec4f0)
+
+**Recomendación:** 
+Mejorar la retroiluminación del dispositivo o añadir un modo de alto contraste nocturno, activable desde la configuración, para facilitar la lectura en condiciones de baja visibilidad.
+
+### SITE o APP A EVALUAR:
+Sweet Manager Led Light
+
+#### TAREAS A EVALUAR:
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Encendido de las luces Led según el nivel de temperatura de la habitación. 
+
+
+#### ESCALA DE SEVERIDAD Y TABLA RESUMEN DE PROBLEMAS
+
+| #  | Problema                                                                                      | Escala de severidad | Heurística/Principio violado(a)                         |
+|----|-----------------------------------------------------------------------------------------------|----------------------|----------------------------------------------------------|
+| 1  | No existe la posibilidad de personalizar el color de la luz LED                               | 3                    | Libertad y control del usuario                          |
+| 2  | Su color no es consistente con la paleta de colores de Sweet Manager, que consiste en azules  | 1                    | Consistencia y estándares                               |
+
+#### PROBLEMA #1: No existe la posibilidad de personalizar el color de la luz LED 
+**Severidad:** 3 
+**Heurística violada:** Libertad y control del usuario 
+
+**Problema:** 
+El sistema enciende una luz LED predeterminada al detectar temperaturas por encima de los 32° C, pero no permite que el usuario seleccione o cambie el color de dicha luz según sus preferencias, necesidades o el entorno (por ejemplo, personas con sensibilidad a ciertos colores o ambientes con iluminación especial).
+
+![image](https://github.com/user-attachments/assets/fffd0c3f-1e98-453c-9614-156e93bc1599)
+
+
+**Recomendación:** 
+Agregar una opción de configuración que permita seleccionar entre una gama de colores para la luz LED, de manera que el usuario pueda personalizar la respuesta visual del sistema ante una emergencia.
+
+
+#### PROBLEMA #2: El color no es consistente con la paleta de colores de Sweet Manager (predominantemente azul) 
+**Severidad:** 1 
+**Heurística violada:** Consistencia y estándares 
+
+**Problema:** 
+El color que emite la luz LED no sigue la línea visual ni la paleta de colores del resto del sistema (basada en tonos fríos y azules), generando una experiencia visual disonante y rompiendo con la identidad de marca.
+
+![image](https://github.com/user-attachments/assets/3c99629d-315c-4f89-8063-6e869c5353df)
+
+
+**Recomendación:** 
+Alinear el color predeterminado de la luz LED con la identidad visual de Sweet Manager, utilizando colores fríos o tonos de azul para mantener una estética coherente y reconocible.
+
+## 7.4. Video About-the-product
+
+El video about-the-product de SweetManager es un spot comercial breve y dinámico, diseñado para presentar de manera clara y entretenida los principales beneficios de nuestra solución. A través de un enfoque creativo y humorístico, mostramos cómo funciona la plataforma desde la perspectiva del huésped, el administrador y el propietario del hotel. El video incluye el testimonio de uno de los entrevistados y presenta capturas reales de nuestras aplicaciones web y móvil, destacando sus funcionalidades clave.
+
+**Enlace al video about-the-product:**
+<https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219422_upc_edu_pe/EYJqRs6S-EBNp-vW--hPSyQBNlKzwWgxAm4bCvVxfA5xnA?e=sMMKiM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+
+<div style="text-align: center;">
+  <img src="./assets/img/img-about-the-product.jpeg" alt="About the product evidence" width="90%" />
+</div><br>
 
 # Conclusiones
 
