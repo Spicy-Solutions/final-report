@@ -6914,6 +6914,144 @@ Para la distribución de la aplicación móvil durante el desarrollo y pruebas, 
 
 #### 7.2.1.6. Services Documentation Evidence for Sprint Review
 
+En este sprint, se ha logrado documentar y desplegar los siguientes endpoints del backend de Sweet Manager. La documentación completa está disponible en Swagger UI y cubre todas las operaciones necesarias para la gestión hotelera.
+
+**Repositorio del Backend:** [https://github.com/Spicy-Solutions/web-services](https://github.com/Spicy-Solutions/web-services)
+
+**Documentación de API (Swagger):** [https://sweetmanager-backend-emergents.onrender.com/swagger/index.html](https://sweetmanager-backend-emergents.onrender.com/swagger/index.html)
+
+**Tabla de Endpoints Documentados:**
+
+| **Endpoint** | **Detalles** |
+|--------------|--------------|
+| **Authentication** | Registro e inicio de sesión para administradores, huéspedes y propietarios. |
+| **ContractOwner** | Gestión completa de contratos de propietarios. |
+| **GuestPreference** | Gestión de preferencias de huéspedes. |
+| **Hotels** | Gestión completa de hoteles (CRUD). |
+| **Mail** | Envío de correos para solicitudes administrativas. |
+| **Multimedia** | Gestión de archivos multimedia (imágenes, logos). |
+| **Notifications** | Sistema de notificaciones para hoteles. |
+| **PaymentCustomer** | Gestión de pagos de clientes. |
+| **PaymentOwner** | Gestión de pagos de propietarios e ingresos semanales/mensuales. |
+| **Providers** | Gestión de proveedores asociados a hoteles. |
+| **RfidCard** | Gestión de tarjetas RFID para acceso a hoteles. |
+| **Room** | Gestión de habitaciones y sus estados. |
+| **Smokesensor** | Gestión de sensores de humo y sus estados. |
+| **Subscription** | Gestión de suscripciones por nombre y estado. |
+| **Supply** | Gestión de suministros para hoteles. |
+| **SupplyRequest** | Gestión de solicitudes de suministros. |
+| **TypeRoom** | Gestión de tipos de habitaciones. |
+| **User** | Gestión de usuarios (propietarios, administradores, huéspedes). |
+
+**Detalle de Operaciones por Endpoint:**
+
+| **Endpoint** | **Operaciones** | **Parámetros** | **URL** |
+|--------------|-----------------|----------------|---------|
+| **Authentication: Sign up admin** | POST | `body: username, email, password, role` | `/api/v1/authentication/sign-up-admin` |
+| **Authentication: Sign up guest** | POST | `body: username, email, password, role` | `/api/v1/authentication/sign-up-guest` |
+| **Authentication: Sign up owner** | POST | `body: username, email, password, role` | `/api/v1/authentication/sign-up-owner` |
+| **Authentication: Sign in** | POST | `body: username, password` | `/api/v1/authentication/sign-in` |
+| **ContractOwner: Create contract** | POST | `body: ownerId, hotelId, startDate, endDate, terms` | `/api/v1/contract-owner` |
+| **ContractOwner: Get all contracts** | GET | - | `/api/v1/contract-owner` |
+| **ContractOwner: Get contract by ID** | GET | `contractOwnerId` | `/api/v1/contract-owner/{contractOwnerId}` |
+| **ContractOwner: Update contract** | PUT | `contractOwnerId, body: terms, status` | `/api/v1/contract-owner/{contractOwnerId}` |
+| **ContractOwner: Get contracts by owner** | GET | `ownerId` | `/api/v1/contract-owner/by-owner/{ownerId}` |
+| **ContractOwner: Get contracts by subscription** | GET | `subscriptionId` | `/api/v1/contract-owner/by-subscription/{subscriptionId}` |
+| **GuestPreference: Get preference by ID** | GET | `guestPreferenceId` | `/api/v1/guest-preferences/{guestPreferenceId}` |
+| **GuestPreference: Update preference** | PUT | `guestPreferenceId, body: preferences` | `/api/v1/guest-preferences/{guestPreferenceId}` |
+| **GuestPreference: Get preferences by guest** | GET | `guestId` | `/api/v1/guest-preferences/guests/{guestId}` |
+| **GuestPreference: Create preference** | POST | `body: guestId, preferenceType, value` | `/api/v1/guest-preferences` |
+| **Hotels: Create hotel** | POST | `body: name, address, city, country, stars, amenities` | `/api/v1/hotels` |
+| **Hotels: Get all hotels** | GET | - | `/api/v1/hotels` |
+| **Hotels: Get hotel by ID** | GET | `hotelId` | `/api/v1/hotels/{hotelId}` |
+| **Hotels: Update hotel** | PUT | `hotelId, body: name, address, amenities` | `/api/v1/hotels/{hotelId}` |
+| **Hotels: Get hotels by owner** | GET | `ownerId` | `/api/v1/hotels/owner/{ownerId}` |
+| **Mail: Send admin request** | POST | `body: to, subject, message` | `/api/v1/mail/admin-request` |
+| **Multimedia: Create multimedia** | POST | `body: file, type, description` | `/api/v1/multimedia` |
+| **Multimedia: Update multimedia** | PUT | `multimediaId, body: file, description` | `/api/v1/multimedia/{multimediaId}` |
+| **Multimedia: Get multimedia details** | GET | - | `/api/v1/multimedia/details` |
+| **Multimedia: Get main image** | GET | - | `/api/v1/multimedia/main` |
+| **Multimedia: Get logo** | GET | - | `/api/v1/multimedia/logo` |
+| **Notifications: Create notification** | POST | `body: hotelId, message, type` | `/api/v1/notifications` |
+| **Notifications: Get notification by ID** | GET | `notificationId` | `/api/v1/notifications/{notificationId}` |
+| **Notifications: Get all notifications by hotel** | GET | `hotelId` | `/api/v1/notifications/get-all-notifications-by-hotelid` |
+| **Notifications: Get notifications by sender** | GET | `senderId` | `/api/v1/notifications/get-notifications-by-senderid` |
+| **Notifications: Get notifications by receiver** | GET | `receiverId` | `/api/v1/notifications/get-notifications-by-receiverid` |
+| **Notifications: Get by sender and receiver** | GET | `senderId, receiverId` | `/api/v1/notifications/get-notifications-by-sender-and-receiverid` |
+| **PaymentCustomer: Create payment** | POST | `body: customerId, amount, paymentMethod` | `/api/v1/payment-customer` |
+| **PaymentCustomer: Get all payments** | GET | - | `/api/v1/payment-customer` |
+| **PaymentCustomer: Get payment by ID** | GET | `paymentCustomerId` | `/api/v1/payment-customer/{paymentCustomerId}` |
+| **PaymentCustomer: Update payment** | PUT | `paymentCustomerId, body: status, amount` | `/api/v1/payment-customer/{paymentCustomerId}` |
+| **PaymentCustomer: Get payments by customer** | GET | `customerId` | `/api/v1/payment-customer/by-customer/{customerId}` |
+| **PaymentOwner: Create payment** | POST | `body: ownerId, amount, paymentDate` | `/api/v1/payment-owner` |
+| **PaymentOwner: Get all payments** | GET | - | `/api/v1/payment-owner` |
+| **PaymentOwner: Get payment by ID** | GET | `paymentOwnerId` | `/api/v1/payment-owner/{paymentOwnerId}` |
+| **PaymentOwner: Update payment** | PUT | `paymentOwnerId, body: amount, status` | `/api/v1/payment-owner/{paymentOwnerId}` |
+| **PaymentOwner: Get payments by owner** | GET | `ownerId` | `/api/v1/payment-owner/by-owner/{ownerId}` |
+| **PaymentOwner: Get weekly incomes** | GET | `hotelId` | `/api/v1/payment-owner/weekly-incomes/{hotelId}` |
+| **PaymentOwner: Get monthly incomes** | GET | `hotelId` | `/api/v1/payment-owner/monthly-incomes/{hotelId}` |
+| **Providers: Create provider** | POST | `body: name, service, contact, hotelId` | `/api/v1/providers` |
+| **Providers: Get provider by ID** | GET | `providerId` | `/api/v1/providers/{providerId}` |
+| **Providers: Update provider** | PUT | `providerId, body: name, service, contact` | `/api/v1/providers/{providerId}` |
+| **Providers: Delete provider** | DELETE | `providerId` | `/api/v1/providers/{providerId}` |
+| **Providers: Get providers by hotel** | GET | `hotelId` | `/api/v1/providers/hotel/{hotelId}` |
+| **RfidCard: Create RFID card** | POST | `body: cardNumber, guestId, hotelId, isActive` | `/api/v1/rfid-card` |
+| **RfidCard: Get all RFID cards** | GET | - | `/api/v1/rfid-card` |
+| **RfidCard: Get RFID card by ID** | GET | `rfidCardId` | `/api/v1/rfid-card/{rfidCardId}` |
+| **RfidCard: Get RFID cards by hotel** | GET | `hotelId` | `/api/v1/rfid-card/hotel/{hotelId}` |
+| **Room: Set up room** | POST | `body: hotelId, roomNumber, floor, typeRoomId` | `/api/v1/room/set-up` |
+| **Room: Create room** | POST | `body: hotelId, roomNumber, status` | `/api/v1/room/create-room` |
+| **Room: Update room state** | PUT | `roomId, body: state` | `/api/v1/room/update-room-state` |
+| **Room: Get room by ID** | GET | `id` | `/api/v1/room/get-room-by-id` |
+| **Room: Get room by state** | GET | `state` | `/api/v1/room/get-room-by-state` |
+| **Room: Get all rooms** | GET | - | `/api/v1/room/get-all-rooms` |
+| **Room: Get room by type** | GET | `typeRoom` | `/api/v1/room/get-room-by-type-room` |
+| **Smokesensor: Update sensor state** | PUT | `id, body: state, temperature` | `/api/v1/smokesensor/update-smoke-sensor-state` |
+| **Smokesensor: Get sensor by ID** | GET | `id` | `/api/v1/smokesensor/get-smoke-sensor-by-id` |
+| **Smokesensor: Get all sensors** | GET | - | `/api/v1/smokesensor/get-all-smoke-sensors` |
+| **Smokesensor: Create sensor** | POST | `body: roomId, sensorType, isActive` | `/api/v1/smokesensor/create-smoke-sensor` |
+| **Smokesensor: Update sensor temperature** | PUT | `id, body: temperature` | `/api/v1/smokesensor/update-smoke-sensor-temperature` |
+| **Smokesensor: Update sensor** | PUT | `id, body: state, isActive` | `/api/v1/smokesensor/update-smoke-sensor` |
+| **Subscription: Create subscription** | POST | `body: name, price, features, duration` | `/api/v1/subscription` |
+| **Subscription: Get all subscriptions** | GET | - | `/api/v1/subscription` |
+| **Subscription: Get subscription by ID** | GET | `subscriptionId` | `/api/v1/subscription/{subscriptionId}` |
+| **Subscription: Update subscription** | PUT | `subscriptionId, body: price, features` | `/api/v1/subscription/{subscriptionId}` |
+| **Subscription: Get subscription by name** | GET | `name` | `/api/v1/subscription/by-name/{name}` |
+| **Subscription: Get subscription by status** | GET | `status` | `/api/v1/subscription/by-status/{status}` |
+| **Supply: Create supply** | POST | `body: name, quantity, providerId, hotelId` | `/api/v1/supply/create-supply` |
+| **Supply: Update supply** | PUT | `id, body: quantity, status` | `/api/v1/supply/{id}` |
+| **Supply: Get supply by ID** | GET | `id` | `/api/v1/supply/{id}` |
+| **Supply: Get all supplies** | GET | - | `/api/v1/supply/get-all-supplies` |
+| **Supply: Get supplies by provider** | GET | `providerId` | `/api/v1/supply/provider/{providerId}` |
+| **Supply: Update supply by provider** | PUT | `id, body: quantity` | `/api/v1/supply/provider/{id}` |
+| **SupplyRequest: Create supply request** | POST | `body: supplyId, hotelId, quantity, requestDate` | `/api/v1/supply-request` |
+| **SupplyRequest: Get supply requests by hotel** | GET | `hotelId` | `/api/v1/supply-request/hotelid/{HotelId}` |
+| **SupplyRequest: Get supply request by ID** | GET | `id` | `/api/v1/supply-request/{id}` |
+| **SupplyRequest: Get by payment owner** | GET | `paymentOwnerId` | `/api/v1/supply-request/paymentowner/{paymentOwnerId}` |
+| **SupplyRequest: Get by supply** | GET | `supplyId` | `/api/v1/supply-request/supply/{supplyId}` |
+| **TypeRoom: Create type room** | POST | `body: name, description, basePrice, capacity` | `/api/v1/type-room/create-type-room` |
+| **TypeRoom: Get type room by ID** | GET | `id` | `/api/v1/type-room/get-type-room-by-id` |
+| **TypeRoom: Get all type rooms** | GET | - | `/api/v1/type-room/get-all-type-rooms` |
+| **TypeRoom: Get minimum price by hotel** | GET | `hotelId` | `/api/v1/type-room/get-minimum-price-type-room-by-hotel-id` |
+| **User: Get owner by ID** | GET | `id` | `/api/v1/user/owners/{id}` |
+| **User: Update owner** | PUT | `id, body: name, email, phone` | `/api/v1/user/owners/{id}` |
+| **User: Get all owners** | GET | - | `/api/v1/user/owners` |
+| **User: Get admin by ID** | GET | `id` | `/api/v1/user/admins/{id}` |
+| **User: Update admin** | PUT | `id, body: name, email, permissions` | `/api/v1/user/admins/{id}` |
+| **User: Get all admins** | GET | - | `/api/v1/user/admins` |
+| **User: Get guest by ID** | GET | `id` | `/api/v1/user/guests/{id}` |
+| **User: Update guest** | PUT | `id, body: name, email, preferences` | `/api/v1/user/guests/{id}` |
+| **User: Get all guests** | GET | - | `/api/v1/user/guests` |
+| **User: Assign hotel to admin** | PUT | `id, body: hotelId` | `/api/v1/user/admins/{id}/hotel` |
+
+**Capturas de Pantalla de la Documentación:**
+
+A continuación se muestra captura de la documentación activa y desplegada en Swagger UI:
+
+![Services Documentation - Swagger UI Overview](assets/img/services-documentation/swagger-overview.png)
+
+
+
 #### 7.2.1.7. Software Deployment Evidence for Sprint Review
 
 #### 7.2.1.8. Team collaboration Insights during Sprint
