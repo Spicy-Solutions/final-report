@@ -7082,6 +7082,24 @@ Finalmente, confirmó que la aplicación embebida ajustó automáticamente la te
 **Entrevista 02 (Huespedes)**
 <br>
 
+URL del vídeo: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214733_upc_edu_pe/IQDm__JYuodoTpVRCp7m57DLAb_sbLapP4SY9FeYaUMLgsw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dZTimq>
+<br>
+Nombre: Leandro Medina <br>
+Edad: 22 <br>
+Sexo: Masculino <br>
+Lugar donde vive: Villa Maria - Lima <br>
+Ocupación: Cocinero <br>
+Duración de la entrevista:  8: 49 <br> 
+Personalidad: Analítica <br>
+
+<div style="text-align: center;">
+ <img width="1501" height="668" alt="image" src="https://github.com/user-attachments/assets/c1f359bd-2d84-4ff6-bb4f-01b38246ecab" />
+</div><br>
+
+<br>
+
+El huésped invitado Leandro entrevistado reportó una experiencia completamente satisfactoria con la plataforma web de reservas del hotel, destacando la facilidad y rapidez del proceso de registro que tomó aproximadamente dos minutos con campos claramente identificados y validación en tiempo real de contraseña. El proceso de reserva fue descrito como intuitivo y transparente, completándose en tres pasos directos con precios desglosados desde el inicio sin cargos ocultos, incluyendo un calendario visual fácil de usar, fotos de alta calidad de las habitaciones y confirmación inmediata por correo electrónico. La búsqueda de hoteles resultó eficiente gracias a una barra de búsqueda prominente y filtros funcionales que permitieron encontrar el alojamiento deseado en menos de un minuto, mientras que la navegación general contó con indicadores de progreso claros que mantuvieron al usuario orientado en todo momento. El acceso al historial de reservas y preferencias fue sencillo a través de un panel de usuario bien organizado con secciones claramente identificadas, y en ningún momento el huésped consideró abandonar el proceso debido a la fluidez del sistema, tiempos de carga rápidos, elementos de seguridad visibles y políticas de cancelación accesibles. El usuario concluyó que la experiencia fue profesional, confiable y que definitivamente volvería a usar la plataforma recomendándola a otros.
+
 <br><br>
 
 ### 7.3.3. Evaluaciones según heuristicas
