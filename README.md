@@ -7113,7 +7113,7 @@ En este sprint, se ha logrado documentar y desplegar los siguientes endpoints de
 
 A continuación se muestra captura de la documentación activa y desplegada en Swagger UI:
 
-![Services Documentation - Swagger UI Overview](assets/img/services-documentation/swagger-overview.png)
+<img width="1941" height="1147" alt="image" src="https://github.com/user-attachments/assets/35cd69f9-d1d3-4609-8686-95b4b6130d77" />
 
 
 
