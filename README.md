@@ -6910,6 +6910,71 @@ Para la distribución de la aplicación móvil durante el desarrollo y pruebas, 
 
 #### 7.2.1.4. Testing Suite Evidence for Sprint Review
 
+En esta sección se explica y presenta el conjunto de Unit Tests, Integration Tests y Acceptance Tests automatizados, para Web Services relacionados con los User Stories especificados en el Sprint. En el caso de las del tipo BDD se han elaborado los archivos .feature utilizando el lenguaje Gherkin y los archivos Steps en el lenguaje de programación Python con el framework Behave. En esta sección se debe incluir la relación de tests diseñados. En el caso de los Unit Tests, debe indicarse con qué clases y comportamientos se relacionan. En el caso de los Integration Tests o Acceptance Tests bajo el enfoque BDD, se incluye el código de los .feature Files, explicando con qué User Stories se relacionan. También debe incluirse la ruta al repositorio de los archivos del proyecto de Testing, junto con los id de commits relacionados con los avances en Testing para este Sprint.
+
+**Repositorio de Testing:** [https://github.com/Spicy-Solutions/testing](https://github.com/Spicy-Solutions/testing)
+
+**Resumen de Tests Implementados:**
+
+En este sprint se han desarrollado tests automatizados utilizando BDD (Behavior-Driven Development) con Gherkin para validar los Web Services del sistema Sweet Manager. Los tests cubren las siguientes áreas principales:
+
+**1. Authentication Tests (authentication.feature)**
+   - User Story relacionada: US001 - Registro de usuario, US002 - Inicio de sesión
+   - Escenarios implementados:
+     - Admin user registration
+     - Guest user registration  
+     - Owner user registration
+     - Successful user sign in
+     - Failed sign in with invalid credentials
+
+**2. Hotel Management Tests (hotels.feature)**
+   - User Story relacionada: US003 - Gestión de hoteles
+   - Escenarios implementados:
+     - Create a new hotel
+     - Get all hotels
+     - Get hotel by ID
+     - Update hotel information
+     - Get hotels by owner
+
+**3. Room Management Tests (rooms.feature)**
+   - User Story relacionada: US004 - Gestión de habitaciones
+   - Escenarios implementados:
+     - Set up a new room
+     - Create a room
+     - Update room state
+     - Get room by ID
+     - Get room by state
+     - Get all rooms
+     - Get rooms by type
+
+**4. Payment Management Tests (payments.feature)**
+   - User Story relacionada: US005 - Sistema de pagos
+   - Escenarios implementados:
+     - Create customer payment
+     - Get all customer payments
+     - Get customer payment by ID
+     - Update customer payment
+     - Get payments by customer
+     - Create owner payment
+     - Get weekly incomes
+     - Get monthly incomes
+
+
+
+**Tabla de Commits de Testing:**
+
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
+|----------------|------------|---------------|--------------------|-----------------------|------------------------|
+| testing | main | 8f3b5b6 | docs: add initial README with testing suite documentation | Added comprehensive documentation for testing suite including installation, execution and structure details | 11/11/2025 |
+| testing | main | 40797ed | test: add authentication feature tests with user registration and sign in scenarios | Implemented BDD scenarios for admin, guest and owner registration. Added sign in validation tests | 11/11/2024 |
+| testing | main | b1e7af3 | test: add hotel management feature tests with CRUD operations | Created feature tests for hotel creation, retrieval, update and filtering by owner | 11/11/2025 |
+| testing | main | 2886f6a | test: add room management feature tests with state control and filtering | Implemented room setup, state management and filtering scenarios by type and state | 11/11/2025 |
+| testing | main | 3261f4e | test: add payment management feature tests with customer and owner transactions | Added payment processing tests and income reporting scenarios for weekly and monthly periods | 11/11/2025 |
+| testing | main | 34f2101 | test: implement authentication step definitions for BDD scenarios | Developed Python step definitions for authentication feature using requests library | 11/11/2025 |
+| testing | main | ec1d45c | test: implement hotel management step definitions with API integration | Implemented step definitions for hotel CRUD operations with API endpoint integration | 11/11/2025 |
+| testing | main | c739963 | test: implement room management step definitions with state control tests | Created step definitions for room management including state transitions and queries | 11/11/2025 |
+| testing | main | e4ba2cb | chore: add project dependencies for testing framework | Added requirements.txt with behave, requests, pytest and pytest-bdd dependencies | 11/11/2025 |
+
 #### 7.2.1.5. Execution Evidence for Sprint Review
 
 #### 7.2.1.6. Services Documentation Evidence for Sprint Review
