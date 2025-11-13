@@ -6814,9 +6814,9 @@ También usamos los Conventional Commits y para la nomenclatura de commits:
 
 También se usa Semantic Versioning para la numeración de los release.
 
-Se adjunta los enlaces para visualizar los repositorios de la organización:
+Estos son los enlaces que muestran los repositorios de la organización:
 
-Repositorio del landing page
+Repositorio del landing page:
 
 - https://github.com/Spicy-Solutions/landing-page
 
