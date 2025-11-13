@@ -6807,10 +6807,12 @@ Para su nomenclatura hemos seguido la siguiente estructura:
 - Prefijo: Comienza con feature/ para indicar claramente que se trata de una rama de función- 
 - Nombre descriptivo: Proporciona un nombre conciso y descriptivo para la función.
 
-También usamos los Conventional Commits y para la nomenclatura de commits:
+Para tener un prefijo estandar de cada lanzamiento del producto tenemos la siguiente estructura:
 
 - Para los release: release-* 
 - Para los hotfix: hotfix-* 
+
+Para tener los commits estandarizados se sigue  los Conventional Commits.
 
 También se usa Semantic Versioning para la numeración de los release.
 
