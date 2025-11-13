@@ -152,6 +152,57 @@
         </ul>
       </td>
     </tr>
+    <tr>
+      <td rowspan="5">V3</td>
+      <td>08/10/2025</td>
+      <td>Mauricio Abraham Rivo Rojas Sánchez</td>
+      <td>
+        <ul>
+          <li>Diseño y registro de entrevistas</li>
+          <li>Analisis de entrevistas</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>08/10/2025</td>
+      <td>Aaron Elías Acuña Alarcón</td>
+      <td>
+        <ul>
+          <li>Application User Flow Diagrams</li>
+          <li>Application Prototyping</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>08/10/2025</td>
+      <td>Manuel Sebastian Peña Rivera</td>
+      <td>
+        <ul>
+          <li>Source Code Style Guide & Conventions</li>
+          <li>Software Deployment Configuration</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>08/10/2025</td>
+      <td>David Bryan Rodriguez Santos</td>
+      <td>
+        <ul>
+          <li>Software Development Environment Configuration</li>
+          <li>Source Code Management</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>08/10/2025</td>
+      <td>Nelson Elias Serrano Ircañaupa</td>
+      <td>
+        <ul>
+          <li>Testing Suite Evidence</li>
+          <li>Services Documentation</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
   </tbody>
