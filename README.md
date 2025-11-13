@@ -6816,6 +6816,9 @@ También se usa Semantic Versioning para la numeración de los release.
 
 Se adjunta los enlaces para visualizar los repositorios de la organización:
 
+Repositorio del landing page
+
+- https://github.com/Spicy-Solutions/landing-page
 
 Repositorio del aplicación movil:
 
