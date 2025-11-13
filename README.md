@@ -7247,7 +7247,37 @@ Finalmente, Carlo subrayó la importancia de que tanto la aplicación web como l
 
 **Entrevista 01 (Administradores)**
 <br>
+URL del Vídeo: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210138_upc_edu_pe/IQD8hyiawmfjTYYjiCpCVphOAXfzICNrgsxeVlq9dmpQABQ?e=T1jgMJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
 
+Nombres: Mathias
+
+Apellidos: Jave
+
+Edad: 28
+
+Sexo: Masculino
+
+Ocupación: Administrador Hotelero
+
+Lugar donde vive: Miraflores
+
+Duración de la entrevista: 00:00 - 
+
+Personalidad: Análitica
+
+<div style="text-align: center;">
+  <img src="./assets/img/validation-interviews/admin-01-interview.png" alt="Admin Mathias Jave" width="100%" />
+</div><br>
+
+En resumen, Mathias Jave, administrador hotelero, evaluó las interfaces desde una perspectiva práctica y orientada a la eficiencia operativa del día a día.
+
+Sobre la Landing Page, mencionó que sí le permitió comprender la propuesta de valor, pero señaló que sería útil incluir una demo interactiva o ejemplos de casos reales que muestren cómo la plataforma soluciona problemas frecuentes en la administración hotelera. 
+
+Comentó también que se sintió identificado con las situaciones que la herramienta promete resolver, aunque consideró que podría añadirse información más concreta sobre el flujo de trabajo dentro del sistema.
+
+En cuanto a la aplicación web, destacó que la distribución del contenido es clara y facilita ubicar rápidamente el historial de reservas y los estados de las habitaciones. Sin embargo, recomendó simplificar aún más algunos procesos para evitar pasos innecesarios y acelerar tareas repetitivas, ya que para un administrador la rapidez es clave. También valoró la organización del panel, señalando que resulta intuitivo y permite mantener control de las actividades sin dificultad.
+
+Finalmente, Mathias resaltó la importancia de seguir optimizando la plataforma para que realmente reduzca la carga operativa y agilice la gestión diaria, especialmente en momentos de alta demanda.
 
 <br><br>
 
