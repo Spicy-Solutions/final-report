@@ -7241,7 +7241,36 @@ Finalmente, Carlo subrayó la importancia de que tanto la aplicación web como l
 
 **Entrevista 02 (Gerentes)**
 <br>
+ 
+URL del Vídeo: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210138_upc_edu_pe/IQC0MRDw5JPRQIRs9TL-5ZghAX_sJfZTFHcIqZUXeFu95Nw?e=pbyF5m&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
 
+Nombres: Alvaro
+
+Apellidos: Jimenez
+
+Edad: 28
+
+Sexo: Masculino
+
+Ocupación: Gerente Hotelero
+
+Lugar donde vive: Miraflores
+
+Duración de la entrevista: 00:00 - 
+
+Personalidad: Análitica
+
+<div style="text-align: center;">
+  <img src="./assets/img/validation-interviews/alvaro.png" alt="Owner Alvaro Jimenez" width="100%" />
+</div><br>
+
+En resumen, Álvaro Jiménez, gerente de hotel, adoptó un enfoque analítico al evaluar las interfaces presentadas.
+
+Comenzando con la Landing Page, Álvaro sugirió mejorar la claridad del contenido y la presentación visual. Recomendó incluir enlaces a fuentes confiables que respalden los datos y estadísticas mostradas, lo que aumentaría la credibilidad de la plataforma. También mencionó que sería útil contar con más casos de uso concretos o una demo interactiva para comprender mejor cómo la plataforma resuelve problemas específicos del día a día en la gestión hotelera.
+
+En cuanto a la aplicación web, destacó la organización y claridad del diseño. Sin embargo, propuso agregar más detalles sobre los servicios del hotel, como los tipos de planes disponibles (familiares, luna de miel, etc.), así como especificar si el alojamiento incluye desayuno u otros servicios adicionales. Aunque la navegación fue intuitiva, sugirió que ciertos procesos, como la visualización de reservas y la gestión de habitaciones, podrían optimizarse para hacerlos más ágiles y directos.
+
+Álvaro enfatizó la necesidad de mejorar la experiencia del usuario con más información accesible y una interfaz visualmente atractiva y funcional.
 
 <br><br>
 
