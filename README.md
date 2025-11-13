@@ -371,6 +371,12 @@ del ABET – EAC - Student Outcome 3.
         Mauricio Rojas:
         Comuniqué de forma oral los resultados de las revisiones de arquitectura, presentando soluciones para optimizar la seguridad y escalabilidad del sistema. Durante las exposiciones, adapté mi explicación a públicos de distintas especialidades, haciendo más sencillo la comprensión técnica y fomentando el trabajo colaborativo en el equipo.
         </p>
+        <p> TB3:</p>
+      <p>Aaron Acuña: Explique oralmente cómo cada componente de la experiencia de usuario respondía a objetivos funcionales y técnicos en el contexto de la comunicación. Además, lidere sesiones de retroalimentación donde presentó avances y justificó las decisiones tomadas en el proceso de diseño."</p>
+      <p>David Rodríguez: Durante el desarrollo del proyecto, presenté de manera clara las propuestas relacionadas con la configuración del entorno de desarrollo y la gestión del código fuente ante el equipo. Adapté el lenguaje para asegurar que todos comprendieran las decisiones técnicas que tomamos en cuanto a software y control de versiones.</p>
+      <p>Manuel Peña: Expliqué de manera objetiva los ajustes implementados en la guía de estilo del código fuente y las convenciones utilizadas en el proceso de despliegue de software, detallando cómo estas mejoras aumentaron la eficiencia y la calidad del código."</p>
+      <p>Nelson Serrano: Me encargué de exponer en las reuniones cómo dockericé el backend y publiqué la imagen en Docker Hub. Logré explicar de manera clara y precisa el flujo de trabajo y cómo se integró este proceso en el sistema de desarrollo continuo.</p>
+      <p>Mauricio Rojas: Comuniqué de manera oral los resultados de las revisiones de arquitectura, presentando soluciones para optimizar la seguridad y escalabilidad del sistema, en relación con la gestión de identidad y accesos (IAM). Durante las exposiciones, adapté mi explicación a públicos de distintas especialidades, facilitando su comprensión técnica y fomentando la colaboración del equipo.</p>
       </p>
     </td>
     <td>
@@ -381,6 +387,10 @@ del ABET – EAC - Student Outcome 3.
     TB2:
     <p>
     El equipo demostró un alto nivel de colaboración y comunicación efectiva a lo largo del proyecto. Se enfocaron en presentar de manera clara y objetiva las decisiones de diseño y arquitectura, asegurando que todos los miembros comprendieran el funcionamiento del sistema y pudieran contribuir desde sus áreas. Además, se promovieron espacios de retroalimentación que permitieron justificar decisiones técnicas, optimizar la estructura del sistema y mejorar su rendimiento, seguridad y escalabilidad. Gracias a estas acciones, se logró mantener una visión compartida del proyecto, facilitar el trabajo interdisciplinario y asegurar que las soluciones desarrolladas respondieran de forma integral a los objetivos planteados.
+    </p>
+    TB3:
+    <p>
+    Durante este entregable, el equipo demostró una comunicación efectiva, tanto en reuniones como en exposiciones, lo que permitió una comprensión común de los avances y decisiones del proyecto. Cada integrante presentó sus resultados de manera clara y objetiva, adaptando su discurso a las necesidades del público, lo que favoreció la colaboración y el trabajo en equipo. Gracias a la comunicación constante, el equipo pudo coordinar tareas, cumplir plazos establecidos y asegurar que los objetivos del proyecto fueran comprendidos por todos los involucrados.
     </p>
     </td>
   </tr>
@@ -426,6 +436,16 @@ del ABET – EAC - Student Outcome 3.
         Mauricio Rojas:
         Desarrollé documentación exhaustiva sobre las correcciones de arquitectura, explicando por escrito los mecanismos de seguridad implementados, las integraciones externas y los patrones utilizados. Estos informes fueron compartidos con el equipo y con el docente, brindando una visión clara y objetiva del trabajo realizado.
         </p>
+        <p>
+        TB3:
+        </p>
+        <p>
+        <p>Aaron Acuña: Redacté reportes detallados sobre el proceso de diseño de la interfaz, describiendo los componentes, la navegación y las decisiones tomadas en cuanto a la experiencia de usuario, especialmente en el contexto de la comunicación. Además, desarrollé el bounded context de Communication, enfocándome en cómo los flujos de datos y la interacción entre los componentes del sistema contribuyen a la gestión de la comunicación dentro del proyecto. Estos documentos facilitaron la validación del diseño y sirvieron como material de soporte para las pruebas de usabilidad.</p>
+        <p>David Rodríguez: Documenté detalladamente la configuración del entorno de desarrollo y la gestión del código fuente, explicando por escrito las decisiones técnicas relacionadas con la estructura del proyecto y el control de versiones. También trabajé en el bounded context de Inventory, asegurando la correcta integración de los procesos de gestión de inventarios dentro del sistema. Mis informes fueron claros y ayudaron a asegurar que todos los miembros del equipo comprendieran las herramientas y tecnologías utilizadas.</p>
+        <p>Manuel Peña: Escribí la documentación técnica sobre las guías de estilo del código fuente y los ajustes realizados en el proceso de despliegue de software, detallando el impacto de estas mejoras en el funcionamiento y la calidad del sistema. Además, desarrollé el bounded context de Monitoring y Communication, lo que me permitió crear un sistema de monitoreo eficaz y vincularlo a las funcionalidades de comunicación para un mejor seguimiento del rendimiento y los procesos del sistema.</p>
+        <p>Nelson Serrano: Elaboré documentación completa sobre el proceso de dockerización del backend y la publicación de la imagen en Docker Hub. Además, trabajé en el bounded context de Commerce, desarrollando las funcionalidades necesarias para gestionar el comercio electrónico dentro del sistema, desde la integración de pagos hasta la administración de productos. La redacción fue clara y precisa, permitiendo que el equipo comprendiera los detalles técnicos y la aplicación práctica de esta tecnología en el flujo de trabajo.</p>
+        <p>Mauricio Rojas: Desarrollé documentación exhaustiva sobre las correcciones de arquitectura relacionadas con la gestión de identidad y accesos (IAM), explicando por escrito los mecanismos de seguridad implementados y las integraciones externas utilizadas. También me encargué de desarrollar el bounded context de IAM, asegurando que la gestión de identidades y accesos fuera segura, eficiente y escalable dentro del sistema. Estos informes fueron compartidos con el equipo y con el docente, brindando una visión clara y objetiva del trabajo realizado.</p>
+      </p>
   </td>
     <td>
       TB1:
@@ -435,6 +455,10 @@ del ABET – EAC - Student Outcome 3.
       TB2:
       <p>
       El equipo realizó un trabajo exhaustivo en la documentación escrita del proyecto, asegurando que cada aspecto técnico y de diseño quedara claramente explicado y accesible para todos los involucrados. Se desarrollaron guías detalladas que establecieron criterios visuales coherentes y normas de accesibilidad, así como documentos que describieron de forma precisa la arquitectura del sistema, los flujos de usuario y la estructura de navegación. Además, se redactaron reportes completos sobre decisiones de diseño, procesos de interfaz y pruebas de usabilidad, acompañados de documentación técnica que explicó el impacto de las modificaciones, mecanismos de seguridad e integraciones implementadas. 
+      </p>
+      TB3:
+      <p>
+      Durante este entregable, el equipo no solo se centró en la documentación detallada de cada uno de los aspectos técnicos, sino que también desarrolló los bounded contexts clave dentro del backend del sistema. Cada miembro del equipo contribuyó al proyecto de manera significativa, asegurando que los procesos estuvieran bien definidos y documentados. La documentación de las decisiones de diseño y la integración de los bounded contexts permitió que el sistema fuera más eficiente y bien estructurado. Al trabajar en áreas como comunicación, inventarios, monitoreo, comercio y gestión de identidades y accesos, el equipo pudo construir una base sólida que facilitó la integración y el desarrollo de nuevas funcionalidades, garantizando que todos los miembros del equipo tuvieran acceso a información clara y accesible, lo que resultó en una mayor colaboración y éxito en la implementación del proyecto.
       </p>
     </td>
   </tr>
