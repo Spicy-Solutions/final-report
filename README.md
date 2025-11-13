@@ -7647,6 +7647,35 @@ Finalmente, Mathias resaltó la importancia de seguir optimizando la plataforma 
 **Entrevista 02 (Administradores)**
 <br>
 
+URL del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212236_upc_edu_pe/IQBc-JH7epQiTp5oSuX3VAlGAXzDqYd5Fz3XzPuWTzs9nTo?e=fwL1vo&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+Nombres: Sofía
+
+Apellidos: Sanchez
+
+Edad: 34
+
+Sexo: Femenino
+
+Ocupación: Administrador Hotelero
+
+Lugar donde vive: Magdalena
+
+Duración de la entrevista: 6:07
+
+Personalidad: Análitica
+
+<div style="text-align: center;">
+  <img src="./assets/img/validation-interviews/admin-01-interview.png" alt="Admin Sofia Sanchez" width="100%" />
+</div><br>
+
+Sofía Sánchez, administradora de un hotel, participó en una entrevista para validar tanto la landing page como la aplicación web del proyecto. En relación con la landing page, comentó que esta le permitió comprender de manera clara cómo la plataforma podría facilitar su trabajo diario, especialmente gracias a la centralización de información y la presentación visual de estadísticas en tiempo real. Además, mencionó sentirse identificada con los problemas que la plataforma busca resolver, ya que las dificultades para organizar reservas, actualizar disponibilidad y coordinar tareas son parte de su rutina laboral. Sin embargo, indicó que una demo interactiva o casos de uso más concretos habrían mejorado aún más su comprensión.
+
+Respecto a la aplicación web, destacó que el historial de reservas y los estados de habitación se visualizaban sin dificultad y con buena velocidad, aunque sugirió mejorar la visibilidad de ciertos detalles como notas del huésped. Consideró que la distribución del panel era clara y organizada, aunque algunos íconos no resultaban totalmente intuitivos. Finalmente, señaló que la plataforma sí le permitió completar sus tareas más rápido, sobre todo en la revisión de disponibilidad, aunque algunos procesos podrían requerir menos clics para ser más eficientes, como el cambio de estado de limpieza.
+Sofía concluyó agradeciendo la oportunidad y resaltando que la plataforma tiene un gran potencial para optimizar la gestión interna del hotel.
+
+
+
 <br><br>
 
 **Entrevista 01 (Huespedes)**
