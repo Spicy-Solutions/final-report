@@ -6814,6 +6814,18 @@ Para tener un prefijo estandar de cada lanzamiento del producto tenemos la sigui
 
 Para tener los commits estandarizados se sigue  los Conventional Commits.
 
+Por ejemplo:
+
+- feat: para nuevas funcionalidades
+
+- fix: para correcciones
+
+- docs: para cambios en documentación
+
+- refactor: para mejoras internas
+
+- chore: para tareas de mantenimiento
+
 También se usa Semantic Versioning para la numeración de los release.
 
 Estos son los enlaces que muestran los repositorios de la organización:
