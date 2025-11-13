@@ -6903,10 +6903,155 @@ Para la distribución de la aplicación móvil durante el desarrollo y pruebas, 
 
 #### 7.2.1.1. Sprint Planning 1
 
+| **Sprint #** | Sprint 1 |
+|--------------|----------|
+| **Sprint Planning Background** | |
+| **Date** | 2025-11-11 |
+| **Time** | 09:00 PM |
+| **Location** | Virtual, mediante una llamada de Discord |
+| **Prepared By** | Rojas Sanchez, Mauricio |
+| **Attendees (to planning meeting)** | Peña, Manuel - Serrano, Nelson - Acuña, Aaron - Rodriguez, David |
+| **Sprint Goal & User Stories** | |
+| **Sprint n Goal** | Our focus is on completing the frontend views and reaching 90% implementation progress. We believe it delivers tangible progress and increased confidence to stakeholders by providing a functional user interface. This will be confirmed when all planned views are visually completed, navigable, and demonstrable in a local environment still without backend integration. |
+| **Sprint 1 Velocity** | 61 story points |
+| **Sum of Story Points** | 61 story points |
 
 #### 7.2.1.2. Sprint Backlog 1
 
+Para organizar las tareas de cada historia de usuario, hemos elaborado en la herramienta Trello un Kanban Board en el que dar seguimiento al proceso en el que se encuentra cada tarea (To do/Working On/Done). Esto nos permite tambien saber a que miembro del equipo se la adjudica cada tarea asi como la cantidad de story points por sprint, con el uso de la extensión: Agile Tools. 
+
+A continuación el cuadro en el que exponemos cada una de estas tareas junto a su descripción: 
+
+| User Story |                                                        | Work-Item / Task |                                         |                                                                            |                        |                             |            |
+| ---------- | ------------------------------------------------------ | ---------------- | --------------------------------------- | -------------------------------------------------------------------------- | ---------------------- | --------------------------- | ---------- |
+| **Id**     | **Title**                                              | **Id**           | **Title**                               | **Description**                                                            | **Estimation (Hours)** | **Assigned To**             | **Status** |
+| HU001      | Obtener información de la empresa                      | T-001            | Crear sección de Information            | Implementar una sección con información relevante del negocio              | 1                      | **Peña, Manuel**            | Done       |
+| HU002      | Informarse sobre los beneficios del producto           | T-001            | Crear sección de Beneficios             | Implementar una sección con información relevante sobre los beneficios     | 1                      | **Serrano, Nelson**         | Done       |
+| HU03       | Conocer los testimonios de los clientes pasados        | T001             | Crear sección de testimonios            | Implementar sección de testimonios con testimonios simulados en frontend   | 1                      | **Acuña, Aaron**            | Done       |
+| HU04       | Informarse sobre los diferentes planes de subscripción | T001             | Diseñar vista de planes                 | Maquetar y mostrar los planes de subscripción con datos estáticos          | 2                      | **Equipo**                  | Done       |
+| HU01       | Gestionar las reservas de huéspedes                    | T001             | Maquetar gestión de reservas            | Crear vista de reservas, botones de acción y estructura general            | 5                      | **Rojas Sánchez, Mauricio** | Done       |
+| HU03       | Registrar nueva habitación en el hotel                 | T001             | Diseñar formulario de habitaciones      | Crear formulario para agregar habitaciones nuevas al sistema               | 5                      | **Peña, Manuel**            | Done       |
+| HU01       | Crear organización                                     | T001             | Implementar creación de organización    | Desarrollar formulario con validación para crear una nueva organización    | 5                      | **Rodríguez, David**        | Done       |
+| HU01       | Revisar ingresos y egresos de la organización          | T001             | Crear sección de finanzas               | Implementar interfaz para mostrar ingresos y egresos de forma visual       | 3                      | **Serrano, Nelson**         | Done       |
+| HU02       | Revisar stock de recursos del hotel                    | T001             | Mostrar tabla de stock                  | Crear componente que visualice el stock actual del inventario              | 3                      | **Acuña, Aaron**            | Done       |
+| HU06       | Agregar proveedores a su lista de contactos            | T001             | Crear vista de proveedores              | Diseñar formulario para añadir nuevos proveedores a la lista               | 3                      | **Rojas Sánchez, Mauricio** | Done       |
+| HU02       | Gestionar la comunicación en la organización           | T001             | Crear sección de mensajes               | Diseñar bandeja de entrada y chat interno entre usuarios del sistema       | 3                      | **Rodríguez, David**        | Done       |
+| HU03       | Reservar una habitación personalizada                  | T001             | Configurar filtros de preferencia       | Implementar filtros para personalizar la selección de habitaciones         | 3                      | **Peña, Manuel**            | Done       |
+| HU04       | Visualizar y gestionar reservas activas                | T001             | Crear panel de reservas activas         | Implementar interfaz para mostrar y gestionar reservas actuales            | 3                      | **Serrano, Nelson**         | Done       |
+| HU05       | Cancelar reservas activas                              | T001             | Agregar opción de cancelación           | Añadir botón de cancelación con validaciones según condiciones             | 3                      | **Acuña, Aaron**            | Done       |
+| HU06       | Consultar historial de reservas anteriores             | T001             | Mostrar historial de reservas           | Crear lista de reservas pasadas accesible para el usuario                  | 3                      | **Rodríguez, David**        | Done       |
+| HU08       | Editar el estado de una habitación                     | T001             | Agregar botón de activación             | Implementar botón para cambiar el estado activo/inactivo de una habitación | 2                      | **Peña, Manuel**            | To do      |
+| HU09       | Actualizar información de una habitación               | T001             | Crear formulario de edición             | Diseñar y enlazar formulario para editar los datos de una habitación       | 2                      | **Rojas Sánchez, Mauricio** | To do      |
+| HU10       | Buscar y filtrar habitaciones por estado               | T001             | Añadir filtros de estado                | Implementar búsqueda y filtros por estado en la vista de habitaciones      | 2                      | **Rodríguez, David**        | Done       |
+| HU11       | Listar administradores de la organización              | T001             | Mostrar lista de admins                 | Crear vista para visualizar a todos los administradores registrados        | 2                      | **Acuña, Aaron**            | Done       |
+| HU12       | Ver huéspedes actuales en el hotel                     | T001             | Implementar vista de huéspedes actuales | Mostrar lista con reservas activas y sus huéspedes asociados               | 2                      | **Peña, Manuel**            | Done       |
+| HU13       | Desvincular administrador de la organización           | T001             | Agregar opción de desvincular           | Permitir eliminar administradores desde el panel de organización           | 2                      | **Rodríguez, David**        | To do      |
+| HU02       | Enviar mensajes al gerente                             | T001             | Crear sección de mensajes al gerente    | Implementar sección de mensajes privados entre admins y gerente            | 2                      | **Serrano, Nelson**         | Done       |
+| HU03       | Ver detalles de la reserva del huésped                 | T001             | Mostrar detalles de reserva             | Diseñar vista con datos completos de una reserva seleccionada              | 2                      | **Rojas Sánchez, Mauricio** | To do      |
+| HU04       | Consultar disponibilidad de habitaciones               | T001             | Vista de disponibilidad                 | Implementar consulta de habitaciones libres por fechas seleccionadas       | 2                      | **Acuña, Aaron**            | Done       |
+| HU05       | Generar reporte de reservas del día                    | T001             | Crear reporte diario                    | Crear funcionalidad para generar resumen de entradas y salidas del día     | 2                      | **Serrano, Nelson**         | To do      |
+| HU06       | Registrar reserva presencial                           | T001             | Agregar formulario de reserva manual    | Permitir ingreso de reservas sin cuenta previa                             | 2                      | **Rodríguez, David**        | Done       |
+| HU07       | Modificar fechas de una reserva                        | T001             | Editar fechas de reserva                | Agregar inputs para cambiar fechas de check-in y check-out                 | 2                      | **Peña, Manuel**            | To do      |
+| HU08       | Cambiar asignación de habitación                       | T001             | Rediseñar asignación dinámica           | Permitir cambiar habitación desde el detalle de la reserva                 | 2                      | **Rojas Sánchez, Mauricio** | Done       |
+| HU02       | Buscar y filtrar hoteles de Sweet Manager              | T001             | Añadir buscador de hoteles              | Implementar filtros por nombre, ubicación y servicios                      | 2                      | **Acuña, Aaron**            | Done       |
+| HU05       | Invitar administradores a su organización              | T001             | Crear invitación por correo             | Permitir al gerente enviar invitaciones a nuevos administradores           | 2                      | **Peña, Manuel**            | To do      |
+| HU04       | Mejorar la subscripción de la organización             | T001             | Agregar opción de upgrade               | Mostrar opciones de cambio de plan y actualizar información en sistema     | 2                      | **Serrano, Nelson**         | Done       |
+| HU09       | Solicitar unirse a una organización                    | T001             | Crear solicitud de unión                | Implementar botón y proceso de solicitud para unirse a una organización    | 1                      | **Rodríguez, David**        | Done       |
+| HU03       | Comunicarse con sus administradores                    | T001             | Habilitar chat con admins               | Permitir que el gerente envíe mensajes directos a administradores          | 1                      | **Acuña, Aaron**            | Done       |
+| HU01       | Crear perfil único y público en SweetManager           | T001             | Crear vista de perfil global            | Diseñar perfil personal público con preferencias e historial               | 1                      | **Rojas Sánchez, Mauricio** | Done       |
+| HU01       | Crear cuenta                                           | T001             | Formulario de registro                  | Implementar el formulario de registro de cuenta con validaciones           | 1                      | **Peña, Manuel**            | Done       |
+
+
 #### 7.2.1.3. Development Evidence for Sprint Review
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="12">sweetmanager-web-applications</td>
+      <td rowspan="12">develop</td>
+      <td>489a9fef5d887e7e37ee9b0f25bfddf5f02b6f03</td>
+      <td>feat: added route to web application.</td>
+      <td></td>
+      <td>2025-05-13T09:04:29Z</td>
+    </tr>
+    <tr>
+      <td>f0527d61b427f45096228e781d8644a229d88b6e</td>
+      <td>feat: added url to web application.</td>
+      <td></td>
+      <td>2025-05-13T07:49:14Z</td>
+    </tr>
+    <tr>
+      <td>42d21c3dfa1e9055d46f3f9d3dbe81122b313e3f</td>
+      <td>feat(services): rooms management card added</td>
+      <td></td>
+      <td>2025-05-10T07:46:33Z</td>
+    </tr>
+    <tr>
+      <td>ffc1da29b0ac4e0f8a234567890abcde12345678</td>
+      <td>fix(Operations and Monitoring): added new booking component.</td>
+      <td>Se añadió el componente para la creación de reservas desde la interfaz del administrador.</td>
+      <td>2025-05-12T21:00:00Z</td>
+    </tr>
+    <tr>
+      <td>b59d599a1c2d3e4f5g6h7i8j9k0a1b2c3d4e5f6g</td>
+      <td>fix(Operations and Monitoring): added booking confirm check-in component.</td>
+      <td>Funcionalidad de confirmación de check-in de reservas.</td>
+      <td>2025-05-12T20:00:00Z</td>
+    </tr>
+    <tr>
+      <td>3790e15aaaaabbbbccccddddeeeeffff11112222</td>
+      <td>Merge pull request #19 from Los-Angelitos/feat/inventory</td>
+      <td>Merge de la rama de inventario con componentes de stock e interfaz base.</td>
+      <td>2025-05-12T19:45:00Z</td>
+    </tr>
+    <tr>
+      <td>ba36108bbbbccccddddeeeeffff111122223333</td>
+      <td>hotfix: minor changes</td>
+      <td>Correcciones menores en estilos y estructuras visuales.</td>
+      <td>2025-05-12T19:00:00Z</td>
+    </tr>
+    <tr>
+      <td>a96bc2d11112222333344445555666677778888</td>
+      <td>fix: fixed navbar navigation</td>
+      <td>Corrige la navegación del navbar en distintas vistas del sistema.</td>
+      <td>2025-05-13T01:00:00Z</td>
+    </tr>
+    <tr>
+      <td>bc433fc555566667777888899990000aaaabbbb</td>
+      <td>add: vercel json for routes</td>
+      <td>Configuración de rutas para despliegue en Vercel.</td>
+      <td>2025-05-13T01:10:00Z</td>
+    </tr>
+    <tr>
+      <td>8f36897aaaaabbbbccccddddeeeeffff11112222</td>
+      <td>feat(Operations and Monitoring): guest Operations and Monitoring component added</td>
+      <td>Componente que permite al huésped visualizar sus reservas actuales.</td>
+      <td>2025-05-12T08:00:00Z</td>
+    </tr>
+    <tr>
+      <td>cdf0da5dddddeeeeffff11112222333344445555</td>
+      <td>refactor(user-profile): updated user account responsive design</td>
+      <td>Actualización de diseño responsive para la cuenta del usuario.</td>
+      <td>2025-05-11T14:00:00Z</td>
+    </tr>
+    <tr>
+      <td>91463ad888899990000aaaabbbbccccddddeeee</td>
+      <td>add: hotel gallery component.</td>
+      <td>Nuevo componente para galería de imágenes del hotel.</td>
+      <td>2025-05-11T13:45:00Z</td>
+    </tr>
+  </tbody>
+</table>
 
 #### 7.2.1.4. Testing Suite Evidence for Sprint Review
 
@@ -6976,6 +7121,122 @@ En este sprint se han desarrollado tests automatizados utilizando BDD (Behavior-
 | testing | main | e4ba2cb | chore: add project dependencies for testing framework | Added requirements.txt with behave, requests, pytest and pytest-bdd dependencies | 11/11/2025 |
 
 #### 7.2.1.5. Execution Evidence for Sprint Review
+
+## Operations and Monitoring Bounded Context
+
+```gherkin
+Feature: Gestión de reservas de huéspedes
+
+  Scenario: Crear una nueva reserva
+    Given El administrador accede al sección de reservas
+    When Completa el formulario de nueva reserva con los datos del huésped y habitación
+    Then La reserva debe guardarse correctamente y mostrarse en la lista de reservas activas
+
+  Scenario: Cancelar una reserva activa
+    Given El huésped accede a su lista de reservas
+    When Selecciona la opción para cancelar una reserva vigente
+    Then La reserva debe marcarse como cancelada y no debe generar penalización si está dentro del plazo
+
+  Scenario: Editar fechas de una reserva
+    Given El administrador selecciona una reserva existente
+    When Modifica la fecha de ingreso y/o salida
+    Then La reserva debe actualizarse con las nuevas fechas sin perder la información anterior
+```
+
+---
+
+## IAM (Identity and Access Management) Bounded Context
+
+```gherkin
+Feature: Gestión de usuarios y roles
+
+  Scenario: Crear cuenta de administrador
+    Given El gerente accede al formulario de registro
+    When Ingresa los datos necesarios para crear una cuenta de administrador
+    Then El sistema debe registrar la cuenta y asignarle permisos administrativos
+
+  Scenario: Invitar a un nuevo administrador
+    Given El gerente accede a la sección de administradores
+    When Envía una invitación por correo a un nuevo miembro
+    Then El nuevo administrador debe recibir un enlace de registro y unirse a la organización
+
+  Scenario: Desvincular administrador de la organización
+    Given El propietario del hotel visualiza la lista de administradores
+    When Selecciona uno para desvincular
+    Then El administrador debe ser removido de la organización y perder acceso
+```
+
+---
+
+## Communication Bounded Context
+
+```gherkin
+Feature: Comunicación interna en el hotel
+
+  Scenario: Enviar mensaje al gerente
+    Given El administrador accede a la sección de mensajes
+    When Escribe y envía un mensaje al gerente del hotel
+    Then El gerente debe recibir la notificación del mensaje en su bandeja de entrada
+
+  Scenario: Ver historial de mensajes
+    Given El gerente accede al sección de comunicación
+    When Visualiza la conversación con un administrador
+    Then Debería ver todos los mensajes enviados y recibidos con orden cronológico
+```
+
+---
+
+## Organizational Management Bounded Context
+
+```gherkin
+Feature: Gestión de la organización del hotel
+
+  Scenario: Crear una organización
+    Given El gerente accede al formulario de creación de organización
+    When Ingresa los datos de nombre, dirección y responsable
+    Then El sistema debe registrar la nueva organización y asociarla a su cuenta
+
+  Scenario: Ver lista de administradores
+    Given El gerente accede al perfil de su organización
+    When Abre la pestaña de administradores
+    Then Debería ver los nombres y roles de todos los administradores registrados
+```
+
+---
+
+## Inventory Bounded Context
+
+```gherkin
+Feature: Gestión del inventario del hotel
+
+  Scenario: Visualizar stock actual
+    Given El gerente accede al sección de inventario
+    When Visualiza la lista de recursos
+    Then Debería ver nombre, cantidad y estado de cada recurso disponible
+
+  Scenario: Revisar necesidades de abastecimiento
+    Given El sistema muestra el stock por debajo del mínimo
+    When El gerente accede a la lista de alertas
+    Then Debería ver qué recursos requieren ser reabastecidos
+```
+
+---
+
+## Commerce Bounded Context
+
+```gherkin
+Feature: Gestión de suscripciones y planes
+
+  Scenario: Ver planes de suscripción
+    Given El usuario accede a la sección de planes
+    When Se despliega la información de cada plan disponible
+    Then El usuario puede comparar opciones y seleccionar la más adecuada
+
+  Scenario: Actualizar plan de suscripción
+    Given El gerente ya cuenta con una suscripción activa
+    When Selecciona un nuevo plan y confirma el cambio
+    Then El sistema debe actualizar su suscripción y reflejar el cambio en la facturación
+```
 
 #### 7.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -7115,11 +7376,64 @@ A continuación se muestra captura de la documentación activa y desplegada en S
 
 <img width="1941" height="1147" alt="image" src="https://github.com/user-attachments/assets/35cd69f9-d1d3-4609-8686-95b4b6130d77" />
 
-
-
 #### 7.2.1.7. Software Deployment Evidence for Sprint Review
 
+En este sprint, se completó el desarrollo de la landing page y el Web Application, a continuación, se detallan el conjunto de herramientas utilizadas para su despliegue:
+
+- Git: Utilizado como sistema de control de versiones para facilitar el trabajo en equipo durante el desarrollo de los artefactos.
+- GitFlow: Implementado como flujo de trabajo para gestionar el progreso individual de cada miembro del equipo en el desarrollo del los artefactos.
+- GitHub: Empleado como plataforma colaborativa para almacenar las versiones del proyceto y facilitar el desarrollo conjunto del equipo.
+- Vercel: Plataforma utilizada para el despliegue del Web Application, conectandolo al repositorio de Github y sincronizar los cambios.
+
+**Evidencias Landing Page**
+<div style="text-align: center;">
+  <img src="./assets/img/deployment_evidence/github_pages_landing_page.png" alt="Github Pages Landing Page" width="50%" />
+</div><br><br>
+Se ha creado un Github Page en el repositorio de la Landing Page, para su despliegue rápido y sencillo. No hay problemas de configuración o despliegue, ya que es una página estática.
+
+**Evidencias Web Application**
+<div style="text-align: center;">
+  <img src="./assets/img/deployment_evidence/vercel_set_up_web_application.png" alt="Github Pages Landing Page" width="50%" />
+</div><br><br>
+
+Se selecciona el repositorio de Github el cual va alimentar el proyecto desplegado. En este caso, se hizo un fork a la rama main del repositorio `Spicy-Solutions/web-application`.
+
+Se configura las variables de entorno, configurar el puerto de entrada y la ruta base del proyecto en Vite.
+
 #### 7.2.1.8. Team collaboration Insights during Sprint
+
+En este Sprint 1, todos hemos colaborado en conjunto para el desarrollo de los artefactos: Landing Page y Web Application.
+
+A continuación se muestran las colaboraciones individuales por cada artefacto terminado durante este sprint.
+
+**Web Application**
+En las siguientes imágenes se evidencia la colaboración activa de cada miembro del equipo en el desarrollo de la Web Application. Se puede observar cómo todos han contribuido mediante commits, pull requests y la integración de funcionalidades dentro del repositorio, lo que refleja un trabajo colaborativo y organizado en el proceso de construcción del sistema.
+
+<div style="text-align: center;">
+  <img src="./assets/img/deployment_evidence/first_part_team_collaboration.png" alt="Github Pages Landing Page" width="100%" />
+</div><br><br>
+
+<div style="text-align: center;">
+  <img src="./assets/img/deployment_evidence/second_part_team_collaboration.png" alt="Github Pages Landing Page" width="100%" />
+</div>
+
+<br><br>
+
+
+Los commits mostrados, pertenecen al repositorio de Web Application, evidenciando las contribuciones de cada participante para el artefacto mencionado.
+
+**Landing Page**
+La imagen muestra la Landing Page desarrollada para la Web Application, la cual representa la primera vista que los usuarios tienen al acceder al sistema. Esta página fue diseñada con un enfoque visual atractivo y funcional, integrando los lineamientos del proyecto y reflejando el trabajo colaborativo del equipo en su construcción e implementación.
+
+<div style="text-align: center;">
+  <img src="./assets/img/deployment_evidence/first_team_landing_page.png" alt="Github Pages Landing Page" width="100%" />
+</div><br><br>
+
+<div style="text-align: center;">
+  <img src="./assets/img/deployment_evidence/second_part_landing.png" alt="Github Pages Landing Page" width="100%" />
+</div><br><br>
+
+Los commits mostrados, pertenecen al repositorio Landing Page, evidenciando las constribuciones de cada participante para el artefacto mencionado.
 
 ## 7.3. Validation Interviews
 
