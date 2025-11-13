@@ -7408,10 +7408,14 @@ En este sprint, se completó el desarrollo de la landing page y el Web Applicati
 </div><br><br>
 Se ha creado un Github Page en el repositorio de la Landing Page, para su despliegue rápido y sencillo. No hay problemas de configuración o despliegue, ya que es una página estática.
 
+Link del deploy: <https://sweetmanager-landing.netlify.app/>
+
 **Evidencias Web Application**
 <div style="text-align: center;">
   <img src="./assets/img/deployment_evidence/vercel_set_up_web_application.png" alt="Github Pages Landing Page" width="50%" />
 </div><br><br>
+
+Link del deploy: <https://sweet-manager-web-application.vercel.app/home>
 
 Se selecciona el repositorio de Github el cual va alimentar el proyecto desplegado. En este caso, se hizo un fork a la rama main del repositorio `Spicy-Solutions/web-application`.
 
@@ -7435,7 +7439,6 @@ En las siguientes imágenes se evidencia la colaboración activa de cada miembro
 </div>
 
 <br><br>
-
 
 Los commits mostrados, pertenecen al repositorio de Web Application, evidenciando las contribuciones de cada participante para el artefacto mencionado.
 
