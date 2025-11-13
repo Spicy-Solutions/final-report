@@ -8152,10 +8152,21 @@ Alinear el color predeterminado de la luz LED con la identidad visual de Sweet M
 El video about-the-product de SweetManager es un spot comercial breve y dinámico, diseñado para presentar de manera clara y entretenida los principales beneficios de nuestra solución. A través de un enfoque creativo y humorístico, mostramos cómo funciona la plataforma desde la perspectiva del huésped, el administrador y el propietario del hotel. El video incluye el testimonio de uno de los entrevistados y presenta capturas reales de nuestras aplicaciones web y móvil, destacando sus funcionalidades clave.
 
 **Enlace al video about-the-product:**
-<https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219422_upc_edu_pe/EYJqRs6S-EBNp-vW--hPSyQBNlKzwWgxAm4bCvVxfA5xnA?e=sMMKiM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+<https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211572_upc_edu_pe/IQCoeswT76i7RLhX3Lj3AfhsAafd1IoQUzmIz3LowCM8kdA?e=Xnua56&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
 
 <div style="text-align: center;">
   <img src="./assets/img/img-about-the-product.jpeg" alt="About the product evidence" width="90%" />
+</div><br>
+
+## 7.5. Video About-the-Team
+
+El video about-the-team de SweetManager.
+
+**Enlace al video about-the-team:**
+<https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211572_upc_edu_pe/IQCoeswT76i7RLhX3Lj3AfhsAafd1IoQUzmIz3LowCM8kdA?e=Xnua56&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+
+<div style="text-align: center;">
+  <img src="./assets/img/img-about-the-team.png" alt="About the product evidence" width="90%" />
 </div><br>
 
 # Conclusiones
