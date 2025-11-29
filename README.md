@@ -4,20 +4,15 @@
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
     <strong>Ingeniería de Software</strong><br>
-    <strong>1ASI0728 - Arquitecturas de Software Emergentes - 7281</strong><br>
+    <strong>1ASI0728 - Arquitecturas de Software Emergentes - </strong><br>
+    <strong>202520</strong>br
+    <strong>NRC: 7281</strong><br>
     <strong>Profesor: Richard Leonardo Berrocal Navarro </strong><br>
-    <br>INFORME
+    <br>Informe del Trabajo Final
+    <strong>Nombre del Producto: Sweet Manager</strong>
 </p>
 
-<center>
-
-#### Startup: **Sweet Manager**
-
-#### Product: **Sweet Manager**
-
-</center>
-
-## Team  Members:
+## Integrantes:
 
 <div align="center">
 
@@ -29,6 +24,9 @@
 | Rodriguez Santos, David Bryan  | U202212236 |
 | Serrano Ircañaupa, Nelson Elias  | U202214733 |
 
+</div>
+<div align="center">
+  <strong> Diciembre de 2025 </strong>
 </div>
 
 <div style="page-break-after: always;"></div>
