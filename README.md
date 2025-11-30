@@ -7528,6 +7528,1009 @@ La imagen muestra la Landing Page desarrollada para la Web Application, la cual 
 
 Los commits mostrados, pertenecen al repositorio Landing Page, evidenciando las constribuciones de cada participante para el artefacto mencionado.
 
+### 7.2.2. Sprint 2
+#### 7.2.2.1.Sprint Planning 2.
+Hemos planeado para este sprint, el desarrollo de la fog api, edge api, embedded application, web services y mobile application. Junto a ello las correcciones de la Web Applications y Landing Page. Así como la culminación del documento, a excepción del Sprint 3. 
+
+| **Sprint #** | Sprint 2 |
+|--------------|----------|
+| **Sprint Planning Background** | |
+| **Date** | 2025-05-22 |
+| **Time** | 09:00 PM |
+| **Location** | Virtual, mediante una llamada de Discord |
+| **Prepared By** | Rojas Sanchez, Mauricio |
+| **Attendees (to planning meeting)** | Acuña - Peña, Rodriguez - Serrano, Rojas - Peña |
+| **Sprint n – 1 Review Summary** |  |
+| **Sprint n – 1 Retrospective Summary** | Durante el Sprint anterior logramos completar las vistas del Web Applications en un 90%, junto a la landing page en un 100% El equipo mostró compromiso y organización en el trabajo, de tal modo que logramos completar los entregables con el tiempo debido. Aparte, desde un principio, definimos aspects leaders, cada uno teniendo un Bounded Context en el que centrarse, facilitando el desarrollo de vistas. Por ultimo, como una potencial mejora, creemos que podemos definir mejor los tiempos y fechas limites, con rangos mas cortos de tiempo, habriamos trabajado igual de bien y en menor tiempo, lo cual nos será esencial para este Sprint 2 |
+| **Sprint Goal & User Stories** | |
+| **Sprint 2 Goal** | **Our focus is** on enabling Owners to visualize hotel stock, register the organization, register providers, change subscription plans, request IoT devices, register and view the availability of rooms in their hotel via the mobile application, and invite administrators by email through the web application. Guests will be able to register, view their profile, view and filter hotels, make and manage reservations via the mobile application, and edit reservation dates via the web application. Administrators will be able to visualize IoT devices via the web application. Device Makers will validate the reservation ID using the room card and change the room temperature via the Edge API and Fog API. Device Users and Device Makers will monitor room temperature changes using a serial monitor, use room access cards, and receive smoke sensor alerts via the embedded application. Mobile or Web Developers will expose endpoints for room and reservation registration, and for filtering rooms and guests by accommodation via the Web Services. **We believe it delivers** easier monitoring of room reservations for Guests, better management of hotel equipment for Administrators, full operational visibility and control for Owners, meaningful interaction with IoT devices in hotel rooms for Device Users, a system for testing and controlling devices for Device Makers, and reliable access to hotel and user data for Mobile or Web Developers. **This will be confirmed** when Guests positively rate their booking experience in at least 90% of cases, Administrators report a 20% increase in positive user feedback at their hotel using Sweet Manager, Owners can visualize and control at least 95% of their hotel operations from the platform, Device Users interact with devices during more than 80% of their stays, without reading or authentication errors, Device Makers validate and control devices with a 98% success rate in integration tests and Mobile or Web Developers have an error rate lower than 2% in documented API calls.|
+| **Sum of Story Points** | 67 story points |
+
+#### 7.2.2.2.Aspect Leaders and Collaborators.
+  
+A continuación explicamos la organización que tuvimos con respecto a los distintos Bounded Context  a la hora de elaborar nuestros entregables de este Sprint. 
+
+| Team Member (Last Name, First Name) | GitHub Username     | IAM Bounded Context | Communication Bounded Context | Operations and Monitoring Bounded Context | Organizational Management Bounded Context | Commerce Bounded Context | Inventory Bounded Context |
+|------------------------------------|----------------------|--------------------------------------|------------------------------------------------|-----------------------------------------------|--------------------------------------------------------------|---------------------------------------------|---------------------------------------------|
+| Acuña, Aaron                     | JenayAaron     | C                                    |                                               | L                                             |                                                             |                                            | C                                           | C             |
+| Peña, Manuel                     | U202210138              |                                     | L                                              | C                                             | C                                                            |                                            |                                            | C             |
+| Rojas, Mauricio                    | MayugiKentai11       | L                                    |                                               | C                                             | C                                                            |                      C                      |                                            | C             |
+| Serrano, Nelson                      | NelsonUPC           |                                     |                                               | C                                             | C                                                            |                                            | L                                           | C             |
+| Rodriguez, David                   | DavidBryanRodriguezSantos       |                                     | C                                              | C                                             | L                                                            |             C                               |                                            | L             |
+|                        |          |                                     |                                               | C                                             |                                                             | L                                           | C                                           |
+
+#### 7.2.2.3.Sprint Backlog 2
+Para organizar las tareas de cada historia de usuario, hemos elaborado en la herramienta Trello un Kanban Board en el que dar seguimiento al proceso en el que se encuentra cada tarea (To do/Working On/Done). Esto nos permite tambien saber a que miembro del equipo se la adjudica cada tarea y si es que requiere de apoyo.  
+![image](https://github.com/user-attachments/assets/59d1e5de-52d8-41ce-a15f-65ffdc536d3b)
+
+
+Link del Kanban Board del Sprint 2: https://shorturl.at/7wZLj  
+
+A continuación el cuadro en el que exponemos cada una de estas tareas junto a su descripción: 
+
+| User Story |            | Work-Item / Task |         |             |               |                |                |
+|------------|------------|------------------|---------|-------------|---------------|----------------|----------------|
+| **Id**     | **Title**  | **Id**           | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| HU01     | Registrar nueva reserva en el hotel | T-001 | Reservar habitaciones | Como Mobile Guest quiero reservar habitaciones para asegurarme tener un alojamiento durante mi estancia. | 3 | Acuña Aaron | Done |
+| HU01     | Crear organización | T-001 | Registrar organización | Como Mobile Hotel Owner quiero registrar una organización para poder gestionar las finanzas, abastecimientos e información relevante de mi hotel. | 3 | Rodriguez David | Done |
+| HU02     | Mejorar la subscripción de la organización | T-001 | Cambiar subscripción | Como Mobile Hotel Owner quiero mejorar/cambiar la subscripción de la organización para ajustarla a nuestras necesidades actuales. | 2 | Rojas Mauricio | Done |
+| HU03     | Revisar stock de recursos del hotel | T-001 | Ver stock de recursos | Como Mobile Hotel Owner quiero revisar el stock actual de los recursos para tomar una decisión de abastecimiento. | 3 | Serrano Nelson | Done |
+| HU04     | Agregar proveedores | T-001 | Registrar proveedor | Como Mobile Hotel Owner quiero agregar proveedor a mi organización para tener su información guardada. | 2 | Peña Manuel | To-do |
+| HU02     | Reservar una habitación personalizada | T-001 | Reserva personalizada | Como Mobile Guest quiero reservar habitaciones personalizadas según mis preferencias. | 3 | Peña Manuel | Done |
+| HU03     | Visualizar y gestionar reservas activas | T-001 | Gestionar reservas activas | Como Mobile Guest quiero visualizar y gestionar mis reservas activas. | 3 | Rodriguez David | Done |
+| HU04     | Cancelar reservas activas | T-001 | Cancelar reserva | Como Mobile Guest quiero cancelar una de mis reservas activas dentro del plazo permitido. | 2 | Serrano Nelson | Done |
+| HU05     | Buscar y filtrar habitaciones por estado | T-001 | Filtrar habitaciones | Como Mobile Hotel Owner quiero buscar y filtrar habitaciones por su estado (activo o inactivo). | 2 | Acuña Aaron | Done |
+| HU06     | Consultar disponibilidad de habitaciones | T-001 | Ver disponibilidad | Como Mobile Hotel Owner quiero consultar la disponibilidad de habitaciones. | 2 | Rojas Mauricio  | Done |
+| HU02     | Buscar y filtrar hoteles de Sweet Manager | T-001 | Filtrar hoteles | Como Mobile Guest quiero filtrar y buscar hoteles según mis preferencias. | 2 | Rojas Mauricio | Done |
+| HU06     | Consultar historial de reservas anteriores | T-001 | Ver historial de reservas | Como Mobile Guest quiero acceder a mi historial de reservas. | 2 | Acuña Aaron | Done |
+| HU04     | Mejorar la subscripción de la organización | T-001 | Cambiar subscripción | Como Mobile Hotel Owner quiero mejorar/cambiar la subscripción de la organización. | 2 | Acuña Aaron | Done |
+| HU08     | Solicitar dispositivos | T-001 | Pedir dispositivos IoT | Como Mobile Hotel Owner quiero poder solicitar más dispositivos IoT para personalización de habitaciones. | 1 | Rodriguez David | Done |
+| HU07     | wCrear perfil y preferencias | T-001 | Crear perfil | Como Mobile Guest quiero crear un perfil global para guardar mis preferencias. | 1 | Rojas Mauricio | Done |
+| HU07     | Crear cuenta | T-001 | Registrar cuenta | Como Mobile Hotel Owner quiero registrar una cuenta para gestionar el hotel. | 1 | Rodriguez David | Done |
+| HTU01    | Exponer endpoint para registrar habitación | T-001 | Endpoint registrar habitación | Como Developer quiero exponer un endpoint POST /api/rooms para registrar una habitación por API. | 2 | Serrano Nelson | Done |
+| HTU02    | Consultar habitaciones filtradas por estado | T-001 | Endpoint filtrar habitaciones | Como Developer quiero exponer un endpoint GET /api/rooms?status=activo/inactivo. | 2 | Peña Manuel | Done |
+| HTU03    | Exponer endpoint para desvincular administrador | T-001 | Endpoint eliminar admin | Como Developer quiero crear un endpoint DELETE /api/admins/{adminId}. | 2 | Peña Manuel | Done |
+| HTU04    | Exponer endpoint para registrar reserva | T-001 | Endpoint registrar reserva | Como Developer quiero exponer un endpoint POST /api/bookings. | 2 | Acuña Aaron | Done |
+| HTU05    | Exponer endpoint para ver huéspedes alojados | T-001 | Endpoint ver huéspedes | Como Developer quiero exponer un endpoint GET /api/bookings/active. | 2 | Acuña Aaron | Done |
+| HU01     | Uso de Interrupt-Driven Detection | T-001 | Detectar botón con interrupción | Como Device Maker quiero usar metodología interrupt-driven para detectar un botón presionado eficientemente. | 5 | Peña Manuel | Working on |
+| HU01     | Tarjeta para acceso a habitaciones | T-001 | Acceso con tarjeta | Como Device User quiero acercar una tarjeta para habilitar la puerta. | 3 | Acuña Aaron | Done |
+| HU02     | Control de temperatura en habitaciones | T-001 | Controlar potenciometro | Como Device User quiero utilizar un potenciometro para ajustar la temperatura. | 3 | Serrano Nelson | Working On |
+| HU04     | Recibir alerta sonora ante humo | T-001 | Alerta sonora por humo | Como Device User quiero que el sensor de humo active un buzzer audible. | 3 | Rojas Mauricio | Working On |
+| HU15     | Recibir notificación por humo | T-001 | Notificación por sensor de humo | Como Web Hotel Owner quiero recibir una notificación inmediata al activarse un sensor de humo. | 3 | Acuña Aaron | Working on |
+| HU03     | Visualizar estado de dispositivos IoT| T-001 | Ver temperatura en pantalla | Como Device User quiero visualizar una pantalla con la temperatura configurada. | 2 | Peña Manuel | Done |
+| HU02     | Monitorear el cambio de temperatura | T-001 | Ver temperatura en Serial Monitor | Como Device Maker quiero ver la temperatura en el monitor serial. | 2 | Serrano Nelson | Done |
+| HU14     | Visualizar estado de dispositivos en la web | T-001 | Ver estado de IoT en la web | Como Web Hotel Owner quiero visualizar el estado de los dispositivos IoT en mi hotel. | 3 | Acuña Aaron | Working On |
+
+#### 7.2.2.4. Development Evidence for Sprint Review.
+<table border="1">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="13">sweetmanager-web-applications</td>
+      <td rowspan="13">develop</td>
+      <td>c1a2b3d</td>
+      <td>Merge pull request #60 from Los-Angelitos/refactor/latest-changes-final</td>
+      <td></td>
+      <td>2025-06-18T19:00:00Z</td>
+    </tr>
+    <tr>
+      <td>d2b3c4e</td>
+      <td>update: connecting admin with owner organization hotel</td>
+      <td></td>
+      <td>2025-06-18T18:55:00Z</td>
+    </tr>
+    <tr>
+      <td>e3c4d5f</td>
+      <td>Merge pull request #59 from Los-Angelitos/refactor/latest-changes-final</td>
+      <td></td>
+      <td>2025-06-18T18:00:00Z</td>
+    </tr>
+    <tr>
+      <td>f4d5e6a</td>
+      <td>fix: double sending request</td>
+      <td></td>
+      <td>2025-06-18T17:55:00Z</td>
+    </tr>
+    <tr>
+      <td>a5e6f7b</td>
+      <td>Merge pull request #58 from Los-Angelitos/refactor/latest-changes-final</td>
+      <td></td>
+      <td>2025-06-18T17:45:00Z</td>
+    </tr>
+    <tr>
+      <td>b6f7g8c</td>
+      <td>update: minor changes</td>
+      <td></td>
+      <td>2025-06-18T17:40:00Z</td>
+    </tr>
+    <tr>
+      <td>c7g8h9d</td>
+      <td>add: iot configuration connected with web services</td>
+      <td></td>
+      <td>2025-06-18T17:30:00Z</td>
+    </tr>
+    <tr>
+      <td>d8h9i0e</td>
+      <td>update: fetching hotel data</td>
+      <td></td>
+      <td>2025-06-18T17:00:00Z</td>
+    </tr>
+    <tr>
+      <td>e9i0j1f</td>
+      <td>refactor: major changes</td>
+      <td></td>
+      <td>2025-06-18T16:45:00Z</td>
+    </tr>
+    <tr>
+      <td>f0j1k2g</td>
+      <td>Merge pull request #57 from Los-Angelitos/refactor/minor-changes-latest</td>
+      <td></td>
+      <td>2025-06-18T15:00:00Z</td>
+    </tr>
+    <tr>
+      <td>g1k2l3h</td>
+      <td>Merge pull request #56 from Los-Angelitos/refactor/minor-changes-pelusita</td>
+      <td></td>
+      <td>2025-06-18T13:00:00Z</td>
+    </tr>
+    <tr>
+      <td>h2l3m4i</td>
+      <td>fix: admin menu icons updated</td>
+      <td></td>
+      <td>2025-06-18T08:00:00Z</td>
+    </tr>
+    <tr>
+      <td>i3m4n5j</td>
+      <td>update: owner views fixed</td>
+      <td></td>
+      <td>2025-06-18T07:00:00Z</td>
+    </tr>
+  </tbody>
+</table>
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="18">sweetmanager-web-services</td>
+      <td rowspan="18">develop</td>
+      <td>f0ab1c2</td>
+      <td>Merge pull request #35 from Los-Angelitos/feat/rfid</td>
+      <td></td>
+      <td>2025-06-18T07:00:00Z</td>
+    </tr>
+    <tr>
+      <td>a1bc2d3</td>
+      <td>feat(rfid): added RFID get by hotel id feature.</td>
+      <td></td>
+      <td>2025-06-17T23:00:00Z</td>
+    </tr>
+    <tr>
+      <td>b2cd3e4</td>
+      <td>Merge pull request #34 from Los-Angelitos/feat/rfid</td>
+      <td></td>
+      <td>2025-06-17T22:00:00Z</td>
+    </tr>
+    <tr>
+      <td>c3de4f5</td>
+      <td>feat(rfid): configured rfid on db context.</td>
+      <td></td>
+      <td>2025-06-17T21:45:00Z</td>
+    </tr>
+    <tr>
+      <td>d4ef5g6</td>
+      <td>feat(rfid): configured dependency injection for RFID Card.</td>
+      <td></td>
+      <td>2025-06-17T21:30:00Z</td>
+    </tr>
+    <tr>
+      <td>e5f6g7h</td>
+      <td>feat(rfid): created RFID controller.</td>
+      <td></td>
+      <td>2025-06-17T21:15:00Z</td>
+    </tr>
+    <tr>
+      <td>f6g7h8i</td>
+      <td>feat(rfid): added RFID transform files.</td>
+      <td></td>
+      <td>2025-06-17T21:00:00Z</td>
+    </tr>
+    <tr>
+      <td>g7h8i9j</td>
+      <td>feat(rfid): added RFID Card repository and resource files.</td>
+      <td></td>
+      <td>2025-06-17T20:45:00Z</td>
+    </tr>
+    <tr>
+      <td>h8i9j0k</td>
+      <td>feat(rfid): added RFID Card command and query services.</td>
+      <td></td>
+      <td>2025-06-17T20:30:00Z</td>
+    </tr>
+    <tr>
+      <td>i9j0k1l</td>
+      <td>feat(rfid): added RFID Card repository, command and query services interfaces.</td>
+      <td></td>
+      <td>2025-06-17T20:15:00Z</td>
+    </tr>
+    <tr>
+      <td>j0k1l2m</td>
+      <td>feat(rfid): added RFID Card entity, commands and queries.</td>
+      <td></td>
+      <td>2025-06-17T20:00:00Z</td>
+    </tr>
+    <tr>
+      <td>k1l2m3n</td>
+      <td>Merge pull request #33 from Los-Angelitos/feat/fog-catalog</td>
+      <td></td>
+      <td>2025-06-16T23:00:00Z</td>
+    </tr>
+    <tr>
+      <td>l2m3n4o</td>
+      <td>feat(fog): added put endpoint.</td>
+      <td></td>
+      <td>2025-06-16T22:45:00Z</td>
+    </tr>
+    <tr>
+      <td>m3n4o5p</td>
+      <td>refactor(fog): removed hotel id from update command.</td>
+      <td></td>
+      <td>2025-06-16T22:30:00Z</td>
+    </tr>
+    <tr>
+      <td>n4o5p6q</td>
+      <td>chore(fog): removed hotel id validation from fog update.</td>
+      <td></td>
+      <td>2025-06-16T22:15:00Z</td>
+    </tr>
+    <tr>
+      <td>o5p6q7r</td>
+      <td>fix(fog): fixed constructor.</td>
+      <td></td>
+      <td>2025-06-16T22:00:00Z</td>
+    </tr>
+    <tr>
+      <td>p6q7r8s</td>
+      <td>chore: updated dependencies injection.</td>
+      <td></td>
+      <td>2025-06-16T21:45:00Z</td>
+    </tr>
+    <tr>
+      <td>q7r8s9t</td>
+      <td>chore: added fog server context.</td>
+      <td></td>
+      <td>2025-06-16T21:30:00Z</td>
+    </tr>
+    <tr>
+      <td>r8s9t0u</td>
+      <td>feat(fog): added controller.</td>
+      <td></td>
+      <td>2025-06-16T21:15:00Z</td>
+    </tr>
+  </tbody>
+</table>
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="15">sweetmanager-mobile-application</td>
+      <td rowspan="15">develop</td>
+      <td>a1b2c3d</td>
+      <td>Merge pull request #20 from Los-Angelitos/fix/guest</td>
+      <td></td>
+      <td>2025-06-18T07:00:00Z</td>
+    </tr>
+    <tr>
+      <td>b2c3d4e</td>
+      <td>Merge branch 'main' into fix/guest</td>
+      <td></td>
+      <td>2025-06-18T06:45:00Z</td>
+    </tr>
+    <tr>
+      <td>c3d4e5f</td>
+      <td>chore: updated routes.</td>
+      <td></td>
+      <td>2025-06-18T06:30:00Z</td>
+    </tr>
+    <tr>
+      <td>d4e5f6g</td>
+      <td>chore: updated route flow.</td>
+      <td></td>
+      <td>2025-06-18T06:15:00Z</td>
+    </tr>
+    <tr>
+      <td>e5f6g7h</td>
+      <td>chore: cleaned code.</td>
+      <td></td>
+      <td>2025-06-18T06:00:00Z</td>
+    </tr>
+    <tr>
+      <td>f6g7h8i</td>
+      <td>chore: added guest reservation service integration.</td>
+      <td></td>
+      <td>2025-06-18T05:45:00Z</td>
+    </tr>
+    <tr>
+      <td>g7h8i9j</td>
+      <td>feat: added basic template for type rooms booking view.</td>
+      <td></td>
+      <td>2025-06-18T05:30:00Z</td>
+    </tr>
+    <tr>
+      <td>h8i9j0k</td>
+      <td>chore: added services integration for hotel detail.</td>
+      <td></td>
+      <td>2025-06-18T05:15:00Z</td>
+    </tr>
+    <tr>
+      <td>i9j0k1l</td>
+      <td>chore: added new required attribute.</td>
+      <td></td>
+      <td>2025-06-18T05:00:00Z</td>
+    </tr>
+    <tr>
+      <td>j0k1l2m</td>
+      <td>chore: updated main page base layout and design.</td>
+      <td></td>
+      <td>2025-06-18T04:45:00Z</td>
+    </tr>
+    <tr>
+      <td>k1l2m3n</td>
+      <td>Merge pull request #19 from Los-Angelitos/feat/owner-corrections</td>
+      <td></td>
+      <td>2025-06-18T04:30:00Z</td>
+    </tr>
+    <tr>
+      <td>l2m3n4o</td>
+      <td>feat(organizational-management): admin service added</td>
+      <td></td>
+      <td>2025-06-18T04:15:00Z</td>
+    </tr>
+    <tr>
+      <td>m3n4o5p</td>
+      <td>fix(organizational-management): fix added for admin add button and admin info</td>
+      <td></td>
+      <td>2025-06-18T04:00:00Z</td>
+    </tr>
+    <tr>
+      <td>n4o5p6q</td>
+      <td>fix(organizational-management): fix added for admin card display</td>
+      <td></td>
+      <td>2025-06-18T03:45:00Z</td>
+    </tr>
+    <tr>
+      <td>o5p6q7r</td>
+      <td>feat(inventory): fix delete provider in provider service</td>
+      <td></td>
+      <td>2025-06-18T03:30:00Z</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="10">sweetmanager-fog-api</td>
+      <td rowspan="10">develop</td>
+      <td>a1b2c3d4</td>
+      <td>Merge pull request #12 from Los-Angelitos/feat/acl-operations-monitoring</td>
+      <td></td>
+      <td>2025-06-16T08:00:00Z</td>
+    </tr>
+    <tr>
+      <td>b2c3d4e5</td>
+      <td>Merge pull request #11 from Los-Angelitos/fix/commerce</td>
+      <td></td>
+      <td>2025-06-16T07:45:00Z</td>
+    </tr>
+    <tr>
+      <td>c3d4e5f6</td>
+      <td>update(monitoring): added acl facade for get devices</td>
+      <td></td>
+      <td>2025-06-16T07:30:00Z</td>
+    </tr>
+    <tr>
+      <td>d4e5f6g7</td>
+      <td>fix(commerce): corrected post and put methods.</td>
+      <td></td>
+      <td>2025-06-16T07:15:00Z</td>
+    </tr>
+    <tr>
+      <td>e5f6g7h8</td>
+      <td>fix(commerce): corrected get methods for commerce.</td>
+      <td></td>
+      <td>2025-06-16T07:00:00Z</td>
+    </tr>
+    <tr>
+      <td>f6g7h8i9</td>
+      <td>fix(commerce): corrected repository methods.</td>
+      <td></td>
+      <td>2025-06-16T06:45:00Z</td>
+    </tr>
+    <tr>
+      <td>g7h8i9j0</td>
+      <td>feat(commerce): configured Swagger for endpoints.</td>
+      <td></td>
+      <td>2025-06-16T06:30:00Z</td>
+    </tr>
+    <tr>
+      <td>h8i9j0k1</td>
+      <td>fix(commerce): configured commerce endpoints in app.py.</td>
+      <td></td>
+      <td>2025-06-15T22:30:00Z</td>
+    </tr>
+    <tr>
+      <td>i9j0k1l2</td>
+      <td>update(monitoring): added device_id and api_key for devices</td>
+      <td></td>
+      <td>2025-06-15T22:00:00Z</td>
+    </tr>
+    <tr>
+      <td>j0k1l2m3</td>
+      <td>fix(commerce): corrected commerce models to use sqlalchemy.</td>
+      <td></td>
+      <td>2025-06-15T21:45:00Z</td>
+    </tr>
+  </tbody>
+</table>
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="5">sweetmanager-edge-api</td>
+      <td rowspan="5">develop</td>
+      <td>a1b2c3d4</td>
+      <td>Merge pull request #7 from Los-Angelitos/feat/inventory</td>
+      <td></td>
+      <td>2025-06-17T08:00:00Z</td>
+    </tr>
+    <tr>
+      <td>b2c3d4e5</td>
+      <td>fix: solved merge conflict.</td>
+      <td></td>
+      <td>2025-06-17T07:45:00Z</td>
+    </tr>
+    <tr>
+      <td>c3d4e5f6</td>
+      <td>feat(inventory): added edge endpoints for embedded app.</td>
+      <td></td>
+      <td>2025-06-17T07:30:00Z</td>
+    </tr>
+    <tr>
+      <td>d4e5f6g7</td>
+      <td>Merge pull request #3 from Los-Angelitos/feat/wokwi-integration</td>
+      <td></td>
+      <td>2025-06-17T07:00:00Z</td>
+    </tr>
+    <tr>
+      <td>e5f6g7h8</td>
+      <td>update(monitoring): body swagger response</td>
+      <td></td>
+      <td>2025-06-17T06:45:00Z</td>
+    </tr>
+  </tbody>
+</table>
+
+
+#### 7.2.2.5. Testing Suite Evidence for Sprint Review.
+
+## Operations and Monitoring Bounded Context
+
+```gherkin
+Feature: Gestión de reservas de huéspedes
+
+Scenario: Crear una nueva reserva
+ Given El administrador accede al sección de reservas
+ When Completa el formulario de nueva reserva con los datos del huésped y habitación
+ Then La reserva debe guardarse correctamente y mostrarse en la lista de reservas activas
+
+Scenario: Cancelar una reserva activa
+ Given El huésped accede a su lista de reservas
+ When Selecciona la opción para cancelar una reserva vigente
+ Then La reserva debe marcarse como cancelada y no debe generar penalización si está dentro del plazo
+
+Scenario: Editar fechas de una reserva
+ Given El administrador selecciona una reserva existente
+ When Modifica la fecha de ingreso y/o salida
+ Then La reserva debe actualizarse con las nuevas fechas sin perder la información anterior
+
+Scenario: Consultar disponibilidad de habitaciones
+ Given El usuario accede al sistema de reservas
+ When Selecciona fechas de check-in y check-out
+ Then El sistema debe mostrar solo las habitaciones disponibles para ese período
+
+Scenario: Visualizar estado de dispositivos IoT
+ Given El propietario del hotel accede al panel de control
+ When Consulta el estado de los dispositivos IoT
+ Then Debe visualizar el estado actual de temperatura, sensores y dispositivos de acceso
+```
+### Unit tests 
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/oIyhxnH.png" alt="Unit tests for Operations and Monitoring acording gherkin" width="80%" />
+</div><br>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/2nWBXzu.png" alt="Unit tests for Operations and Monitoring acording gherkin" width="80%" />
+</div><br>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/dQnM4Dk.png" alt="Unit tests for Operations and Monitoring acording gherkin" width="80%" />
+</div><br>
+
+## IAM (Identity and Access Management) Bounded Context
+
+```gherkin
+Feature: Gestión de usuarios y roles
+
+Scenario: Crear cuenta de administrador
+ Given El gerente accede al formulario de registro
+ When Ingresa los datos necesarios para crear una cuenta de administrador
+ Then El sistema debe registrar la cuenta y asignarle permisos administrativos
+
+Scenario: Invitar a un nuevo administrador
+ Given El gerente accede a la sección de administradores
+ When Envía una invitación por correo a un nuevo miembro
+ Then El nuevo administrador debe recibir un enlace de registro y unirse a la organización
+
+Scenario: Desvincular administrador de la organización
+ Given El propietario del hotel visualiza la lista de administradores
+ When Selecciona uno para desvincular
+ Then El administrador debe ser removido de la organización y perder acceso
+
+Scenario: Crear perfil de huésped
+ Given Un nuevo usuario accede a la aplicación móvil
+ When Completa el formulario de registro con sus datos y preferencias
+ Then El sistema debe crear un perfil global con sus preferencias guardadas
+```
+
+### Unit tests 
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/nwuNnXK.png" alt="Unit tests for IAM acording gherkin" width="80%" />
+</div><br>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/mrRB7jh.png" alt="Unit tests for IAM acording gherkin" width="80%" />
+</div><br>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/GEn8G6q.png" alt="Unit tests for IAM acording gherkin" width="80%" />
+</div><br>
+
+## Communication Bounded Context
+
+```gherkin
+Feature: Gestión de notificaciones y alertas
+
+Scenario: Recibir notificación por sensor de humo
+ Given Un sensor de humo detecta actividad anormal
+ When Se activa la alerta en el sistema
+ Then El propietario del hotel debe recibir una notificación inmediata
+
+Scenario: Alerta sonora por detección de humo
+ Given El sensor de humo detecta presencia de humo
+ When Se activa el protocolo de emergencia
+ Then Debe sonar una alerta audible en la habitación afectada
+```
+### Unit tests 
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/c2Yxw7e.png" alt="Unit tests for Communication acording gherkin" width="80%" />
+</div><br>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/CsqeGpk.png" alt="Unit tests for Communication acording gherkin" width="80%" />
+</div><br>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/tVJAQrK.png" alt="Unit tests for Communication acording gherkin" width="80%" />
+</div><br>
+
+## Organizational Management Bounded Context
+
+```gherkin
+
+Feature: Gestión de organización y suscripcione
+
+Scenario: Registrar nueva organización
+ Given El propietario del hotel accede al formulario de registro
+ When Completa los datos de la organización (nombre, dirección, información fiscal)
+ Then La organización debe registrarse correctamente en el sistema
+
+Scenario: Cambiar plan de suscripción
+ Given El propietario accede a la configuración de suscripción
+ When Selecciona un nuevo plan que se ajuste a sus necesidades
+ Then El sistema debe actualizar la suscripción y aplicar las nuevas características
+
+Scenario: Filtrar habitaciones por estado
+ Given El propietario accede al panel de habitaciones
+ When Aplica filtros por estado (activo/inactivo)
+ Then Debe mostrarse solo las habitaciones que coincidan con el filtro seleccionado
+
+```
+### Unit tests 
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/LhH4vhP.png" alt="Unit tests for Organizational Management acording gherkin" width="80%" />
+</div><br>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/Gr8IjpE.png" alt="Unit tests for Organizational Management acording gherkin" width="80%" />
+</div><br>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/waduR3q.png" alt="Unit tests for Organizational Management acording gherkin" width="80%" />
+</div><br>
+
+
+## Inventory Bounded Context
+
+```gherkin
+Feature: Gestión de inventario y recursos
+
+Scenario: Revisar stock de recursos del hotel
+ Given El propietario del hotel accede al sección de inventario
+ When Consulta el stock actual de recursos
+ Then Debe visualizar las cantidades disponibles y el estado de cada recurso
+
+Scenario: Registrar nuevo proveedor
+ Given El administrador accede al sección de proveedores
+ When Ingresa la información del proveedor (nombre, contacto, productos)
+ Then El proveedor debe guardarse en el sistema para futuras referencias
+
+Scenario: Solicitar dispositivos IoT
+ Given El propietario identifica la necesidad de más dispositivos
+ When Realiza una solicitud a través del sistema
+ Then La solicitud debe registrarse y enviarse al departamento correspondiente
+```
+### Unit tests 
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/DQoKP7c.png" alt="Unit tests for Inventory acording gherkin" width="80%" />
+</div><br>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/cayosln.png" alt="Unit tests for Inventory acording gherkin" width="80%" />
+</div><br>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/PxTtDGO.png" alt="Unit tests for Inventory acording gherkin" width="80%" />
+</div><br>
+## Commerce Bounded Context
+
+```gherkin
+Feature: Gestión de reservas y transacciones comerciales
+
+Scenario: Reservar habitación personalizada
+ Given El huésped accede a la lista de habitaciones disponibles
+ When Selecciona una habitación y aplica personalizaciones según sus preferencias
+ Then La reserva debe procesarse con las especificaciones personalizadas
+
+Scenario: Gestionar reservas activas
+ Given El huésped tiene reservas vigentes
+ When Accede a su panel de reservas activas
+ Then Debe poder visualizar, modificar o cancelar sus reservas según las políticas del hotel
+
+Scenario: Filtrar hoteles por preferencias
+ Given El huésped busca alojamiento
+ When Aplica filtros según sus preferencias (ubicación, precio, servicios)
+ Then El sistema debe mostrar solo los hoteles que cumplan con los criterios seleccionados
+
+Scenario: Consultar historial de reservas
+ Given El huésped accede a su perfil
+ When Solicita ver su historial de reservas anteriores
+ Then Debe visualizar todas sus reservas pasadas con detalles completos
+```
+### Unit tests 
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/AGWwkdc.png" alt="Unit tests for Commerce acording gherkin" width="80%" />
+</div><br>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/TvXVtOR.png" alt="Unit tests for Commerce acording gherkin" width="80%" />
+</div><br>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/QBUkK8j.png" alt="Unit tests for Commerce acording gherkin" width="80%" />
+</div><br>
+
+#### 7.2.2.6. Execution Evidence for Sprint Review.
+
+<div style="text-align: center;">
+  <img src="./assets/img/exec-evidence-s2/1home-web.png" width="90%" />
+</div><br><br>
+</div><br>
+
+
+**Imagen 1** En esta captura de la aplicación podemos ver la
+ vista principal del proyecto o Home Page, conformada por un menú principal superior con la información personal del usuario, el idioma de la web y las notificaciones. Así como una sección principal en la que se visualizan los distintos hoteles, divididos en categorías.
+
+</br>
+
+<div style="text-align: center;">
+  <img src="./assets/img/exec-evidence-s2/2detail-web.png" 
+  width="90%" />
+
+ **Imagen 2:** En esta imagen podemos ver el detalle de un hotel, en el que se visualiza la información del hotel, así como los servicios que ofrece. Es posible reservar una habitación desde esta vista, así como ver el precio mínimo de un cuarto.
+  </div>
+
+<div style="text-align: center;">
+  <img src="./assets/img/exec-evidence-s2/3overview-web.png" width="90%" />
+</div><br>
+
+  **Imagen 3:** En esta parte del flujo, el usuario se ha autenticado como owner de un hotel y ya ha creado uno, en esta vista se puede ver el overview del hotel, con información general del mismo, como el nombre, dirección, teléfono, email y la cantidad de habitaciones disponibles.
+</div><br>
+
+<div style="text-align: center;">
+  <img src="./assets/img/exec-evidence-s2/4rooms-web.png" width="90%" />
+</div><br>
+
+  **Imagen 4:** En esta captura, el usuario autenticado como owner de hotel puede revisar el estado de la totalidad de habitaciones del hotel, así como su estado. En esta sección el dueño de hotel será capaz de agregar o eliminar un hotel de considerarlo necesario.
+
+
+<div style="text-align: center;">
+  <img src="./assets/img/exec-evidence-s2/5organization-web.png" width="90%" />
+</div><br>
+
+  **Imagen 5:** En esta parte del flujo, el usuario autenticado como owner de hotel puede ver la organización del hotel, con sus respectivos administradores y su jerarquía. Desde aquí es posible invitar a nuevos administradores o eliminar a los existentes.
+
+<div style="text-align: center;">
+  <img src="./assets/img/exec-evidence-s2/6devices-web.png" width="90%" />
+</div><br>
+
+  **Imagen 6:** En esta captura, el usuario autenticado como owner de hotel puede ver los dispositivos IoT que tiene configurados en su hotel, así como su estado actual. Desde aquí es posible solicitar más dispositivos IoT para personalizar las habitaciones del hotel.
+
+<div style="text-align: center;">
+  <img src="./assets/img/exec-evidence-s2/7profile-web.png" width="90%" />
+</div><br>
+
+  **Imagen 7:** En esta parte del flujo, el usuario puede ver su perfil, con su información personal. Desde aquí es posible editar la información personal y cerrar sesión.
+
+* Link al repositorio de la aplicación móvil de SweetManager: https://github.com/Los-Angelitos/mobile-application
+
+<div style="text-align: center;">
+  
+  <img src="./assets/img/exec-evidence-s2/1home-mobile.jpg" width="40%" />
+</div><br>
+
+**Imagen 1:** En esta captura de la aplicación móvil podemos ver la vista principal del proyecto o Home Page, conformada por un menú principal inferior con la información personal del usuario, el idioma de la app y las notificaciones. Así como una sección principal en la que se visualizan los distintos hoteles, divididos en categorías.
+
+<div style="text-align: center;">
+  <img src="./assets/img/exec-evidence-s2/2profile-mobile.jpg" width="40%" />
+</div><br>
+
+**Imagen 2:** En esta imagen podemos ver el perfil del usuario en la aplicación móvil, donde se muestra la información personal del usuario, así como la opción de editar su perfil y cerrar sesión. En este caso, al tratarse de un usuario huesped, se hay una sección en la que puede agregar sus preferencias en cuanto a la temperatura de su cuarto.
+
+<div style="text-align: center;">
+  <img src="./assets/img/exec-evidence-s2/3edit-profile-mobile.jpg" width="40%" />
+</div><br>
+
+**Imagen 3:** En esta parte del flujo, el usuario puede editar su perfil, cambiando su nombre, email y contraseña. También puede agregar sus preferencias en cuanto a la temperatura de su cuarto.
+
+
+<div style="text-align: center;">
+  <img src="./assets/img/exec-evidence-s2/4reservation-mobile.jpg" width="40%" />
+</div><br>
+
+**Imagen 4:** En esta captura, el usuario autenticado como huésped puede ver sus reservas, así como la información de cada una de ellas. Desde aquí es posible cancelar una reserva si así lo desea.
+
+<div style="text-align: center;">
+  <img src="./assets/img/exec-evidence-s2/5-payment-mobile.jpg" width="40%" />
+</div><br>
+
+**Imagen 5:** En esta imagen el usuario autenticado como huésped puede realizar el pago de la reserva realizada con anterioridad. Por ello, se muestra un pequeño formulario con el cual el usuario pagará por la reserva.
+
+
+#### 7.2.2.7. Services Documentation Evidence for Sprint Review.
+
+A continuación, se mostrará la documentación Swagger del Web Services: 
+
+<div style="display:flex; justify-content:center; align-items:center; width: 100%">
+  <img src="./assets/img/services-documentation/swag1.png" alt="Administradora de hotel" width="90%" />
+</div>
+<br>
+
+Se muestra la primera vista del Web Services desplegado, utilizando Swagger Docs. Se muestra información básica de la API, y los endpoints se muestran agrupados por controladoras.
+
+<div style="display:flex; justify-content:center; align-items:center; width: 100%"> <img src="./assets/img/services-documentation/swag2.png" alt="Administradora de hotel" width="90%" /> </div> <br>
+
+En esta sección se presentan algunos endpoints principales (Core) del sistema, los cuales forman parte esencial de la lógica de negocio. Cada uno está claramente documentado, mostrando la ruta de acceso, el tipo de método HTTP utilizado (GET, POST, PUT). Esta información nos permite comprender de forma rápida cómo interactuar con la API y qué operaciones están disponibles.
+
+<div style="display:flex; justify-content:center; align-items:center; width: 100%"> <img src="./assets/img/services-documentation/swag3.png" alt="Administradora de hotel" width="90%" /> </div> <div style="display:flex; justify-content:center; align-items:center; width: 100%"> <img src="./assets/img/services-documentation/swag5.png" alt="Administradora de hotel" width="90%" /> </div> <br>
+A continuación, se detalla el funcionamiento del endpoint [POST] → /api/v1/hotels, correspondiente al registro de un nuevo hotel en el sistema.
+
+La documentación generada por Swagger permite visualizar el JSON Schema requerido en la solicitud, especificando todos los campos obligatorios, sus tipos de datos y ejemplos de valores válidos. 
+
+En cuanto a la respuesta del servidor, si la solicitud es válida y se procesa exitosamente, el servicio retorna un código 200 OK junto con el objeto creado o un mensaje de confirmación. En caso de que la solicitud contenga errores de validación o campos faltantes, se devuelve un código 400 BAD REQUEST, acompañado de una descripción del problema para facilitar su resolución.
+
+Este tipo de documentación es clave para garantizar la correcta implementación de las funcionalidades y minimizar errores durante el consumo de la API.
+
+#### 7.2.2.8. Software Deployment Evidence for Sprint Review.
+
+A continuación, se muestra la evidencia de deployment de todos los productos abarcados en este sprint:
+
+En este Sprint 2, hemos logrado desarrollar los siguientes artefactos: Fog API, Edge API, Embedded Application (Simulado y Físico), Web Services, Mobile Application y Web Application. A continuación se muestran las vistas de cada uno de los artefactos desarrollados en este sprint:
+
+* Link a la aplicación web de SweetManager Web: https://sweet-manager-web-application.vercel.app/home
+* Link hacia el repositorio de aplicación web: https://github.com/Los-Angelitos/web-application
+
+<div style="text-align: center;">
+  <img src="./assets/img/software-deployment-evidence/web_app/1.jpg" width="90%" />
+</div><br>
+
+<div style="text-align: center;">
+  <img src="./assets/img/exec-evidence-s2/1home-web.png" width="90%" />
+</div><br>
+
+En esta captura de la aplicación podemos ver la vista principal del proyecto o Home Page, conformada por un menú principal superior con la información personal del usuario, el idioma de la web y las notificaciones. Así como una sección principal en la que se visualizan los distintos hoteles, divididos en categorías.
+
+<br><br>
+
+### Aplicación Móvil
+* Link de descarga hacia la aplicación móvil: 
+* Link al repositorio de la aplicación móvil de SweetManager: https://github.com/Los-Angelitos/mobile-application
+
+<div style="text-align: center;">
+  <img src="./assets/img/exec-evidence-s2/1home-mobile.jpg" width="40%" />
+</div><br>
+
+En esta captura de la aplicación móvil podemos ver la vista principal del proyecto o Home Page, conformada por un menú principal inferior con la información personal del usuario, el idioma de la app y las notificaciones. Así como una sección principal en la que se visualizan los distintos hoteles, divididos en categorías.
+
+<div style="text-align: center;">
+  <img src="./assets/img/exec-evidence-s2/2profile-mobile.jpg" width="40%" />
+</div><br>
+
+### Web Services
+* Link de Swagger hacia el Web Services: https://sweet-manager-api.runasp.net/swagger/index.html
+* Link al repositorio de la Web Services de SweetManager: https://github.com/Los-Angelitos/web-services
+
+El backend del sistema ha sido desplegado en un entorno de producción proporcionado por MonsterASP.NET, que permite exponer los servicios de forma pública. Este entorno incluye una interfaz administrativa, monitoreo básico y alta disponibilidad. A través de esta plataforma se gestionan todos los endpoints relacionados con la lógica de negocio central.
+
+<div style="display:flex; justify-content:center; align-items:center; width: 100%"> <img src="./assets/img/software-deployment-evidence/web_services/public_profile.jpg" alt="Administradora de hotel" width="90%" /> </div> <div style="display:flex; justify-content:center; align-items:center; width: 100%"></div> <br>
+
+<div style="display:flex; justify-content:center; align-items:center; width: 100%"> <img src="./assets/img/software-deployment-evidence/web_services/yts.PNG" alt="Administradora de hotel" width="90%" /> </div> <div style="display:flex; justify-content:center; align-items:center; width: 100%"></div> <br>
+
+<br><br>
+
+### Edge API
+
+* Link hacia repositorio de Edge API: https://github.com/Los-Angelitos/edge-api
+
+Se levanta dentro de una maquina virtual Raspbian, simulando un Raspberry Pi 4 físico. La Edge API ha sido desplegada directamente sobre una máquina virtual con sistema operativo Raspbian, ejecutándose en una Raspberry Pi como nodo perimetral. Esta API actúa como intermediario entre los dispositivos embebidos y la Fog API, gestionando la autenticación, el aprovisionamiento de dispositivos y el envío seguro de datos sensoriales. Se presenta a continuación evidencia de su ejecución, logs de consola, configuración de puertos y pruebas funcionales.
+
+<div style="display:flex; justify-content:center; align-items:center; width: 100%"> <img src="./assets/img/software-deployment-evidence/edge/1.PNG" alt="Administradora de hotel" width="90%" /> </div>
+<br>
+<div style="display:flex; justify-content:center; align-items:center; width: 100%"> <img src="./assets/img/software-deployment-evidence/edge/8.PNG" alt="Administradora de hotel" width="90%" /> </div> <br>
+
+<br><br>
+
+### Fog API
+
+* Link hacia repositorio de Fog API: https://github.com/Los-Angelitos/fog-api
+
+La Fog API se ha implementado con éxito en un entorno local (fog node) simulando ser un servidor montado localmente dentro de un hotel con host kernel Alpine Linux v3.22 LTS, actuando como componente intermedio entre el Edge y los Web Services dentro de una Máquina Virtual. Este servicio está diseñado para procesar y enrutar datos desde múltiples dispositivos, aplicar reglas de negocio a nivel perimetral, y asegurar tolerancia a fallos. En las siguientes imágenes se muestran registros de despliegue, ejecución del servidor Flask, conexión de dispositivos y pruebas de los endpoints locales.
+
+<div style="display:flex; justify-content:center; align-items:center; width: 100%"> <img src="./assets/img/software-deployment-evidence/fog/3.PNG" alt="Administradora de hotel" width="90%" /> </div> <br>
+
+<div style="display:flex; justify-content:center; align-items:center; width: 100%"> <img src="./assets/img/software-deployment-evidence/fog/7.PNG" alt="Administradora de hotel" width="90%" /> </div> <br>
+
+<div style="display:flex; justify-content:center; align-items:center; width: 100%"> <img src="./assets/img/software-deployment-evidence/fog/8.PNG" alt="Administradora de hotel" width="90%" /> </div> <br>
+
+#### 7.2.2.9. Team Collaboration Insights during Sprint.
+
+En este Sprint 2, todos hemos colaborado en conjunto para el desarrollo de los artefactos: Mobile Applications, Web Services, Fog Api, Edge Api y Embedded Applications
+A continuación se muestran las colaboraciones individuales por cada artefacto terminado durante este sprint: 
+
+## Mobile Application:
+
+Gráficos de la sección insights en el repositorio de la Mobile Application desde el 24 de mayo hasta el 14 de junio. Todos los miembros del equipo colaboraron, como se puede evidenciar. 
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/eea04de5-4cd7-448e-9457-14f0f801e2fe" width="500">
+</div>
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/799e9040-1f73-41b3-829d-7967ff9f1604" width="500">
+</div>
+
+---
+
+## Web Services:
+
+Gráficos de la sección insights en el repositorio de los Web Services, como se puede evidenciar, todos los miembros colaboraron en el desarrollo.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/3cd5da4c-df81-420b-94f9-23384c8883ad" width="500">
+</div>
+
+---
+
+## Fog API:
+
+Gráficos de la sección insights en el repositorio de la FOG API. Como se puede evidenciar, todos los miembros colaboraron en el desarrollo.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/96175c64-fbd8-44c8-9e41-f23467d32d73" width="500">
+</div>
+
+---
+
+## Edge API:
+
+Gráficos de la sección insights en el repositorio de la EDGE API. Se evidencia la colaboración de cada uno de los miembros del equipo.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/5e569aa1-b56c-40b7-9494-873b3f4e5f2b" width="500">
+</div>
+
+---
+
+## EMBEDDED APPLICATIONS:
+
+Gráficos de la sección insights en el repositorio de la RFID EMBEDDED APPLICATION.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/57ce901e-ebd6-46c3-a378-7d81bcbeedee" width="500">
+</div>
+
+Gráficos de la sección insights en el repositorio de la THERMOSTAT EMBEDDED APPLICATION.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/1e55308b-e716-432a-816a-8ec70403823a" width="500">
+</div>
+
+Gráficos de la sección insights en el repositorio de la SMOKE SENSOR EMBEDDED APPLICATION.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/58813696-8c98-4cd7-ae5a-334384cb2c82" width="500">
+</div>
+
+
 ## 7.3. Validation Interviews
 
 ### 7.3.1. Diseño de Entrevistas
