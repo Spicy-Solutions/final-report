@@ -3240,7 +3240,11 @@ Optimizar el 60% de las reservas realizadas por huéspedes en un plazo de 4 mese
 | 60    | HU03          | Visualizar la temperatura específicada en la Web           | Como Device User, quiero visualizar una pantalla para ver la temperatura, de tal modo que pueda ver la temperatura que establecí en mi perfil.      | 2                        |
 | 61    | HU02          | Monitorear el cambio de temperatura                        | Como Device Maker, quiero visualizar el actual valor de temperatura impreso al Serial Monitor, de tal modo que pueda verificar que el dispositivo funciona correctamente durante el desarrollo y testing. | 2 |
 | 62   | HU14          | Visualizar el estado de los dispositivos IoT en el hotel                                             | Como Web Hotel Owner quiero visualizar el estado de los dispositivos IoT en mi hotel para identificar el correcto funcionamiento de estos | 3  |
-
+| 63  | HU01 | Acceder al módulo de asesor de sugerencias desde el panel gerencial   | Como gerente, quiero acceder a un asesor inteligente desde el panel principal para consultar sobre la situación financiera y operativa de mi hotel en cualquier momento.                    | 2            |
+| 64  | HU02 | Iniciar conversación con preguntas sobre desempeño financiero        | Como gerente, quiero formular preguntas al asistente sobre mi desempeño semanal para entender tendencias y factores que impactan mis ingresos y egresos.                                   | 3            |
+| 65  | HU03 | Recibir recomendaciones específicas de optimización operativa         | Como gerente, quiero que el asistente me proporcione sugerencias concretas para mejorar ingresos, reducir costos y optimizar operaciones basadas en mis datos actuales.                    | 5           |
+| 66  | HU04 | Consultar recomendaciones proactivas al abrir el módulo               | Como gerente, quiero que al acceder al asesor, el sistema me presente automáticamente sugerencias prioritarias basadas en anomalías o patrones en mis datos financieros.                    | 5            |
+| 67  | HU05 | Almacenar y consultar historial de conversaciones anteriores          | Como gerente, quiero que el sistema guarde mis conversaciones anteriores con el asesor para poder revisar recomendaciones pasadas, comparar evolución y mantener trazabilidad de decisiones. | 3            |
 # Capítulo IV: Strategic-Level Software Design
 
 ## 4.1. Strategic-Level Attribute-Driven Design
