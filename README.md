@@ -3054,6 +3054,96 @@ Redactamos las historias de usuario para el sistema de gestión hotelera basánd
         <em>Then</em> el sistema rechaza la solicitud y muestra el límite disponible
       </td>
       <td>EP10</td>
+          <tr>
+      <td>EP11</td>
+      <td>Asistente virtual Chatbot operativo hotelero desde la aplicación web</td>
+      <td>
+        Como Gerente, quiero comunicarme con un asesor virtual de sugerencias para tener retroalimentacion sobre mi hotel
+      </td>
+      <td>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>HU01</td>
+      <td>Acceder al módulo de asesor de sugerencias desde el panel gerencial</td>
+      <td>Como gerente, quiero acceder a un asesor inteligente desde el panel principal para consultar sobre la situación financiera y operativa de mi hotel en cualquier momento.</td>
+      <td>
+        <b>Escenario 1:</b> Navegación al módulo de asesor<br>
+        <em>Given</em> estoy autenticado como gerente en Sweet Manager<br>
+        <em>When</em> accedo al menú principal y selecciono "Asesor de Sugerencias"<br>
+        <em>Then</em> se carga la interfaz de chat con historial de conversaciones previas<br><br>
+        <b>Escenario 2:</b> Visualización de contexto financiero<br>
+        <em>Given</em> estoy en la ventana del asesor<br>
+        <em>When</em> se carga la página<br>
+        <em>Then</em> observo un panel resumen con ingresos totales, egresos, ocupación y variación semanal
+      </td>
+      <td>EP11</td>
+    </tr>
+     <tr>
+      <td>HU02</td>
+      <td>Iniciar conversación con preguntas sobre desempeño financiero</td>
+      <td>Como gerente, quiero formular preguntas al asistente sobre mi desempeño semanal para entender tendencias y factores que impactan mis ingresos y egresos.</td>
+      <td>
+        <b>Escenario 1:</b> Pregunta sobre ingresos<br>
+        <em>Given</em>estoy en la interfaz del asesor <br>
+        <em>When</em> pregunto "¿Cuál es la tendencia de ingresos esta semana?"<br>
+        <em>Then</em> el sistema analiza el parámetro de ingresos y devuelve tendencia, variación porcentual y contexto<br><br>
+        <b>Escenario 2:</b> Pregunta sobre egresos<br>
+        <em>Given</em> tengo datos de egresos cargados<br>
+        <em>When</em>pregunto "¿Dónde están mis egresos más altos?"<br>
+        <em>Then</em> el asistente desglosa costos por categoría con análisis de impacto
+      </td>
+      <td>EP11</td>
+    </tr>
+    <tr>
+      <td>HU03</td>
+      <td>Recibir recomendaciones específicas de optimización operativa</td>
+      <td>Como gerente, quiero que el asistente me proporcione sugerencias concretas para mejorar ingresos, reducir costos y optimizar operaciones basadas en mis datos actuales.</td>
+      <td>
+        <b>Escenario 1:</b> Solicitar sugerencias de mejora<br>
+        <em>Given</em>visualizo resumen con ingresos bajos o egresos elevados <br>
+        <em>When</em>pregunto "¿Qué puedo hacer para mejorar?"<br>
+        <em>Then</em> el asistente genera 3-5 recomendaciones concretas con justificación basada en datos<br><br>
+        <b>Escenario 2:</b> Recomendaciones con impacto estimado<br>
+        <em>Given</em> el asistente propone una acción<br>
+        <em>When</em>devuelve la sugerencia<br>
+        <em>Then</em> incluye impacto potencial (ej: "reducir 5% costos operacionales = $400 ahorrados")
+      </td>
+      <td>EP11</td>
+    </tr>
+      <tr>
+      <td>HU04</td>
+      <td>Consultar recomendaciones proactivas al abrir el módulo</td>
+      <td>Como gerente, quiero que al acceder al asesor, el sistema me presente automáticamente sugerencias prioritarias basadas en anomalías o patrones en mis datos financieros.</td>
+      <td>
+        <b>Escenario 1:</b> Recomendación proactiva por egresos altos<br>
+        <em>Given</em>los datos muestran egresos 15% por encima del promedio<br>
+        <em>When</em>accedo al módulo de asesor<br>
+        <em>Then</em> el sistema destaca este patrón y sugiere áreas de optimización (energía, suministros, personal)<br><br>
+        <b>Escenario 2:</b> Alerta de ocupación baja<br>
+        <em>Given</em> la ocupación está por debajo del 50%<br>
+        <em>When</em>cargo el panel del asesor<br>
+        <em>Then</em>  recibo recomendaciones sobre estrategias de pricing o promoción
+      </td>
+      <td>EP11</td>
+    </tr>
+      <tr>
+      <td>HU05</td>
+      <td>Almacenar y consultar historial de conversaciones anteriores</td>
+      <td>Como gerente, quiero que el sistema guarde mis conversaciones anteriores con el asesor para poder revisar recomendaciones pasadas, comparar evolución y mantener trazabilidad de decisiones.</td>
+      <td>
+        <b>Escenario 1:</b>Historial accesible en interfaz<br>
+        <em>Given</em>he mantenido conversaciones previas con el asesor <br>
+        <em>When</em>accedo al módulo<br>
+        <em>Then</em> visualizo un panel lateral con conversaciones anteriores, ordenadas por fecha<br><br>
+        <b>Escenario 2:</b> Restaurar conversación anterior<br>
+        <em>Given</em> tengo múltiples conversaciones en historial<br>
+        <em>When</em>selecciono una conversación anterior<br>
+        <em>Then</em> se carga el diálogo completo con contexto y recomendaciones de esa fecha
+      </td>
+      <td>EP11</td>
+    </tr>
     </tr>
   </tbody>
 </table>
