@@ -9475,6 +9475,7 @@ Tomar en cuenta y priorizar en todo momento la información encontrada por las e
 
 Establecer las User Stories y Bounded Context efectivamente, pues son la base de muchos puntos a tomar en cuenta a la hora de elaborar el proyecto y más aun, a la hora de desarrollar los entregables. Por lo que un error con el establecimiento de estos dos puntos, puede generar cambios importantes en toda la solución. 
 
+La implementación del chatbot mediante FastAPI y Gemini demostró que la Inteligencia Artificial Generativa es un catalizador clave para la toma de decisiones estratégicas, transformando datos complejos en asesoría conversacional accesible. Al integrar el contexto financiero de nuestros Bounded Contexts directamente en el modelo, logramos que la solución no solo automatice procesos operativos, sino que también potencie la capacidad analítica del gerente. Esta experiencia validó que una arquitectura sólida es fundamental para adoptar tecnologías emergentes, permitiendo que el asistente ofrezca recomendaciones precisas y personalizadas en tiempo real.
 
 # Bibliografía
 
