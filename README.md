@@ -3283,6 +3283,11 @@ A continuacion, se listan las primary user stories, teniendo en cuenta su import
 | **IoT & Dispositivos**       | HU56         | Tarjeta para acceso a habitaciones           | Como device user quiero usar tarjeta para ingresar.                                                       | Al acercar tarjeta válida, la puerta debe desbloquearse.                     | HU47             |
 |                              | HU57         | Control de temperatura en habitaciones       | Como device user quiero controlar la temperatura.                                                         | El display debe mostrar valor actualizado y el sistema registrar el cambio.  | HU60             |
 |                              | HU59         | Notificación por sensor de humo              | Como hotel owner quiero recibir notificación de humo.                                                     | Debe enviarse notificación push o email en tiempo real.                      | HU58             |
+| **IA & Asesoría** | HU01 | Acceder al módulo de asesor de sugerencias | Como gerente, quiero acceder a un asesor inteligente para consultar sobre la situación operativa. | El módulo debe cargar el contexto financiero y permitir iniciar el chat. | HU02, HU04 |
+| | HU02 | Iniciar conversación sobre desempeño | Como gerente, quiero preguntar sobre mi desempeño semanal para entender tendencias. | El sistema debe responder con análisis basado en los datos de ingresos/egresos. | HU01 |
+| | HU03 | Recibir recomendaciones de optimización | Como gerente, quiero sugerencias concretas para mejorar ingresos y reducir costos. | Las recomendaciones deben ser accionables y justificadas con métricas actuales. | HU02 |
+| | HU04 | Consultar recomendaciones proactivas | Como gerente, quiero ver sugerencias prioritarias automáticas al entrar al módulo. | El sistema debe destacar anomalías (ej: gastos altos) sin que el usuario pregunte. | HU01, HU03 |
+| | HU05 | Consultar historial de conversaciones | Como gerente, quiero ver conversaciones anteriores para revisar decisiones pasadas. | El historial debe mostrar chats previos ordenados cronológicamente. | HU02 |
 
 #### 4.1.2.2. Quality attribute Scenarios
 
