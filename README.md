@@ -201,6 +201,57 @@
         </ul>
       </td>
     </tr>
+    <tr>
+      <td rowspan="5">V4</td>
+      <td>08/10/2025</td>
+      <td>Mauricio Abraham Rivo Rojas Sánchez</td>
+      <td>
+        <ul>
+          <li>Sprint 2</li>
+          <li>Conclusiones y recomendaciones</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>08/10/2025</td>
+      <td>Aaron Elías Acuña Alarcón</td>
+      <td>
+        <ul>
+          <li>Sprint 2</li>
+          <li>Conclusiones y recomendaciones</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>08/10/2025</td>
+      <td>Manuel Sebastian Peña Rivera</td>
+      <td>
+        <ul>
+          <li>Sprint 2</li>
+          <li>Conclusiones y recomendaciones</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>08/10/2025</td>
+      <td>David Bryan Rodriguez Santos</td>
+      <td>
+        <ul>
+          <li>Sprint 2</li>
+          <li>Conclusiones y recomendaciones</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>08/10/2025</td>
+      <td>Nelson Elias Serrano Ircañaupa</td>
+      <td>
+        <ul>
+          <li>Sprint 2</li>
+          <li>Conclusiones y recomendaciones</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
   </tbody>
@@ -352,8 +403,41 @@ Se llevaron a cabo reuniones semanales para hacer una revisión de lo elaborado 
      + [6.4.2. Applications Wireflow Diagrams](#642-applications-wireflow-diagrams)
      + [6.4.2. Applications Mock-ups](#642-applications-mock-ups)
      + [6.4.3. Applications User Flow Diagrams](#643-applications-user-flow-diagrams)
+   * [6.5. Applications Prototyping](#65-applications-prototyping)
+- [Capitulo VII: Product Implementation, Validation & Deployment](#capitulo-vii-product-implementation-validation--deployment)
+   * [7.1. Software Configuration Management.](#71-software-configuration-management)
+     + [7.1.1.  Software Development Environment Configuration.](#711--software-development-environment-configuration)
+     + [7.1.2.  Source Code Management.](#712--source-code-management)
+     + [7.1.3. Source Code Style Guide & Conventions.](#713-source-code-style-guide--conventions)
+     + [7.1.4. Software Deployment Configuration.](#714-software-deployment-configuration)
+   * [7.2. Solution Implementation](#72-solution-implementation)
+     - [7.2.1. Sprint 1](#721-sprint-1)
+       * [7.2.1.1. Sprint Planning 1](#7211-sprint-planning-1)
+       * [7.2.1.2. Sprint Backlog 1](#7212-sprint-backlog-1)
+       * [7.2.1.3. Development Evidence for Sprint Review](#7213-development-evidence-for-sprint-review)
+       * [7.2.1.4. Testing Suite Evidence for Sprint Review](#7214-testing-suite-evidence-for-sprint-review)
+       * [7.2.1.5. Execution Evidence for Sprint Review](#7215-execution-evidence-for-sprint-review)
+       * [7.2.1.6. Services Documentation Evidence for Sprint Review](#7216-services-documentation-evidence-for-sprint-review)
+       * [7.2.1.7. Software Deployment Evidence for Sprint Review](#7217-software-deployment-evidence-for-sprint-review)
+       * [7.2.1.8. Team collaboration Insights during Sprint](#7218-team-collaboration-insights-during-sprint)
+     - [7.2.2. Sprint 2](#722-sprint-2)
+       * [7.2.2.1.Sprint Planning 2.](#7221sprint-planning-2)
+       * [7.2.2.2.Aspect Leaders and Collaborators.](#7222aspect-leaders-and-collaborators)
+       * [7.2.2.3.Sprint Backlog 2](#7223sprint-backlog-2)
+       * [7.2.2.4. Development Evidence for Sprint Review.](#7224-development-evidence-for-sprint-review)
+       * [7.2.2.5. Testing Suite Evidence for Sprint Review.](#7225-testing-suite-evidence-for-sprint-review)
+       * [7.2.2.6. Execution Evidence for Sprint Review.](#7226-execution-evidence-for-sprint-review)
+       * [7.2.2.7. Services Documentation Evidence for Sprint Review.](#7227-services-documentation-evidence-for-sprint-review)
+       * [7.2.2.8. Software Deployment Evidence for Sprint Review.](#7228-software-deployment-evidence-for-sprint-review)
+       * [7.2.2.9. Team Collaboration Insights during Sprint.](#7229-team-collaboration-insights-during-sprint)
+   * [7.3. Validation Interviews](#73-validation-interviews)
+     + [7.3.1. Diseño de Entrevistas](#731-diseño-de-entrevistas)
+     + [7.3.2. Registro de Entrevistas](#732-registro-de-entrevistas)
+     + [7.3.3. Evaluaciones según heuristicas](#733-evaluaciones-según-heuristicas)
+   * [7.4. Video About-the-product](#74-video-about-the-product)
+   * [7.5. Video About-the-Team](#75-video-about-the-team)
 - [Conclusiones](#conclusiones)
-   * [Recomendaciones](#recomendaciones)
+   * [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
 - [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
 
@@ -399,7 +483,7 @@ del ABET – EAC - Student Outcome 3.
         David Rodriguez:
         Contribuyó a definir metas, analizar entrevistas y explicar los hallazgos del Communication Bounded Context en las reuniones.
         </p>
-        TB2:
+        TP1:
         <p>
         David Rodríguez:
         Durante el desarrollo del proyecto, presenté de manera clara las propuestas relacionadas con las guías de estilo ante el equipo, explicando cómo cada decisión de diseño contribuía a la coherencia visual del sistema. Participé en las reuniones, adaptando el lenguaje a mis compañeros para asegurar una comprensión común del trabajo realizado.
@@ -420,7 +504,7 @@ del ABET – EAC - Student Outcome 3.
         Mauricio Rojas:
         Comuniqué de forma oral los resultados de las revisiones de arquitectura, presentando soluciones para optimizar la seguridad y escalabilidad del sistema. Durante las exposiciones, adapté mi explicación a públicos de distintas especialidades, haciendo más sencillo la comprensión técnica y fomentando el trabajo colaborativo en el equipo.
         </p>
-        <p> TB3:</p>
+        <p> TB2:</p>
       <p>Aaron Acuña: Explique oralmente cómo cada componente de la experiencia de usuario respondía a objetivos funcionales y técnicos en el contexto de la comunicación. Además, lidere sesiones de retroalimentación donde presentó avances y justificó las decisiones tomadas en el proceso de diseño."</p>
       <p>David Rodríguez: Durante el desarrollo del proyecto, presenté de manera clara las propuestas relacionadas con la configuración del entorno de desarrollo y la gestión del código fuente ante el equipo. Adapté el lenguaje para asegurar que todos comprendieran las decisiones técnicas que tomamos en cuanto a software y control de versiones.</p>
       <p>Manuel Peña: Expliqué de manera objetiva los ajustes implementados en la guía de estilo del código fuente y las convenciones utilizadas en el proceso de despliegue de software, detallando cómo estas mejoras aumentaron la eficiencia y la calidad del código."</p>
@@ -433,11 +517,11 @@ del ABET – EAC - Student Outcome 3.
       <p>
     Durante este entregable, nos comunicamos de forma clara y objetiva con mi equipo, participando activamente en reuniones y exposiciones. Mantuvimos una comunicación constante, resolvimos dudas en conjunto y compartimos avances de los artefactos de manera ordenada. Gracias a esta interacción, logramos coordinar tareas, cumplir los plazos establecidos y asegurar que todos comprendiéramos los objetivos del proyecto, lo que fortaleció nuestro trabajo colaborativo y la calidad de los resultados.
     </p>
-    TB2:
+    TP1:
     <p>
     El equipo demostró un alto nivel de colaboración y comunicación efectiva a lo largo del proyecto. Se enfocaron en presentar de manera clara y objetiva las decisiones de diseño y arquitectura, asegurando que todos los miembros comprendieran el funcionamiento del sistema y pudieran contribuir desde sus áreas. Además, se promovieron espacios de retroalimentación que permitieron justificar decisiones técnicas, optimizar la estructura del sistema y mejorar su rendimiento, seguridad y escalabilidad. Gracias a estas acciones, se logró mantener una visión compartida del proyecto, facilitar el trabajo interdisciplinario y asegurar que las soluciones desarrolladas respondieran de forma integral a los objetivos planteados.
     </p>
-    TB3:
+    TB2:
     <p>
     Durante este entregable, el equipo demostró una comunicación efectiva, tanto en reuniones como en exposiciones, lo que permitió una comprensión común de los avances y decisiones del proyecto. Cada integrante presentó sus resultados de manera clara y objetiva, adaptando su discurso a las necesidades del público, lo que favoreció la colaboración y el trabajo en equipo. Gracias a la comunicación constante, el equipo pudo coordinar tareas, cumplir plazos establecidos y asegurar que los objetivos del proyecto fueran comprendidos por todos los involucrados.
     </p>
@@ -464,7 +548,7 @@ del ABET – EAC - Student Outcome 3.
   <p>
     David Rodriguez: Escribió el análisis de entrevistas y los hallazgos relacionados con el Communication Bounded Context. Dejó registros claros y objetivos de los resultados obtenidos para el equipo.
   </p>
-   TB2:
+   TP1:
     <p>   
        David Rodríguez:
         Documenté detalladamente las Style Guidelines del proyecto, explicando por escrito las decisiones de diseño, la estructura visual y las normas de accesibilidad. Redacté informes claros y objetivos que sirvieron como guía de referencia para el equipo, facilitando la implementación de un estilo visual consistente en toda la plataforma.
@@ -486,7 +570,7 @@ del ABET – EAC - Student Outcome 3.
         Desarrollé documentación exhaustiva sobre las correcciones de arquitectura, explicando por escrito los mecanismos de seguridad implementados, las integraciones externas y los patrones utilizados. Estos informes fueron compartidos con el equipo y con el docente, brindando una visión clara y objetiva del trabajo realizado.
         </p>
         <p>
-        TB3:
+        TB2:
         </p>
         <p>
         <p>Aaron Acuña: Redacté reportes detallados sobre el proceso de diseño de la interfaz, describiendo los componentes, la navegación y las decisiones tomadas en cuanto a la experiencia de usuario, especialmente en el contexto de la comunicación. Además, desarrollé el bounded context de Communication, enfocándome en cómo los flujos de datos y la interacción entre los componentes del sistema contribuyen a la gestión de la comunicación dentro del proyecto. Estos documentos facilitaron la validación del diseño y sirvieron como material de soporte para las pruebas de usabilidad.</p>
@@ -501,11 +585,11 @@ del ABET – EAC - Student Outcome 3.
       <p>
       Durante este entregable, redactamos de manera clara y objetiva la documentación necesaria para que todos los integrantes del equipo pudieran comprender las tareas, objetivos y resultados. Mantuvimos actualizado el tablero Kanban, registramos avances y explicamos los artefactos en detalle para facilitar su revisión. Gracias a esta comunicación escrita, logramos mantener un flujo de trabajo ordenado, cumplir los plazos establecidos y asegurar que la información estuviera disponible y bien estructurada para todo el equipo.
       </p>
-      TB2:
+      TP1:
       <p>
       El equipo realizó un trabajo exhaustivo en la documentación escrita del proyecto, asegurando que cada aspecto técnico y de diseño quedara claramente explicado y accesible para todos los involucrados. Se desarrollaron guías detalladas que establecieron criterios visuales coherentes y normas de accesibilidad, así como documentos que describieron de forma precisa la arquitectura del sistema, los flujos de usuario y la estructura de navegación. Además, se redactaron reportes completos sobre decisiones de diseño, procesos de interfaz y pruebas de usabilidad, acompañados de documentación técnica que explicó el impacto de las modificaciones, mecanismos de seguridad e integraciones implementadas. 
       </p>
-      TB3:
+      TB2:
       <p>
       Durante este entregable, el equipo no solo se centró en la documentación detallada de cada uno de los aspectos técnicos, sino que también desarrolló los bounded contexts clave dentro del backend del sistema. Cada miembro del equipo contribuyó al proyecto de manera significativa, asegurando que los procesos estuvieran bien definidos y documentados. La documentación de las decisiones de diseño y la integración de los bounded contexts permitió que el sistema fuera más eficiente y bien estructurado. Al trabajar en áreas como comunicación, inventarios, monitoreo, comercio y gestión de identidades y accesos, el equipo pudo construir una base sólida que facilitó la integración y el desarrollo de nuevas funcionalidades, garantizando que todos los miembros del equipo tuvieran acceso a información clara y accesible, lo que resultó en una mayor colaboración y éxito en la implementación del proyecto.
       </p>
