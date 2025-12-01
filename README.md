@@ -511,6 +511,12 @@ del ABET – EAC - Student Outcome 3.
       <p>Nelson Serrano: Me encargué de exponer en las reuniones cómo dockericé el backend y publiqué la imagen en Docker Hub. Logré explicar de manera clara y precisa el flujo de trabajo y cómo se integró este proceso en el sistema de desarrollo continuo.</p>
       <p>Mauricio Rojas: Comuniqué de manera oral los resultados de las revisiones de arquitectura, presentando soluciones para optimizar la seguridad y escalabilidad del sistema, en relación con la gestión de identidad y accesos (IAM). Durante las exposiciones, adapté mi explicación a públicos de distintas especialidades, facilitando su comprensión técnica y fomentando la colaboración del equipo.</p>
       </p>
+      <p> TF</p>
+      <p> Mauricio Rojas: Fomentó trabajo en equipo y comunicación constante, escuchando e intercambiando ideas para planificar tareas y cumplir objetivos eficientemente</p>
+      <p> Aaron Acuña: Colaboró en crear un ambiente comunicativo colaborativo y participó activamente en definición de tareas y cumplimiento de entregables </p>
+      <p> Manuel Peña: Expuso semanalmente objetivos del equipo y participó en explicaciones claras de artefactos clave para facilitar la comprensión técnica. </p>
+      <p> Nelson Serrano: Aclaró dudas, explicó tareas, y presentó avances de historias de usuario y diagramas de arquitectura con claridad. </p>
+      <p> David Rodriguez: Definió metas, analizó entrevistas y expuso hallazgos del contexto de comunicación en reuniones. </p>
     </td>
     <td>
       TB1:
@@ -525,6 +531,8 @@ del ABET – EAC - Student Outcome 3.
     <p>
     Durante este entregable, el equipo demostró una comunicación efectiva, tanto en reuniones como en exposiciones, lo que permitió una comprensión común de los avances y decisiones del proyecto. Cada integrante presentó sus resultados de manera clara y objetiva, adaptando su discurso a las necesidades del público, lo que favoreció la colaboración y el trabajo en equipo. Gracias a la comunicación constante, el equipo pudo coordinar tareas, cumplir plazos establecidos y asegurar que los objetivos del proyecto fueran comprendidos por todos los involucrados.
     </p>
+    <p> TF: </p>
+    <p> La comunicación oral clara y adaptada a diversos públicos permitió al equipo coordinar eficazmente el desarrollo técnico y presentar avances complejos de manera comprensible, fortaleciendo la colaboración y facilitando la alineación con los objetivos del proyecto. </p>
     </td>
   </tr>
   <tr>
@@ -579,6 +587,12 @@ del ABET – EAC - Student Outcome 3.
         <p>Nelson Serrano: Elaboré documentación completa sobre el proceso de dockerización del backend y la publicación de la imagen en Docker Hub. Además, trabajé en el bounded context de Commerce, desarrollando las funcionalidades necesarias para gestionar el comercio electrónico dentro del sistema, desde la integración de pagos hasta la administración de productos. La redacción fue clara y precisa, permitiendo que el equipo comprendiera los detalles técnicos y la aplicación práctica de esta tecnología en el flujo de trabajo.</p>
         <p>Mauricio Rojas: Desarrollé documentación exhaustiva sobre las correcciones de arquitectura relacionadas con la gestión de identidad y accesos (IAM), explicando por escrito los mecanismos de seguridad implementados y las integraciones externas utilizadas. También me encargué de desarrollar el bounded context de IAM, asegurando que la gestión de identidades y accesos fuera segura, eficiente y escalable dentro del sistema. Estos informes fueron compartidos con el equipo y con el docente, brindando una visión clara y objetiva del trabajo realizado.</p>
       </p>
+      <p> TF</p>
+      <p>Nelson Serrano: Me encargue del diseño del chatbot, así como de la documentación técnica y presentación de avances relacionados con esta función. </p>
+      <p>David Rodríguez: Me encargue de la integración del chatbot, junto con la elaboración de la documentación técnica para asegurar la correcta comprensión del sistema.</p>
+      <p>Manuel Peña: Me encargue de realizar las historias de usuario y product backlog relacioanadas al chatbot de inteligencia artificial </p>
+      <p>Aaron Acuña: Apoye en la documentación del sprint planning 2 </p>
+      <p>Mauricio Rojas: Me encargue de configurar la API, además de documentar y comunicar los avances en esta área para asegurar la claridad y comprensión técnica. </p>
   </td>
     <td>
       TB1:
@@ -593,6 +607,8 @@ del ABET – EAC - Student Outcome 3.
       <p>
       Durante este entregable, el equipo no solo se centró en la documentación detallada de cada uno de los aspectos técnicos, sino que también desarrolló los bounded contexts clave dentro del backend del sistema. Cada miembro del equipo contribuyó al proyecto de manera significativa, asegurando que los procesos estuvieran bien definidos y documentados. La documentación de las decisiones de diseño y la integración de los bounded contexts permitió que el sistema fuera más eficiente y bien estructurado. Al trabajar en áreas como comunicación, inventarios, monitoreo, comercio y gestión de identidades y accesos, el equipo pudo construir una base sólida que facilitó la integración y el desarrollo de nuevas funcionalidades, garantizando que todos los miembros del equipo tuvieran acceso a información clara y accesible, lo que resultó en una mayor colaboración y éxito en la implementación del proyecto.
       </p>
+      <p>TF:</p>
+      <p>La documentación estructurada y precisa aseguró que todos los miembros y stakeholders tuvieran acceso a la información técnica clave, favoreciendo la transparencia, la continuidad del proyecto y la calidad en la entrega de resultados.</p>
     </td>
   </tr>
 </table>
