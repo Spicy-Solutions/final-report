@@ -9446,7 +9446,7 @@ El video about-the-product de SweetManager es un spot comercial breve y dinámic
 El video about-the-team de SweetManager.
 
 **Enlace al video about-the-team:**
-<https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211572_upc_edu_pe/IQCoeswT76i7RLhX3Lj3AfhsAafd1IoQUzmIz3LowCM8kdA?e=Xnua56&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+<https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211572_upc_edu_pe/IQAIeYMsR4CsQIU8XJ4P9DjbAZLbschmpz-71rcOmdf5ptc?e=ydOT52&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
 
 <div style="text-align: center;">
   <img src="./assets/img/img-about-the-team.png" alt="About the product evidence" width="90%" />
