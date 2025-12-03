@@ -8184,36 +8184,38 @@ Pantalla de confirmación de pago donde el usuario puede revisar el resumen de s
 ## Chatbot de IA - Evidencia de Ejecución
 
 <div style="text-align: center;">
-  <img src="./assets/img/exec-evidence-s2/chatbot-1-hotel-card.png" width="90%" />
+  <img src="./assets/img/exec-evidence-s2/chatbot1.png" width="90%" />
 </div><br>
 
-**Imagen 6: Vista de Hotel con Icono del Chatbot**
-
-La aplicación web muestra una tarjeta de hotel (Hotel 2 - Desde S/ 249.9 por noche) con el ícono flotante de SweetBot visible en la esquina inferior derecha. El chatbot está disponible en todo momento para asistir a los owners durante su navegación.
-
-<div style="text-align: center;">
-  <img src="./assets/img/exec-evidence-s2/chatbot-2-welcome.png" width="90%" />
-</div><br>
-
-**Imagen 7: Mensaje de Bienvenida de SweetBot**
+**Imagen 6: Mensaje de Bienvenida de SweetBot**
 
 Al abrir el chatbot, SweetBot saluda al manager con un mensaje personalizado: "¡Hola Manager! Soy SweetBot, tu asistente financiero para la gestión de tu hotel. Puedo ayudarte con finanzas, toma de decisiones y análisis de gastos. ¿En qué puedo ayudarte hoy?". La interfaz muestra un diseño limpio con el header azul característico y un campo de entrada de mensaje.
 
 <div style="text-align: center;">
-  <img src="./assets/img/exec-evidence-s2/chatbot-3-financial-analysis.png" width="90%" />
+  <img src="./assets/img/exec-evidence-s2/chatbot2.png" width="90%" />
 </div><br>
 
-**Imagen 8: Análisis Financiero Automatizado**
+**Imagen 7: Análisis Financiero Automatizado**
 
 El chatbot proporciona un análisis financiero detallado mostrando métricas clave: "Con ingresos semanales de 5000.0 soles y gastos de 3000.0 soles, tienes un buen punto de partida." Además, ofrece recomendaciones específicas como "**Optimiza tus ingresos:** Busca maneras de aumentar tus ingresos. Podrías ofrecer promociones, paquetes especiales o mejorar tus servicios". El chatbot demuestra capacidad de análisis contextual y sugerencias prácticas.
 
 <div style="text-align: center;">
-  <img src="./assets/img/exec-evidence-s2/chatbot-4-availability-query.png" width="90%" />
+  <img src="./assets/img/exec-evidence-s2/chatbot3.png" width="90%" />
 </div><br>
 
-**Imagen 9: Consulta sobre Disponibilidades de Hoteles**
+**Imagen 8: Consulta sobre Disponibilidades de Hoteles**
 
 El Owner consulta "como consulto sobre disponibilidades de hoteles" y SweetBot responde con opciones claras: "Para consultar sobre las disponibilidades de tu hotel, te recomiendo las siguientes opciones: 1. **Sistema de gestión hotelera (PMS):** Si cuentas con un PMS, es la herramienta ideal. Te permite ver en tiempo real...". El chatbot demuestra comprensión del contexto hotelero y ofrece soluciones prácticas adaptadas al negocio.
+
+<div style="text-align: center;">
+  <img src="./assets/img/exec-evidence-s2/chatbot4.png" width="90%" />
+</div><br>
+
+**Imagen 9: Respuesta Detallada del Chatbot**
+
+SweetBot proporciona respuestas contextuales y detalladas basadas en las consultas del manager, demostrando su capacidad de procesamiento de lenguaje natural y comprensión del dominio hotelero.
+
+
 
 ### Links de Repositorios
 
@@ -8302,6 +8304,8 @@ La aplicación móvil consume los siguientes endpoints del Web Service principal
 ## AI Chatbot API Documentation
 
 El chatbot utiliza una API desarrollada en FastAPI con los siguientes endpoints:
+
+![alt text](image-5.png)
 
 **GET /**
 - Descripción: Root endpoint
